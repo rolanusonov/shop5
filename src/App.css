@@ -1,0 +1,19 @@
+.circle{
+    width: 30px;
+    height: 30px;
+    background: gray;
+    border-radius: 50%;
+    color: black;
+    position: absolute;
+    top: -10px;
+    left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    border-top-right-radius: 30%;
+}
+.footer{
+
+}
