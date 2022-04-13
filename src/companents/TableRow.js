@@ -16,7 +16,7 @@ const TableRow = ({el, idx}) => {
             </td>
             <td className="py-4 px-6 text-sm font-medium text-gray-500 whitespace-nowrap dark:text-white">
 
-                <img src={el.image} alt="" width="30"/>
+                <img src={el.image} alt="" width="3v 0"/>
             </td>
             <td className="py-4 px-6 text-sm font-medium text-gray-500 whitespace-nowrap dark:text-white">
                 {el.price * el.quantity}

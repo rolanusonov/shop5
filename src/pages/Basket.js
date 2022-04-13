@@ -1,6 +1,6 @@
 import React from 'react';
 import {useSelector,useDispatch} from "react-redux";
-import TableRow from "../TableRow";
+import TableRow from "../companents/TableRow";
 
 const Basket = () => {
     const basket = useSelector(s => s.basket)
