@@ -7,8 +7,9 @@ import Catalog from "./pages/Catalog";
   import Children from "./pages/Children";
 import Woman from "./pages/Woman";
 import Man from "./Cards/Man";
-
+import Faq from "./pages/Faq";
 import Footer from "./companents/Footer";
+import About from "./pages/About";
 
 
 
@@ -19,6 +20,8 @@ function App() {
 <Routes>
  <Route path="/catalog" element={<Catalog/>}/>
      <Route path="favorite" element={<Favorite/>}/>
+     <Route path="about" element={<About/>}/>
+     <Route path="faq" element={<Faq/>}/>
     <Route path="basket" element={<Basket/>}/>
     <Route path="children" element={<Children/>}/>
     <Route path="woman" element={<Woman/>}/>
