@@ -4,13 +4,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {getShop} from "../Redux/actoion";
 const About = () => {
 
-    const elem = useSelector(state => state.shopList)
-    console.log(elem, "EleM")
-    const dispatch = useDispatch()
 
-    useEffect(()=>{
-        dispatch(getShop())
-    },[])
 
 
     return (
@@ -109,13 +103,7 @@ const About = () => {
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, consectetur consequuntur cumque dicta dolore dolores eos illo, in nostrum officia pariatur, quaerat quisquam sint vero voluptas. Eligendi placeat unde vero! A delectus deserunt dicta dignissimos expedita facilis ipsum modi mollitia non quos velit vitae, voluptate. A aliquam asperiores at commodi dolorum eos eveniet excepturi explicabo illum iure libero minus necessitatibus nulla officiis optio, pariatur quae quas quia repellat saepe tenetur velit voluptas voluptatum? Consectetur expedita iure libero perspiciatis provident quibusdam quis recusandae repudiandae sapiente sit, soluta veritatis. Blanditiis, esse hic laboriosam libero non perspiciatis provident quidem sapiente sequi sit. Error.
                 </div>
             </div>
-            {
-                elem.map(el=>(
-                    <div>
-                        <h1 className="text-2xl text-blsck">{el.title}</h1>
-                    </div>
-                ))
-            }
+
 
         </div>
     );

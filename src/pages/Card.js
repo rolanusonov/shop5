@@ -30,6 +30,8 @@ const Card = ({el}) => {
                 </svg>
 
             </Link>
+
+
   {/*          <div className="px-5  img pb-5 dark:bg-gray-500">*/}
 
   {/*              <div className="flex justify-between items-center" >*/}
