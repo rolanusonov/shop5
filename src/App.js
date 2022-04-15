@@ -6,11 +6,11 @@ import Basket from "./pages/Basket";
 import Catalog from "./pages/Catalog";
   import Children from "./pages/Children";
 import Woman from "./pages/Woman";
-import Man from "./Cards/Man";
+import Man from "./pages/Man";
 import Faq from "./pages/Faq";
 import Footer from "./companents/Footer";
 import About from "./pages/About";
-
+import Navi from "./pages/Navi";
 
 
 function App() {
@@ -18,16 +18,16 @@ function App() {
     <div className="App">
 <Header/>
 <Routes>
- <Route path="/catalog" element={<Catalog/>}/>
+ <Route path="/" element={<Catalog/>}/>
      <Route path="favorite" element={<Favorite/>}/>
      <Route path="about" element={<About/>}/>
      <Route path="faq" element={<Faq/>}/>
     <Route path="basket" element={<Basket/>}/>
-    <Route path="children" element={<Children/>}/>
-    <Route path="woman" element={<Woman/>}/>
-    <Route path="man" element={<Man/>}/>
     <Route path="/about" element={<About/>}/>
-
+    <Route path="man" element={<Man/>}/>
+    <Route path="/categories/:id" element={<Woman/>}/>
+    <Route path="children" element={<Children/>}/>
+    <Route path="navi" element={<Navi/>}/>
 </Routes>
 <Footer/>
 
