@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaBeer} from "react-icons/fa";
+// import {FaBeer} from "react-icons/fa";
 import {useDispatch, useSelector} from "react-redux";
 
 const Favorite = () => {

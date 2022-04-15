@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from "../Cards/Group 1105.png"
-import logo2 from "../Cards/Group 1106.png"
-import logo3 from "../Cards/unsplash_NKjIT7u5nXE.png"
-import logo4 from "../Cards/unsplash_xXJ6utyoSw0.png"
- import {Link,Routes, Route} from "react-router-dom";
-import Woman from "./Woman";
-import Man from "../Cards/Man";
+// import logo from "../Cards/Group 1105.png"
+// import logo2 from "../Cards/Group 1106.png"
+// import logo3 from "../Cards/unsplash_NKjIT7u5nXE.png"
+// import logo4 from "../Cards/unsplash_xXJ6utyoSw0.png"
+//  import {Link,Routes, Route} from "react-router-dom";
+// import Woman from "./Woman";
+// import Man from "../Cards/Man";
 
 const Home = () => {
     return (

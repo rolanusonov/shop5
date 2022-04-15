@@ -1,8 +1,8 @@
 import React from 'react';
 import {useSelector, useDispatch} from "react-redux";
-import {FaBeer} from 'react-icons/fa';
-import Children from "./Children";
-import {Link} from "react-router-dom";
+// import {FaBeer} from 'react-icons/fa';
+// import Children from "./Children";
+// import {Link} from "react-router-dom";
 
 const Card = ({el}) => {
 
