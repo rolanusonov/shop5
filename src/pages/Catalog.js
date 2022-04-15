@@ -10,14 +10,18 @@ const Catalog = () => {
     // console.log(catalog)
     useEffect(() => {
 
-        axios("https://fakestoreapi.com/products")
+                axios("https://shoponlain.herokuapp.com/category-list/")
             .then(({data}) => {
 dispatch({type:"UPLOAD_CATALOG",payload:data})
             })
     },[])
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4d5cb9b7dba2cdadafcddea4fffee251099ac18a
 
     return (
-        <div className="container p-10 px-20">
+        <div className="container p-10 px-20" >
             <h1 className="text-4xl my-5">Каталог товаров</h1>
             <div className="flex flex-row flex-wrap footer">
                 {

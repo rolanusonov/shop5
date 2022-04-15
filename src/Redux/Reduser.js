@@ -10,6 +10,10 @@ export const reducer = (state = initialState, action) => {
         case "UPLOAD_CATALOG":
             return {...state, catalog: action.payload}
 
+        // case "UPLOAD_PRODUCT":
+        //     return {...state, : action.payload}
+
+
         case "ADD_TO_BASKET":
             const foundProduct = state.basket.find(el => el.id === action.payload.id)
 
