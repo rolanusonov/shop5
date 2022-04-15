@@ -20,7 +20,7 @@ const Header = () => {
                    }}
 
 
-                         to="/catalog"
+                         to="/"
                    >MOTION SHOP</Link>
                     <div className=" w-96">
                         <ul className="w-96 md:mt-0 md:text-sm md:font-medium">
