@@ -6,6 +6,7 @@ import Favorite from "./pages/Favorite";
 import Basket from "./pages/Basket";
 import Catalog from "./pages/Catalog";
 import { Provider } from 'react-redux'
+import Footer from "./companents/Footer";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,8 @@ function App() {
     <Route path="favorite" element={<Favorite/>}/>
     <Route path="basket" element={<Basket/>}/>
 </Routes>
+<Footer/>
+
 
     </div>
   );

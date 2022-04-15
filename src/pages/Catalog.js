@@ -15,7 +15,6 @@ const Catalog = () => {
 dispatch({type:"UPLOAD_CATALOG",payload:data})
             })
     },[])
-dgkfgjjf
 
     return (
         <div className="container p-10 px-20">
