@@ -2,7 +2,7 @@ import React from 'react';
 import {Link, Route} from "react-router-dom";
 import * as PropTypes from "prop-types";
 import Woman from "../pages/Woman";
-import Man from "../Cards/Man";
+ import Man from "../pages/Man"
 
 // import Woman from "./Woman";
 // import Man from "../Cards/Man";
