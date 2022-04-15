@@ -11,9 +11,7 @@
 }
 
 .img {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
+
     background: linear-gradient(360deg, rgba(255, 0, 92, 0.59) 0%, rgba(0, 0, 0, 0) 100%);
     border-radius: 10px;
 }
@@ -56,5 +54,6 @@
 
 .handle {
     display: flex;
+    align-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }

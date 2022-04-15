@@ -12,14 +12,15 @@ const Card = ({el}) => {
 
 
     return (
-        <div className=" basis-1/2 p-5 bg-gray-#FF005C rounded-xl   dark:border-white-900" >
+        <div className="   p-5 bg-gray-#FF005C rounded-xl     dark:border-white-900" >
 
 
-         <Link to={`/categories/${el.id}`}>
 
-           < img className="p-2  img dark:bg-gray-500 z-1" style={{width:"607px", height:" 252px"}} src={el.img} alt="product image!!!"/>
 
-       </Link>
+         <Link to={`/categories/${el.id}`} className=" ">
+
+           < img className="p-2 img dark:bg-gray-500 z-1" style={{width:"607px", height:" 252px"}} src={el.img} alt="product image!!!"/>
+
 
 
             <Link to="/" className="svg">
@@ -30,6 +31,8 @@ const Card = ({el}) => {
                 </svg>
 
             </Link>
+
+</Link>
 
 
   {/*          <div className="px-5  img pb-5 dark:bg-gray-500">*/}
