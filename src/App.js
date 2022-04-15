@@ -10,13 +10,15 @@ import Man from "./Cards/Man";
 import Faq from "./pages/Faq";
 import Footer from "./companents/Footer";
 import About from "./pages/About";
+import Home from "./companents/Home";
 
 
 
 function App() {
    return (
     <div className="App">
-<Header/>
+        <Header/>
+        <Home/>
 <Routes>
  <Route path="/catalog" element={<Catalog/>}/>
      <Route path="favorite" element={<Favorite/>}/>
@@ -27,12 +29,8 @@ function App() {
     <Route path="woman" element={<Woman/>}/>
     <Route path="man" element={<Man/>}/>
     <Route path="/about" element={<About/>}/>
-
 </Routes>
 <Footer/>
-
-
-
 
     </div>
   );

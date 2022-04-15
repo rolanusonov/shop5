@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
 import {getShop} from "../Redux/actoion";
 const About = () => {
+
     const elem = useSelector(state => state.shopList)
     console.log(elem, "EleM")
     const dispatch = useDispatch()
