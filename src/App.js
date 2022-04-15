@@ -16,7 +16,6 @@ function App() {
    return (
     <div className="App">
 <Header/>
-
 <Routes>
  <Route path="/catalog" element={<Catalog/>}/>
      <Route path="favorite" element={<Favorite/>}/>

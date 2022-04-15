@@ -14,7 +14,12 @@ const Catalog = () => {
             .then(({data}) => {
 dispatch({type:"UPLOAD_CATALOG",payload:data})
             })
+<<<<<<< HEAD
     },[ ])
+=======
+    },[])
+
+>>>>>>> 6b09d12ee987db75ba2bd937c0dd4f1f0b8b7bf6
 
     return (
         <div className="container p-10 px-20" >
