@@ -4,7 +4,6 @@ import {Link, NavLink} from "react-router-dom";
 import {useSelector} from "react-redux";
 
 const Header = () => {
-
         const {basket} = useSelector((store) => store)
     return (
         <div >
@@ -19,12 +18,9 @@ const Header = () => {
                        lineHeight:" 24px",
                        color: "#FFFFFF",
                    }}
-<<<<<<< HEAD
+
                          to="/catalog"
                    >MOTION SHOP</Link>
-=======
-                   >MOTION SHOP</h1>
->>>>>>> 6b09d12ee987db75ba2bd937c0dd4f1f0b8b7bf6
                     <div className=" w-96">
                         <ul className="w-96 md:mt-0 md:text-sm md:font-medium">
                             <div className="relative   overflow-x-auto shadow-md sm:rounded-lg">

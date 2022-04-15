@@ -9,6 +9,7 @@ import Woman from "./pages/Woman";
 import Man from "./Cards/Man";
 
 import Footer from "./companents/Footer";
+import About from "./pages/About";
 
 
 
@@ -23,6 +24,7 @@ function App() {
     <Route path="children" element={<Children/>}/>
     <Route path="woman" element={<Woman/>}/>
     <Route path="man" element={<Man/>}/>
+    <Route path="/about" element={<About/>}/>
 
 </Routes>
 <Footer/>
