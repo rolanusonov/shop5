@@ -5,17 +5,21 @@ import Home from "./pages/Home";
 import Favorite from "./pages/Favorite";
 import Basket from "./pages/Basket";
 import Catalog from "./pages/Catalog";
- import Children from "./pages/Children";
+  import Children from "./pages/Children";
 import Woman from "./pages/Woman";
 import Man from "./Cards/Man";
- function App() {
-  return (
+
+import Footer from "./companents/Footer";
+
+
+
+function App() {
+   return (
     <div className="App">
 <Header/>
 
 <Routes>
-<Route path="/" element={<Home/>}/>
-<Route path="catalog" element={<Catalog/>}/>
+ <Route path="/catalog" element={<Catalog/>}/>
      <Route path="favorite" element={<Favorite/>}/>
     <Route path="basket" element={<Basket/>}/>
     <Route path="children" element={<Children/>}/>
@@ -23,6 +27,8 @@ import Man from "./Cards/Man";
     <Route path="man" element={<Man/>}/>
 
 </Routes>
+<Footer/>
+
 
 
 

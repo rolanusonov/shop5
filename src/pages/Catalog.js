@@ -14,8 +14,7 @@ const Catalog = () => {
             .then(({data}) => {
 dispatch({type:"UPLOAD_CATALOG",payload:data})
             })
-    },[])
-
+    },[ ])
 
     return (
         <div className="container p-10 px-20" >
