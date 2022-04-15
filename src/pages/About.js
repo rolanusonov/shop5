@@ -106,16 +106,25 @@ const About = () => {
                     </div>
                 </div>
                 <div className="basis-1/2">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, consectetur consequuntur cumque dicta dolore dolores eos illo, in nostrum officia pariatur, quaerat quisquam sint vero voluptas. Eligendi placeat unde vero! A delectus deserunt dicta dignissimos expedita facilis ipsum modi mollitia non quos velit vitae, voluptate. A aliquam asperiores at commodi dolorum eos eveniet excepturi explicabo illum iure libero minus necessitatibus nulla officiis optio, pariatur quae quas quia repellat saepe tenetur velit voluptas voluptatum? Consectetur expedita iure libero perspiciatis provident quibusdam quis recusandae repudiandae sapiente sit, soluta veritatis. Blanditiis, esse hic laboriosam libero non perspiciatis provident quidem sapiente sequi sit. Error.
+                    {
+                        elem.map(el=>(
+
+                            <div className="col-6"
+
+                                     style={{boxShadow: "5px 5px 10px -3px white"}}>
+                                <Link to={`/about/${el.img}`}>
+
+                                    <img src={"https://shoponlain.herokuapp.com/media/Group_940.png"} alt=""/>
+
+                                </Link>
+
+                            </div>
+
+                        ))
+                    }
                 </div>
             </div>
-            {
-                elem.map(el=>(
-                    <div>
-                        <h1 className="text-2xl text-blsck">{el.title}</h1>
-                    </div>
-                ))
-            }
+
 
         </div>
     );

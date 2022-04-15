@@ -2,8 +2,11 @@ import React from 'react';
 import {Link, Route} from "react-router-dom";
 import * as PropTypes from "prop-types";
 import Woman from "../pages/Woman";
-import Man from "../Cards/Man";
+import Man from "../pages/Man";
 
+
+// import logo4 from "../Cards/unsplash_xXJ6utyoSw0.png"
+//  import {Link,Routes, Route} from "react-router-dom";
 // import Woman from "./Woman";
 // import Man from "../Cards/Man";
 
