@@ -1,7 +1,10 @@
+import {GET_SHOP} from "./type";
+
 export const initialState = {
     catalog: [],
     basket: [],
-    favorite: []
+    favorite: [],
+    shopList:[]
 }
 
 export const reducer = (state = initialState, action) => {
@@ -9,6 +12,9 @@ export const reducer = (state = initialState, action) => {
 
         case "UPLOAD_CATALOG":
             return {...state, catalog: action.payload}
+
+        case GET_SHOP:
+            return {...state, shopList: action.payload}
 
         // case "UPLOAD_PRODUCT":
         //     return {...state, : action.payload}

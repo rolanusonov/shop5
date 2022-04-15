@@ -1,10 +1,17 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
+import axios from "axios";
 
 const Woman = () => {
-    return (
-        <div className="set">
 
-<h1>rolan</h1>
+    const [women,setWomen] = useState([])
+
+    useEffect(()=>{
+     axios("https://shoponlain.herokuapp.com/category-list/")
+    },[])
+
+    return (
+        <div className="">
+
         </div>
     );
 };

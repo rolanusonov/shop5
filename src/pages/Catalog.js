@@ -15,8 +15,11 @@ const Catalog = () => {
 dispatch({type:"UPLOAD_CATALOG",payload:data})
             })
 
+
     },[ ])
-    return (
+
+
+     return (
         <div className="container p-10 px-20" >
 
             <div className="flex flex-row flex-wrap footer">

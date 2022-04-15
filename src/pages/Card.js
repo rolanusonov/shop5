@@ -1,18 +1,21 @@
 import React from 'react';
 import {useSelector, useDispatch} from "react-redux";
+import {Link} from "react-router-dom";
 // import {FaBeer} from 'react-icons/fa';
 // import Children from "./Children";
 // import {Link} from "react-router-dom";
 
 const Card = ({el}) => {
 
-
     const dispatch = useDispatch()
+
+
     return (
         <div className=" basis-1/2 p-5 bg-gray-#FF005C rounded-xl   dark:border-white-900" >
 
-
-                <img className="p-2  img dark:bg-gray-500 z-1" style={{width:"607px", height:" 252px"}} src={el.img} alt="product image!!!"/>
+       <Link to="/about">
+           <img className="p-2  img dark:bg-gray-500 z-1" style={{width:"607px", height:" 252px"}} src={el.img} alt="product image!!!"/>
+       </Link>
 
 
             <a href="#">

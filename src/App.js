@@ -26,6 +26,7 @@ function App() {
     <Route path="children" element={<Children/>}/>
     <Route path="woman" element={<Woman/>}/>
     <Route path="man" element={<Man/>}/>
+    <Route path="/about" element={<About/>}/>
 
 </Routes>
 <Footer/>
