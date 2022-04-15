@@ -1,8 +1,7 @@
 import './App.css';
 import Header from "./companents/Header";
 import {Routes, Route} from "react-router-dom"
-import Home from "./pages/Home";
-import Favorite from "./pages/Favorite";
+ import Favorite from "./pages/Favorite";
 import Basket from "./pages/Basket";
 import Catalog from "./pages/Catalog";
   import Children from "./pages/Children";
