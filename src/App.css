@@ -2,18 +2,32 @@
     width: 30px;
     height: 30px;
     background: gray;
-    border-radius: 50%;
-    color: black;
+     color: black;
     position: absolute;
-    top: -10px;
-    left: 60px;
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .img{
-    border-top-right-radius: 30%;
+    background: linear-gradient(360deg, rgba(255, 0, 92, 0.59) 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 10px;
+ }
+.navigate{
+    margin-left: 190px;
+     align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-.footer{
 
+.title{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 50px;
+ }
+.svg{
+    position: absolute;
+    margin-top: -32px;
+    margin-left: 120px;
 }

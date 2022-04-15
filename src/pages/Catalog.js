@@ -19,7 +19,7 @@ dispatch({type:"UPLOAD_CATALOG",payload:data})
 
     return (
         <div className="container p-10 px-20" >
-            <h1 className="text-4xl my-5">Каталог товаров</h1>
+
             <div className="flex flex-row flex-wrap footer">
                 {
                     catalog.map(el => (
