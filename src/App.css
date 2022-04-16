@@ -53,8 +53,8 @@
 }
 
 .handle {
-    display: flex;
-    align-items: center;
+    display: grid;
+
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
 }
@@ -102,17 +102,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
 .Link{
-    border: solid red 3px;
+
 
 }
 .wer{
