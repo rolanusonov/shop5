@@ -35,7 +35,7 @@ const Woman = ({el}) => {
 
 
             {
-                women?.category_detail?.map(el => (
+                women?.prod?.map(el => (
 
 
 
@@ -45,8 +45,8 @@ const Woman = ({el}) => {
 
                         <div className="">
                             <img src={el.img} alt="wer"/>
-                            <h1 className="text-lg text-blsck">{el.description}</h1>
-                            <h1 className="text-lg text-blsck absolute mx-16 mt-4">{el.discounts} </h1>
+                            <h1 className="text-lg text-black">{el.description}</h1>
+                            <h1 className="text-lg text-black absolute mx-16 mt-4">{el.discounts} </h1>
 
 
 
