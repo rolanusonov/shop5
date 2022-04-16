@@ -17,7 +17,7 @@ const ClothesDetails = () => {
     } = details
 
     useEffect(()=>{
-        axios(`https://shoponlain.herokuapp.com/prod-list/${clothesId}/`)
+        axios(`https://shoponlain.herokuapp.com/prod-detail/${clothesId}/`)
             .then(({data})=>{
                 setDetails(data)
             })
