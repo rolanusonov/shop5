@@ -1,16 +1,10 @@
 import React, {useEffect} from 'react';
 import {Link} from "react-router-dom";
-import {useDispatch, useSelector} from "react-redux";
-import {getShop} from "../Redux/actoion";
+// import {useDispatch, useSelector} from "react-redux";
+// import {getShop} from "../Redux/actoion";
 const About = () => {
 
-    const elem = useSelector(state => state.shopList)
-    console.log(elem, "EleM")
-    const dispatch = useDispatch()
 
-    useEffect(()=>{
-        dispatch(getShop())
-    },[])
 
 
     return (
@@ -106,22 +100,22 @@ const About = () => {
                     </div>
                 </div>
                 <div className="basis-1/2">
-                    {
-                        elem.map(el=>(
+                    {/*{*/}
+                    {/*    elem.map(el=>(*/}
 
-                            <div className="col-6"
+                    {/*        <div className="col-6"*/}
 
-                                     style={{boxShadow: "5px 5px 10px -3px white"}}>
-                                <Link to={`/about/${el.img}`}>
+                    {/*                 style={{boxShadow: "5px 5px 10px -3px white"}}>*/}
+                    {/*            <Link to={`/about/${el.img}`}>*/}
 
-                                    <img src={"https://shoponlain.herokuapp.com/media/Group_940.png"} alt=""/>
+                    {/*                <img src={"https://shoponlain.herokuapp.com/media/Group_940.png"} alt=""/>*/}
 
-                                </Link>
+                    {/*            </Link>*/}
 
-                            </div>
+                    {/*        </div>*/}
 
-                        ))
-                    }
+                    {/*    ))*/}
+                    {/*}*/}
                 </div>
             </div>
 
