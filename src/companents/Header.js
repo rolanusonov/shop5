@@ -3,6 +3,9 @@ import React from 'react';
 import {Link, NavLink} from "react-router-dom";
 import {useSelector} from "react-redux";
 
+
+
+
 const Header = () => {
         const {basket} = useSelector((store) => store)
     return (
@@ -26,8 +29,7 @@ const Header = () => {
                         <ul className="w-96 md:mt-0 md:text-sm md:font-medium">
                             <div className="relative   overflow-x-auto shadow-md sm:rounded-lg set  ">
                                 <div className="p-4 set ">
-                                    <label htmlFor="table-search" className="sr-only">Search</label>
-                                    <div className="relative mt-1 ">
+                                     <div className="relative mt-1 ">
                                         <div className="absolute inset-y-0 left-0 flex items-center pl- pointer-events-none">
                                             <svg className="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor"
                                                  viewBox="-4 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -39,6 +41,10 @@ const Header = () => {
                                         <input type="text" id="table-search"
                                                className=" input border-white-300 text-black-100 text-xl div w-full   width-300    rounded-xl focus:ring-blue-500 focus:border-blue-500 block   pl-10 p-2  dark:bg-white-700 dark:border-white-600 dark:placeholder:text-black-50 placeholder:outline-teal-50 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                                placeholder="Я ищу . . .  "/>
+
+
+
+
                                     </div>
                                 </div>
 

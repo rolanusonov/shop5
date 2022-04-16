@@ -12,10 +12,11 @@ const Card = ({el}) => {
 
 
     return (
-        <div className="   p-5 bg-gray-#FF005C rounded-xl     dark:border-white-900" >
+
+        <div className="  bg-gray-#FF005C rounded-xl pr-8 pb-8   dark:border-white-900" >
 
 
-         <Link to={`/categories/${el.id}`} className=" ">
+         <Link to={`/categories/${el.id}`} className="   ">
 
            < img className="p-2 img dark:bg-gray-500 z-1" style={{width:"607px", height:" 252px"}} src={el.img} alt="product image!!!"/>
 
@@ -63,6 +64,7 @@ const Card = ({el}) => {
   {/*              </div>*/}
   {/*          </div>*/}
         </div>
+
     );
 };
 

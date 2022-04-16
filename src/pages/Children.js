@@ -1,12 +1,15 @@
 import React from 'react';
-import {useSelector} from "react-redux";
-
+ 
 const Children = () => {
 
 
     return (
         <div>
-            ASDFGHJKL;
+            <h1 style={{
+                fontSize:"32px",
+                lineHeight:"39px",
+                marginLeft:"90px",
+            }}>Хит продаж</h1>
         </div>
     );
 };

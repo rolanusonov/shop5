@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import {useSelector} from "react-redux";
 import Card from "./Card";
+import Women from "./Woman";
 import axios from "axios";
 import {useDispatch} from "react-redux";
 
@@ -18,14 +19,15 @@ const Catalog = () => {
 
 
     return (
-        <div className="container p-10 px-20">
+        <div className="container p-10 px-20 ml-32">
 
-            <div className="flex flex-row flex-wrap footer">
+            <div className="flex flex-row flex-wrap footer sooda px-20 p-10  ">
                 {
                     catalog.map(el => (
                         <Card el={el} key={el.id}/>
                     ))
                 }
+
             </div>
         </div>
     );

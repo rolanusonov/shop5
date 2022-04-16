@@ -5,12 +5,17 @@ const TableRow = ({el, idx}) => {
     const dispatch = useDispatch()
     return (
         <tr className="" style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)"}}>
-
             <td className="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                <img src={el.image} alt="" width="3v 0"/>
+                <img src={el.name} alt="" width="3v 0"/>
                 {el.name}
 
             </td>
+            <td className="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                <img src={el.img} alt="" width="35" height="40"/>
+
+
+            </td>
+
 
             <td className="py-4 px-6 text-sm font-medium text-white  whitespace-nowrap dark:text-white">
                 {el.price * el.quantity}

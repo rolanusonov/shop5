@@ -99,7 +99,10 @@
     line-height: 19px;
     color: #72072D;
 }
-
+.sooda{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 
 .Link{

@@ -50,7 +50,11 @@ const totalSum = basket.reduce((acc,el) => el.quantity * el.price + acc,0)
                                                     <tr>
                                                         <th scope="col"
                                                             className="py-3 px-6 text-xs font-medium tracking-wider text-left text-white uppercase dark:text-white">
-                                                            Товар
+                                                            Имя
+                                                        </th>
+                                                        <th scope="col"
+                                                            className="py-3 px-6 text-xs font-medium tracking-wider text-left text-white uppercase dark:text-white">
+                                                            Фото
                                                         </th>
                                                         <th scope="col"
                                                             className="py-3 px-6 text-xs font-medium tracking-wider text-left text-left text-white uppercase dark:text-white">
@@ -60,6 +64,7 @@ const totalSum = basket.reduce((acc,el) => el.quantity * el.price + acc,0)
                                                             className="py-3 px-6 text-xs font-medium tracking-wider text-left text-left text-white uppercase dark:text-white">
                                                             Количество
                                                         </th>
+
 
                                                         <th scope="col" className="p-4">
                                                             <span className="sr-only">Edit</span>
