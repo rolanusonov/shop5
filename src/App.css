@@ -103,12 +103,24 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+ .price{
+     background: linear-gradient(270deg, #FF005C 0%, #72072D 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 54px;
+ }
+ .description{
 
+     font-style: normal;
+     font-weight: 400;
+     font-size: 36px;
+     line-height: 54px;
 
-.Link{
-
-
-}
+     color: #434343;
+ }
 .wer{
  color: white;
     background: white;
