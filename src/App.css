@@ -57,6 +57,7 @@
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+<<<<<<< HEAD
 
 .faq{
     width: 571px;
@@ -108,3 +109,13 @@
 
 
 
+=======
+.Link{
+
+}
+.wer{
+ color: white;
+    background: white;
+
+}
+>>>>>>> 1b694d95f3c19f36ea68cd3dfff2847955930d43

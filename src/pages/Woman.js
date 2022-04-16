@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import axios from "axios";
-import {useParams} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 import {useDispatch} from "react-redux";
 // import {getShop} from "../Redux/actoion";
 import {FaBeer} from 'react-icons/fa';
@@ -36,6 +36,10 @@ const Woman = ({el}) => {
 
             {
                 women?.category_detail?.map(el => (
+
+
+
+
                     <div className=" w-72  ">
 
 
@@ -76,7 +80,15 @@ const Woman = ({el}) => {
 
                             </div>
                         </div>
+
+
                     </div>
+
+
+
+
+
+
                 ))
             }
 
