@@ -19,17 +19,6 @@ const totalSum = basket.reduce((acc,el) => el.quantity * el.price + acc,0)
                         <div className="ml-3 text-2xl font-medium text-white dark:text-white">
                           Корзина пусто!
                         </div>
-                        {/*<button type="button"*/}
-                        {/*        className="ml-auto -mx-1.5 -my-1.5 bg-blue-100 text-blue-500 rounded-lg focus:ring-2 focus:ring-blue-400 p-1.5 hover:bg-blue-200 inline-flex h-8 w-8 dark:bg-blue-200 dark:hover:bg-blue-300 dark:hover:text-blue-800"*/}
-                        {/*        data-collapse-toggle="alertId" aria-label="Close">*/}
-                        {/*    <span className="sr-only">Dismiss</span>*/}
-                        {/*    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"*/}
-                        {/*         xmlns="http://www.w3.org/2000/svg">*/}
-                        {/*        <path fillRule="evenodd"*/}
-                        {/*              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"*/}
-                        {/*              clipRule="evenodd"> </path>*/}
-                        {/*    </svg>*/}
-                        {/*</button>*/}
                     </div>:
                     <div>
                         <h1 className="my-9 text-center text-4xl"
@@ -103,10 +92,74 @@ const totalSum = basket.reduce((acc,el) => el.quantity * el.price + acc,0)
 
                         </div>
                     </div>
-
-
-
             }
+            <div>
+                <h1 className="text-center my-7" style={{
+                    fontFamily: 'Poppins',
+                    fontStyle: "normal",
+                    fontWeight: "600",
+                    fontSize: "24px",
+                    lineHeight: "36px",
+                    color: "#515151",
+                }}>Платёжные Реквизиты</h1>
+                <div className="w-96 ml-96   ">
+
+                    <form className="accent-gray-500 shadow-md rounded px-8 pt-6 pb-8 mb-4  ">
+                        <div className="mb-4">
+                            <label className="block text-gray-700 text-sm font-bold mb-2 flex " htmlFor="username">
+                                ФИО <p className="mx-1" style={{color:"#FF005C"}}>*</p>
+                            </label>
+                            <input
+                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                id="username" type="text"/>
+                        </div>
+                        <div className="mb-4">
+                            <label className="block text-gray-700 text-sm font-bold mb-2 flex" htmlFor="username">
+                                Имя <p className="mx-1" style={{color:"#FF005C"}}>*</p>
+                            </label>
+                            <input
+                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                id="username" type="text"/>
+                        </div>
+                        <div className="inline-block relative w-80">
+                            <label className="block text-gray-700 text-sm font-bold mb-2 flex " htmlFor="username">
+                                Область <p className="mx-1" style={{color:"#FF005C"}}>*</p>
+                            </label>
+                            <select
+                                className="block  appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow
+                                leading-tight focus:outline-none focus:shadow-outline text-xl" style={{
+                                fontFamily: 'Poppins',
+                                fontWeight: "400",
+                                fontSize: "16px",
+                                lineHeight:"24px",
+                                color: "#424242",
+                            }}>
+                                <option className="w-72">Выберите область</option>
+                                <option className="w-72">Чуй</option>
+                                <option className="w-72">Жалал-Абад</option>
+                                <option className="w-72">Ош</option>
+                                <option className="w-72">Нарын</option>
+                                <option className="w-72">Талас</option>
+                                <option className="w-72">Баткен</option>
+                                <option className="w-72">Ысык-кол</option>
+                            </select>
+                            <div
+                                className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 mt-6 " style={{color:"#FF005C"}}>
+                                <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </form>
+                    <button  className="w-96 h-12 my-9 text-white text-xl"
+                        style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)",
+                        borderRadius: "5px"}}>
+                        Заказать
+                    </button>
+                </div>
+
+            </div>
+
 
         </div>
     );

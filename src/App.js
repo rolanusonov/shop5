@@ -32,7 +32,7 @@ function App() {
     <Route path="children" element={<Children/>}/>
     <Route path="navi" element={<Navi/>}/>
 </Routes>
-
+   <Footer/>
     </div>
   );
 }
