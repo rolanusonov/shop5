@@ -40,10 +40,10 @@ const Woman = ({el}) => {
 
 
 
-                    <div className=" w-72  ">
+                    <div className=" w-72 Link ">
 
 
-                        <div className="">
+                        <div className=" ">
                             <img src={el.img} alt="wer"/>
                             <h1 className="text-lg text-black">{el.description}</h1>
                             <h1 className="text-lg text-black absolute mx-16 mt-4">{el.discounts} </h1>
