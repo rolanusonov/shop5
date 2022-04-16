@@ -10,16 +10,6 @@ const Woman = ({el}) => {
     const dispatch = useDispatch()
     const [women, setWomen] = useState([])
     const params = useParams()
-    // console.log(params.id)
-    //
-    //
-    // const elem = useSelector(state => state.shopList)
-    // console.log(elem, "EleM")
-    // const dispatch = useDispatch()
-    //
-    // useEffect(()=>{
-    //     dispatch(getShop())
-    // },[])
 
 
     useEffect(() => {
