@@ -90,7 +90,7 @@ const ClothesDetails = ({el}) => {
                              onClick={() => dispatch({type: "ADD_TO_BASKET", payload: el})}
                              style={{ border:"solid #72072D\n" , color:"#72072D\n"}}
                              className="w-52 h-9 rounded-md text-white text-lg mt-5">
-                             <Link to="basket">
+                             <Link to="/basket">
                                  Купить сейчас
                              </Link>
 
