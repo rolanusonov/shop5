@@ -1,8 +1,6 @@
 import React from 'react';
  
 const Children = () => {
-
-
     return (
         <div>
             <h1 style={{

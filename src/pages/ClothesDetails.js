@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {Link, useParams} from "react-router-dom";
 import {useDispatch} from "react-redux";
 import axios from "axios";
-import {Apikey} from "../Redux/Apikay";
+
 
 
 const ClothesDetails = () => {
