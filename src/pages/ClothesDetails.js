@@ -1,21 +1,20 @@
 import React, {useEffect, useState} from 'react';
-import { useParams} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 
 import axios from "axios";
+import DetailPage from "./DetailPage";
+import {useDispatch} from "react-redux";
+
+const ClothesDetails = ({el}) => {
 
 
-
-const ClothesDetails = () => {
-
+    const dispatch = useDispatch()
     const {clothesId} = useParams()
     const [details, setDetails] = useState([])
     const {
         img,
         description,
         price,
-        title,
-        product_detail,
-        prod_detail,
     } = details
 
     useEffect(() => {
@@ -28,13 +27,8 @@ const ClothesDetails = () => {
 
     return (
         <div>
-
             <div className="m-10 grid grid-cols-2">
-
-
                 <div>
-
-
                     <img className="ml-14" src={img} alt="" style={{
                         width: "400px",
                         height: "500px",
@@ -45,55 +39,71 @@ const ClothesDetails = () => {
                     <h1 className="text-base text-blsck mt-4 price">{price} </h1>
                     <p>Таблица размеров:</p>
                     <div className="flex items-center my-5 ">
-
-
                         {
-                            prod_detail.map(el => (
-                                <div key={el.id} className="stule mx-3" style={{
-                                    width:"75px",
-                                    height:"40px"
-                                }}>
-                                    <h1 className="stule_btn my-1 text-base"> {el.title}</h1>
-                                </div>
+                            details?.prod_detail?.map(el => (
+                                <DetailPage el={el}/>
                             ))
                         }
                     </div>
-
                     <p>Цвет:</p>
                     <div className="">
-
-
-<div className="flex items-center my-5"  >
-
-
-                        {
-                            product_detail.map(el => (
-                                <div key={el.id} style={{
-                                    width:"80px",
-                                    height:"95px"
-                                }} className="mx-3">
-
-                                    <img src={el.color} alt=""/>
-                                </div>
-                            ))
-                        }
-
+                        <div className="flex items-center my-5">
+                            {
+                                details?.product_detail?.map(el => (
+                                    <div key={el.id} style={{
+                                        width:"80px",
+                                        height:"95px"
+                                    }} className="mx-3">
+                                        <img src={el.color} alt=""/>
+                                    </div>
+                                ))
+                            }
+                        </div>
                     </div>
+                    <div className=" my-8 ">
+                        {/*{*/}
+                        {/*    details.map(el=>(*/}
+                        {/*        <button*/}
+                        {/*            onClick={() => dispatch({type: "ADD_TO_BASKET", payload: el})}*/}
+                        {/*            style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)"}}*/}
+                        {/*            className="w-36 h-9 rounded-md text-white text-lg mt-5">*/}
+                        {/*            В корзину*/}
+                        {/*        </button>*/}
+                        {/*    ))*/}
+                        {/*}*/}
                     </div>
 
 
-                    <button>button</button>
+
+
                      <div className=" my ">
-                        <button style={{
-                            background: "linear-gradient(90deg, #72072D 0%, #FF005C 100%)",
-                            borderRadius: "5px",
-                        }}>Добавить в корзину</button>
-                        <button>Купить сейчас</button>
+
+                         <div className="flex justify-between items-center">
+                             <button
+                                 onClick={() => dispatch({type: "ADD_TO_BASKET", payload: el})}
+                                 style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)"}}
+                                 className="w-52 h-9 rounded-md text-white text-lg mt-5">
+                                 Добавить в корзину
+                             </button>
+                         </div>
+                         <button
+                             onClick={() => dispatch({type: "ADD_TO_BASKET", payload: el})}
+                             style={{ border:"solid #72072D\n" , color:"#72072D\n"}}
+                             className="w-52 h-9 rounded-md text-white text-lg mt-5">
+                             <Link to="basket">
+                                 Купить сейчас
+                             </Link>
+
+                         </button>
+
                     </div>
                  </div>
 
 
-            </div>
+
+                </div>
+
+
 
             <h1 className=" font-medium text-4xl my-5 ml-6">Описание</h1>
 

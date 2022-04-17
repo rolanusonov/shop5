@@ -120,7 +120,7 @@ const totalSum = basket.reduce((acc,el) => el.quantity * el.price + acc,0)
                         </div>
                         <div className="mb-4">
                             <label className="block text-gray-700 text-sm font-bold mb-2 flex" htmlFor="username">
-                                Имя <p className="mx-1" style={{color:"#FF005C"}}>*</p>
+                                Телефон<p className="mx-1" style={{color:"#FF005C"}}>*</p>
                             </label>
                             <input
                                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -169,5 +169,4 @@ const totalSum = basket.reduce((acc,el) => el.quantity * el.price + acc,0)
         </div>
     );
 };
-
 export default Basket;
