@@ -30,6 +30,8 @@ const ClothesDetails = () => {
         <div>
 
             <div className="m-10 grid grid-cols-2">
+
+
                 <div>
 
 
@@ -53,7 +55,13 @@ const ClothesDetails = () => {
                     }}/>
                     <h1>{color_name}</h1>
 
-
+                    <div className=" my ">
+                        <button style={{
+                            background: "linear-gradient(90deg, #72072D 0%, #FF005C 100%)",
+                            borderRadius: "5px",
+                        }}>Добавить в корзину</button>
+                        <button>Купить сейчас</button>
+                    </div>
                 </div>
 
 
