@@ -27,7 +27,6 @@ const Catalog = () => {
                         <Card el={el} key={el.id}/>
                     ))
                 }
-
             </div>
         </div>
     );
