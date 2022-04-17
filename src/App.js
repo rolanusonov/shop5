@@ -13,6 +13,7 @@ import About from "./pages/About";
 import Home from "./companents/Home";
 import Navi from "./pages/Navi";
 import ClothesDetails from "./pages/ClothesDetails";
+import SearchResults from "./pages/SearchResults";
 
 
 function App() {
@@ -30,12 +31,14 @@ function App() {
     <Route path="/about" element={<About/>}/>
     <Route path="/details/:clothesId" element={<ClothesDetails/>}/>
 
+
+
     <Route path="man" element={<Man/>}/>
     <Route path="/categories/:id" element={<Woman/>}/>
+    <Route path="/search-results/:name" element={<SearchResults/>}/>
     <Route path="children" element={<Children/>}/>
     <Route path="navi" element={<Navi/>}/>
 </Routes>
-
     <Footer/>
     </div>
   );
