@@ -20,6 +20,7 @@ function App() {
     <div className="App">
         <Header/>
         <Home/>
+
 <Routes>
  <Route path="/" element={<Catalog/>}/>
      <Route path="favorite" element={<Favorite/>}/>

@@ -19,7 +19,7 @@ const Catalog = () => {
 
 
     return (
-        <div className="container p-10 px-20 ml-32">
+        <div className="container p-10 px-20  ">
 
             <div className="flex flex-row flex-wrap footer sooda px-20 p-10  ">
                 {

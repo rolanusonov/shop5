@@ -30,12 +30,16 @@ const Woman = ({el}) => {
                     <div className=" w-72 Link  ">
 
 
-                        <div className="m-10">
+                        <div  className="m-10" to={``}>
+
+
+
                             <img src={el.img} alt="wer"/>
 
                              <Link to={`/details/${el.id}`}>
                                 <h1 className="text-base text-blsck mt-4">{el.price} </h1>
                             </Link>
+
                              <h1 className="text-lg text-black">{el.description}</h1>
                             <h1 className="text-lg text-black absolute mx-16 mt-4">{el.discounts} </h1>
 
