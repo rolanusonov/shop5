@@ -6,13 +6,14 @@ import Basket from "./pages/Basket";
 import Catalog from "./pages/Catalog";
 import Children from "./pages/Children";
 import Woman from "./pages/Woman";
-import Man from "./pages/Man";
+
 import Faq from "./pages/Faq";
 import Footer from "./companents/Footer";
 import About from "./pages/About";
 import Home from "./companents/Home";
-import Navi from "./pages/Navi";
+
 import ClothesDetails from "./pages/ClothesDetails";
+
 
 
 function App() {
@@ -22,7 +23,9 @@ function App() {
         <Home/>
 
 <Routes>
+
  <Route path="/" element={<Catalog/>}/>
+
      <Route path="favorite" element={<Favorite/>}/>
      <Route path="about" element={<About/>}/>
      <Route path="faq" element={<Faq/>}/>
@@ -30,10 +33,11 @@ function App() {
     <Route path="/about" element={<About/>}/>
     <Route path="/details/:clothesId" element={<ClothesDetails/>}/>
 
-    <Route path="man" element={<Man/>}/>
     <Route path="/categories/:id" element={<Woman/>}/>
+
+
     <Route path="children" element={<Children/>}/>
-    <Route path="navi" element={<Navi/>}/>
+
 </Routes>
 
     <Footer/>

@@ -12,6 +12,8 @@ export const reducer = (state = initialState, action) => {
 
         case "UPLOAD_CATALOG":
             return {...state, catalog: action.payload}
+        case "UPLOAD_NAVI":
+            return {...state, catalog: action.payload}
 
         case GET_SHOP:
             return {...state, shopList: action.payload}
