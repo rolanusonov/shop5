@@ -8,7 +8,10 @@ import {Link} from "react-router-dom";
 const Card = ({el}) => {
     return (
 
-        <div className="  bg-gray-#FF005C rounded-xl pr-8 pb-8   dark:border-white-900" >
+        <div className="  bg-gray-#FF005C rounded-xl     dark:border-white-900" style={{
+            width:"450px",
+            height:"270px"
+        }} >
          <Link to={`/categories/${el.id}`} className="   ">
 
            < img className="p-2 img dark:bg-gray-500 z-1" style={{width:"580px", height:" 252px"}} src={el.img} alt="product image!!!"/>

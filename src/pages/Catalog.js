@@ -21,9 +21,10 @@ const Catalog = () => {
 
 
     return (
-        <div className="container p-10 px-20  ">
+        <div className="container    ">
 
-            <div className="flex flex-row flex-wrap footer sooda px-20 p-10  ">
+            <div className="flex flex-row flex-wrap footer sooda  ml-16 my-9 "  >
+
                 {
                     catalog.map(el => (
                         <Card el={el} key={el.id}/>
