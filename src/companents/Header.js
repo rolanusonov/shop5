@@ -1,12 +1,30 @@
-import React from 'react';
-
-import {Link, NavLink} from "react-router-dom";
+import React, {useState} from 'react';
+import {Link, NavLink, useNavigate} from "react-router-dom";
 import {useSelector} from "react-redux";
 
 
 
 
 const Header = () => {
+
+
+    const [searchInput,setSearchInput] = useState("")
+    const navigate = useNavigate()
+
+    const handleChange = (e) =>{
+        setSearchInput(e.target.value)
+    }
+    const handleSearch = () =>{
+        if (searchInput.trim()) {
+            navigate(`/search-results/${searchInput}`)
+        }
+
+    }
+    const keySearch = (e) =>{
+        if (e.key === "Enter"){
+            handleSearch()
+        }
+    }
         const {basket} = useSelector((store) => store)
     return (
         <div >
@@ -40,11 +58,10 @@ const Header = () => {
                                         </div>
                                         <input type="text" id="table-search"
                                                className=" input border-white-300 text-black-100 text-xl div w-full   width-300    rounded-xl focus:ring-blue-500 focus:border-blue-500 block   pl-10 p-2  dark:bg-white-700 dark:border-white-600 dark:placeholder:text-black-50 placeholder:outline-teal-50 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                               placeholder="Я ищу . . .  "/>
-
-
-
-
+                                               placeholder="Я ищу . . .  "
+                                               onChange={(e) => handleChange(e)}
+                                               onKeyDown={(e) => keySearch(e)}
+                                        />
                                     </div>
                                 </div>
 
