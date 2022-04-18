@@ -27,7 +27,7 @@ const Header = () => {
     }
         const {basket} = useSelector((store) => store)
     return (
-        <div >
+        <div style={{position: "absolute", width: "100%", top: "0", left: '0', margin: "auto", paddingBottom: "50px"}}>
             <nav className="header px-2 sm:px-4 py-2.5 rounded " style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)"}}>
                 <div className="container flex flex-wrap justify-between items-center mx-auto" >
 
@@ -45,7 +45,7 @@ const Header = () => {
                    >MOTION SHOP</Link>
                     <div className=" w-96">
                         <ul className="w-96 md:mt-0 md:text-sm md:font-medium">
-                            <div className="relative   overflow-x-auto shadow-md sm:rounded-lg set  ">
+                            <div className="relative   overflow-x-auto shadow-md sm:rounded-lg set w-1/3 ">
                                 <div className="p-4 set ">
                                      <div className="relative mt-1 ">
                                         <div className="absolute inset-y-0 left-0 flex items-center pl- pointer-events-none">
@@ -57,7 +57,7 @@ const Header = () => {
                                             </svg>
                                         </div>
                                         <input type="text" id="table-search"
-                                               className=" input border-white-300 text-black-100 text-xl div w-full   width-300    rounded-xl focus:ring-blue-500 focus:border-blue-500 block   pl-10 p-2  dark:bg-white-700 dark:border-white-600 dark:placeholder:text-black-50 placeholder:outline-teal-50 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                               className=" input border-white-300 text-black-100 text-xl div w-full    rounded-xl focus:ring-blue-500 focus:border-blue-500 block   pl-10 p-2  dark:bg-white-700 dark:border-white-600 dark:placeholder:text-black-50 placeholder:outline-teal-50 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                                placeholder="Я ищу . . .  "
                                                onChange={(e) => handleChange(e)}
                                                onKeyDown={(e) => keySearch(e)}

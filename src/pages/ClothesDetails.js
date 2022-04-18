@@ -26,7 +26,7 @@ const ClothesDetails = ({el}) => {
     console.log(details, "shirin")
 
     return (
-        <div>
+        <div style={{marginTop: "200px"}}>
             <div className="m-10 grid grid-cols-2">
                 <div>
                     <img className="ml-14" src={img} alt="" style={{

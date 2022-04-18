@@ -22,7 +22,7 @@ const SearchResults = () => {
     console.log(result)
 
     return (
-        <div className="container">
+        <div style={{marginTop: "200px"}} className="container">
             <div className="row">
                 {
                     result.map(el=>(

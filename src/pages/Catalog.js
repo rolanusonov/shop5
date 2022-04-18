@@ -4,6 +4,7 @@ import Card from "./Card";
 import Navi from "./Navi";
 import axios from "axios";
 import {useDispatch} from "react-redux";
+import RecSliders from "../companents/RecSliders";
 
 const Catalog = () => {
     const dispatch = useDispatch()
@@ -21,7 +22,7 @@ const Catalog = () => {
 
 
     return (
-        <div className="container    ">
+        <div className="container" style={{marginTop: "200px"}}>
 
             <div className="flex flex-row flex-wrap footer sooda  ml-16 my-9 "  >
 
@@ -30,9 +31,9 @@ const Catalog = () => {
                         <Card el={el} key={el.id}/>
                     ))
                 }
-                <Navi/>
             </div>
 
+            <RecSliders/>
         </div>
     );
 };

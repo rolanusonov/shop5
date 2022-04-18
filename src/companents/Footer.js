@@ -3,14 +3,13 @@ import {Link} from "react-router-dom";
 
 const Footer = () => {
     return (
-        <div>
+        <div style={{ width: "100%", bottom: "0", left: '0', margin: "auto"}}>
             <nav className="header px-2 sm:px-4 py-2.5 rounded "
                  style={{background: "linear-gradient(269.84deg, #FF005C -10.98%, rgba(0, 0, 0, 0.88) 100%)"}}>
                 <div className="container flex  justify-between items-center mx-auto">
 
                     <h1 className="text-3xl my-24"
                         style={{
-
                             fontFamily: 'Inter',
                             fontWeight: "700",
                             fontSize: "20px",

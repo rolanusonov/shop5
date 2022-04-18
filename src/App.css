@@ -148,7 +148,6 @@
 }
 .App {
     font-family: sans-serif;
-    text-align: center;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -156,4 +155,43 @@
 .container{
 
 }
+}
+
+.basket-card{
+    padding: 5px 5px 20px 5px;
+}
+
+.basket-card img{
+    width: 100%;
+    height: 268px;
+}
+
+.basket-card h1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434343;
+    margin: 10px 0;
+}
+
+.req-card{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+
+.develop{
+    background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%);
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: start;
 }

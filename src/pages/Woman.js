@@ -14,7 +14,7 @@ const Woman = () => {
     }, [])
     console.log(women, "erlan")
     return (
-        <div className="handle flex items-center justify-center p-10 ">
+        <div style={{marginTop : '200px'}} className="handle flex items-center justify-center p-10 ">
             {
                 women?.prod?.map(el => (
                <ClothesCard el={el} key={el.id}/>

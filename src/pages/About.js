@@ -8,7 +8,7 @@ const About = () => {
 
 
     return (
-        <div className="container my-5 ">
+        <div style={{marginTop: "200px"}} className="container my-5 ">
             <h1 className="text-4xl text-center font-medium"
                 style={{
                     color:"#FF005C"
