@@ -27,9 +27,9 @@ const Header = () => {
     }
         const {basket} = useSelector((store) => store)
     return (
-        <div style={{position: "absolute", width: "100%", top: "0", left: '0', margin: "auto", paddingBottom: "50px"}}>
-            <nav className="header px-2 sm:px-4 py-2.5 rounded " style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)"}}>
-                <div className="container flex flex-wrap justify-between items-center mx-auto" >
+        <div className="container" style={{  width: "100%", top: "0", left: '0', margin: "auto", paddingBottom: "50px"}}>
+            <nav className=" px-2 header sm:px-4 py-2.5 rounded " style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)"}}>
+                <div className="header container flex flex-wrap justify-between items-center mx-auto" >
 
                    <Link className="text-3xl my-10"
                    style={{
@@ -45,8 +45,8 @@ const Header = () => {
                    >MOTION SHOP</Link>
                     <div className=" w-96">
                         <ul className="w-96 md:mt-0 md:text-sm md:font-medium">
-                            <div className="relative   overflow-x-auto shadow-md sm:rounded-lg set w-1/3 ">
-                                <div className="p-4 set ">
+                            <div className="relative  input overflow-x-auto shadow-md sm:rounded-lg set w-1/3 ">
+                                <div className="p-4 set input ">
                                      <div className="relative mt-1 ">
                                         <div className="absolute inset-y-0 left-0 flex items-center pl- pointer-events-none">
                                             <svg className="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor"
@@ -57,7 +57,7 @@ const Header = () => {
                                             </svg>
                                         </div>
                                         <input type="text" id="table-search"
-                                               className=" input border-white-300 text-black-100 text-xl div w-full    rounded-xl focus:ring-blue-500 focus:border-blue-500 block   pl-10 p-2  dark:bg-white-700 dark:border-white-600 dark:placeholder:text-black-50 placeholder:outline-teal-50 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                               className="  border-white-300 text-black-100 text-xl div w-full    rounded-xl focus:ring-blue-500 focus:border-blue-500 block   pl-10 p-2  dark:bg-white-700 dark:border-white-600 dark:placeholder:text-black-50 placeholder:outline-teal-50 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                                placeholder="Я ищу . . .  "
                                                onChange={(e) => handleChange(e)}
                                                onKeyDown={(e) => keySearch(e)}
@@ -68,8 +68,8 @@ const Header = () => {
                             </div>
                         </ul>
                     </div>
-                    <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
-                        <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                    <div className="hidden  w-full md:block md:w-auto" id="mobile-menu">
+                        <ul className="flex   flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
 
                             <li>
                                 <svg width="25" height="27" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">

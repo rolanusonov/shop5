@@ -151,11 +151,7 @@
     max-width: 1200px;
     margin: 0 auto;
 }
-@media (max-width: 1200px) {
-.container{
 
-}
-}
 
 .basket-card{
     padding: 5px 5px 20px 5px;
@@ -195,15 +191,12 @@
     line-height: 27px;
     text-align: start;
 }
+.lorem_footer{
+    width: 350px;
+    color: white;
+    font-size: 14px;
+}
 
-@media (max-width: 1200px) {}
-@media (max-width: 1024px) {}
-@media (max-width: 994px) {}
-@media (max-width: 768px) {}
-@media (max-width: 576px) {}
-@media (max-width: 414px) {}
-@media (max-width: 375px) {}
-@media (max-width: 320px) {}
 
 
 
