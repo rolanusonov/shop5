@@ -28,15 +28,11 @@ const Catalog = () => {
                 {
                     catalog.map(el => (
                         <Card el={el} key={el.id}/>
-
                     ))
                 }
-
-
-
-
+                <Navi/>
             </div>
-<Navi/>
+
         </div>
     );
 };

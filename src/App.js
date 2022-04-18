@@ -15,7 +15,8 @@ import Home from "./companents/Home";
 import ClothesDetails from "./pages/ClothesDetails";
 import SearchResults from "./pages/SearchResults";
 import Man from "./pages/Man";
-
+ 
+import Navi from "./pages/Navi";
 
 
 function App() {
@@ -41,8 +42,11 @@ function App() {
     <Route path="/categories/:id" element={<Woman/>}/>
     <Route path="/search-results/:name" element={<SearchResults/>}/>
 
+
     <Route path="/categories/:id" element={<Woman/>}/>
 
+
+    <Route path="/" element={<Navi/>}/>
 
 
     <Route path="children" element={<Children/>}/>

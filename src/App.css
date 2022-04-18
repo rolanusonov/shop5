@@ -1,3 +1,6 @@
+
+
+
 .circle {
     width: 30px;
     height: 30px;
@@ -148,4 +151,9 @@
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
+}
+@media (max-width: 1200px) {
+.container{
+
+}
 }
