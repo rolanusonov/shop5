@@ -4,7 +4,9 @@ import { Accordion } from "react-faq-acordion";
 
             export default function App() {
             const data = [
+
         {
+
             title: "Porque ese precio?",
             paragraph: "Nos esforzamos por ofrecer el mejor precio del mercado"
         },
@@ -25,10 +27,9 @@ import { Accordion } from "react-faq-acordion";
         }
             ];
             return (
-            <div className="App">
-            <h1>Hello CodeSandbox</h1>
-            <h2>Edit to see some magic happen!</h2>
-            <Accordion data={data} theme="dark" />
+            <div className="App"  >
+
+            <Accordion  data={data} theme="background: linear-gradient(269.84deg, #FF005C -10.98%, rgba(0, 0, 0, 0.88) 100%);"/>
             </div>
             );
         }

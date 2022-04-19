@@ -26,19 +26,16 @@ const ClothesDetails = ({el}) => {
     console.log(details, "shirin")
 
     return (
-        <div style={{marginTop: "200px"}}>
+        <div style={{marginTop: "100px"}}>
             <div className="m-10 grid grid-cols-2">
                 <div>
-                    <img className="ml-14" src={img} alt="" style={{
-                        width: "400px",
-                        height: "500px",
-                    }}/>
+                    <img className="ml-14 detail-img" src={img} alt=""  />
                 </div>
-                <div>
+                <div className="clothesdetails-div">
                     <h1 className=" description ">{description}</h1>
-                    <h1 className="text-base text-blsck mt-4 price">{price} </h1>
-                    <p>Таблица размеров:</p>
-                    <div className="flex items-center my-5 ">
+                    <h1 style={{fontSize: "24px", color: "white"}} className="text-base text-blsck mt-4 price ">{price} ₺</h1>
+                    <p className="tab">Таблица размеров:</p>
+                     <div className="flex items-center my-5 ">
                         {
                             details?.prod_detail?.map(el => (
                                 <DetailPage el={el}/>
@@ -81,8 +78,8 @@ const ClothesDetails = ({el}) => {
                          <div className="flex justify-between items-center">
                              <button
                                  onClick={() => dispatch({type: "ADD_TO_BASKET", payload: el})}
-                                 style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)"}}
-                                 className="w-52 h-9 rounded-md text-white text-lg mt-5">
+
+                                 className="w-52 h-9 detail-btn rounded-md text-white text-lg mt-5">
                                  Добавить в корзину
                              </button>
                          </div>
@@ -107,9 +104,7 @@ const ClothesDetails = ({el}) => {
 
             <h1 className=" font-medium text-4xl my-5 ml-6">Описание</h1>
 
-            <p className="ml-14 mb-10" style={{
-                width: "1300px"
-            }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dignissimos distinctio eum explicabo in
+            <p className="ml-14 mb-10 detail-p"  >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dignissimos distinctio eum explicabo in
                 iusto laboriosam libero maiores molestiae nam necessitatibus nulla, perspiciatis praesentium quae qui
                 recusandae similique tempora tempore vero vitae? Architecto atque autem, blanditiis consectetur deleniti
                 ea earum facere, facilis hic iure nobis odit officiis pariatur quas rem, repellendus reprehenderit sint

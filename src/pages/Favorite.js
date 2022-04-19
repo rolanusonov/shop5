@@ -6,8 +6,8 @@ const Favorite = () => {
     const {favorite} = useSelector(s => s)
     const dispatch = useDispatch()
     return (
-        <div className="container md:container mx-auto py-5 px-10">
-            <div className="flex flex-row flex-wrap ">
+        <div className="container md:container mx-auto py-5 px-10 ">
+            <div className="flex flex-row flex-wrap">
 
                 {
                     favorite.map(el => (

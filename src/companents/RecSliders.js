@@ -41,10 +41,10 @@ const RecSliders = () => {
         <>
             {
                 item.map(el => (
-                    <div style={{margin: "50px 0"}}>
+                    <div className="rec-sliders" style={{margin: "50px 0"}}>
                         <h1 className="req-card">{el.name}:</h1>
                         {
-                            <div>
+                            <div className="req">
                                 <Slider {...settings}>
                                     {
                                         el.products.map(sas => (

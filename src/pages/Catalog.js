@@ -22,9 +22,9 @@ const Catalog = () => {
 
 
     return (
-        <div className="container" style={{marginTop: "200px"}}>
+        <div className="container" style={{marginTop: "100px"}}>
 
-            <div className="flex flex-row flex-wrap footer sooda  ml-16 my-9 "  >
+            <div className="flex flex-row flex-wrap   sooda  ml-24 my-9 "  >
 
                 {
                     catalog.map(el => (

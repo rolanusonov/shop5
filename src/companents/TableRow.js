@@ -17,9 +17,9 @@ const TableRow = ({el, idx}) => {
             </td>
 
 
-            <td className="py-4 px-6 text-sm font-medium text-white  whitespace-nowrap dark:text-white">
-                {el.price * el.quantity}
-                  Сом
+            <td  style={{fontSize: "24px", color: "white"}} className="py-4 px-6 text-sm font-medium text-white  whitespace-nowrap dark:text-white">
+                {el.price * el.quantity}&nbsp;₺
+
             </td>
             <td className="py-4 px-6 text-sm font-medium text-white whitespace-nowrap dark:text-white">
                 <button

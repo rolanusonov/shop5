@@ -6,15 +6,20 @@ const ClothesCard = ({el}) => {
 
     const dispatch = useDispatch()
     return (
+
+
+
             <div className=" w-72 Link" style={{background: "#F2F2F2"}}>
                 <div  className="m-10" to={``}>
 
-                    <Link to={`/details/${el.id}`}>
-                        <img src={el.img} alt="wer"/>
-                    </Link>
-                    <h1 className="text-base text-blsck mt-4">{el.price} </h1>
-                    <h1 className="text-lg text-black">{el.description}</h1>
-                    <h1 className="text-lg text-black absolute mx-16 mt-4">{el.discounts} </h1>
+                        <Link to={`/details/${el.id}`}>
+                        <img src={el.img} alt="wer" className="img-div"/>
+                            <h1  className="text-lg text-black">{el.description}</h1>
+                    <h1  style={{fontSize: "24px", color: "#FF005C"}} className="text-base text-blsck mt-4">{el.price} ₺ </h1>
+                            <h1 className="text-lg text-black absolute mx-16 mt-4">{el.discounts} </h1>
+
+
+                        </Link>
                 </div>
                 <div className="px-5    pb-5 dark:bg-white-500">
 
@@ -28,6 +33,7 @@ const ClothesCard = ({el}) => {
                     </div>
                 </div>
             </div>
+
 
     );
 };

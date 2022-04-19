@@ -14,7 +14,15 @@ const Basket = () => {
     const {register, handleSubmit, formState: {errors}} = useForm();
     const onSubmit = data => {
         console.log(data)
-        axios.post("https://shoponlain.herokuapp.com/ordering-create/", data)
+        const dataBasket = {
+            full_name: data.full_name,
+            phone_number: data.phone_number,
+            price: totalSum,
+            region: data.region,
+            basket: JSON.stringify(basket)
+
+        }
+        axios.post("https://shoponlain.herokuapp.com/ordering-create/", dataBasket)
             .then(() => {
                 toast.success("Успешно отправлено")
             })
@@ -23,13 +31,18 @@ const Basket = () => {
             })
     };
 
+
+
+
     return (
         <>
             <ToastContainer/>
-            <div className="container md:container py-5 px-10">
-                {
-                    basket.length === 0 ?
-                        <div className="flex p-4  " id="alertId" role="alert" style={{
+            <div className="container md:container py-5 px-10 div-favorite">
+                <form action="" >
+                {basket.length === 0 ?
+
+
+                        <div className="flex p-4 corzino " id="alertId" role="alert" style={{
                             background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)",
                             borderRadius: "5px"
                         }}>
@@ -39,7 +52,7 @@ const Basket = () => {
                                       d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
                                       clipRule="evenodd"/>
                             </svg>
-                            <div className="ml-3 text-2xl font-medium text-white dark:text-white">
+                            <div className="ml-3  text-2xl font-medium text-white dark:text-white">
                                 Корзина пусто!
                             </div>
                         </div> :
@@ -111,9 +124,24 @@ const Basket = () => {
                                                     <div className="flex p-4 my-0.5 justify-center " id="alertId"
                                                          role="alert"
                                                          style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)"}}>
+
+
+
+
                                                         <div className="ml-3 text-xl font-medium text-white ">
-                                                            Итого : {totalSum} com
+
+                                                            <label className="block text-gray-700 text-sm font-bold mb-2 flex" htmlFor="username">
+                                                                {errors.price &&
+                                                                <p className="mx-1" style={{color: "#FF005C"}}>*</p>}
+                                                            </label>
+                                                            <input  style={{fontSize: "24px", color: "#FF005C"}}
+                                                                className="ml-3 text-xl font-medium text-black "
+                                                                type="text"
+                                                                value={totalSum}
+                                                         />
                                                         </div>
+
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -124,10 +152,10 @@ const Basket = () => {
 
 
                             </div>
-                        </div>
-                }
+                       </div>
+                        }</form>
                 <div>
-                    <h1 className="text-center my-7" style={{
+                    <h1 className="text-center h1-basket my-7" style={{
                         fontFamily: 'Poppins',
                         fontStyle: "normal",
                         fontWeight: "600",
@@ -135,7 +163,7 @@ const Basket = () => {
                         lineHeight: "36px",
                         color: "#515151",
                     }}>Платёжные Реквизиты</h1>
-                    <div className="w-96 ml-96   ">
+                    <div className="w-96 ml-96 div-basket  ">
 
                         <form className="accent-gray-500 shadow-md rounded px-8 pt-6 pb-8 mb-4  "
                               onSubmit={handleSubmit(onSubmit)}>
@@ -150,8 +178,8 @@ const Basket = () => {
                             </div>
                             <div className="mb-4">
                                 <label className="block text-gray-700 text-sm font-bold mb-2 flex" htmlFor="username">
-                                    Телефон {errors.phone_number &&
-                                    <p className="mx-1" style={{color: "#FF005C"}}>*</p>}
+                                    Телефон {errors.phone_number && <p className="mx-1" style={{color: "#FF005C"}}>*</p>}
+
                                 </label>
                                 <input
                                     {...register("phone_number", {required: true})}

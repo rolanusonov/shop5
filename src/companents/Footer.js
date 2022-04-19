@@ -3,12 +3,12 @@ import {Link} from "react-router-dom";
 
 const Footer = () => {
     return (
-        <div style={{  width: "100%", bottom: "0", left: '0', margin: "auto"}}>
+        <div className="container" style={{  width: "100%", bottom: "0", left: '0', margin: "auto"}}>
             <nav className="header footer  px-2 sm:px-4 py-2.5 rounded "
                  style={{background: "linear-gradient(269.84deg, #FF005C -10.98%, rgba(0, 0, 0, 0.88) 100%)"}}>
-                <div className="container flex  justify-between items-center mx-auto">
+                <div className="container footer flex  justify-between items-center mx-auto">
 
-                    <h1 className="text-3xl my-24"
+                    <h1 className="text-3xl motion-footer my-24"
                         style={{
                             fontFamily: 'Inter',
                             fontWeight: "700",
@@ -97,7 +97,7 @@ const Footer = () => {
                             color: 'white',
                             fontSize: '22px'
 
-                        }} className="mx-32">Адрес</h1>
+                        }} className="mx-32 h1-footer">Адрес</h1>
                         <p className="lorem_footer"  > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius in dolor viverra feugiat
                             neque, sed in. Mattis volutpat malesuada velit parturient aliquam, est. Mauris vitae velit
                             laoreet faucibus nec amet velit.</p>

@@ -27,11 +27,11 @@ const Header = () => {
     }
         const {basket} = useSelector((store) => store)
     return (
-        <div className="container" style={{  width: "100%", top: "0", left: '0', margin: "auto", paddingBottom: "50px"}}>
+        <div className="container " style={{  width: "100%", top: "0", left: '0', margin: "auto", paddingBottom: "50px"}}>
             <nav className=" px-2 header sm:px-4 py-2.5 rounded " style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)"}}>
                 <div className="header container flex flex-wrap justify-between items-center mx-auto" >
 
-                   <Link className="text-3xl my-10"
+                   <Link className="text-3xl my-10 header-log"
                    style={{
                        fontFamily: 'Inter',
                        fontWeight: "700",
@@ -104,10 +104,13 @@ const Header = () => {
                                 <NavLink to="basket"
                                          className="block py-2 pr-4 pl-3 text-xl my-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
                                 >Корзина</NavLink>
+
                             </li>
                         </ul>
+
                     </div>
                 </div>
+
             </nav>
         </div>
     );

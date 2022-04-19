@@ -8,8 +8,8 @@ const About = () => {
 
 
     return (
-        <div style={{marginTop: "200px"}} className="container my-5 ">
-            <h1 className="text-4xl text-center font-medium"
+        <div style={{marginTop: " "}} className="container my-5 ">
+            <h1 className="text-4xl text-center font-medium h1-about"
                 style={{
                     color:"#FF005C"
                 }}>о нас</h1>

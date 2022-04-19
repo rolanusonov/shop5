@@ -1,6 +1,4 @@
 
-
-
 .circle {
     width: 30px;
     height: 30px;
@@ -57,34 +55,37 @@
 
 .handle {
     display: grid;
-
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: -0;
+    grid-template-columns: 1fr   1fr 1fr 1fr;
 
 }
 
 
-.faq{
+.faq {
     width: 571px;
     height: 48px;
-    margin-left:30px;
+    margin-left: 30px;
     margin-top: 20px;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
     color: #72072D;
 }
-.span{
+
+.span {
     width: 1300px;
     height: 2px;
     background: #72072D;
     margin-left: 30px;
     margin-top: 30px;
 }
-.faq2{
+
+.faq2 {
     margin-top: 30px;
     margin-left: 30px;
 }
-.faq__title{
+
+.faq__title {
     width: 399px;
     height: 29px;
     font-style: normal;
@@ -93,7 +94,8 @@
     line-height: 29px;
     color: #000000;
 }
-.faq__desc{
+
+.faq__desc {
     width: 1220px;
     height: 79px;
     margin-top: 30px;
@@ -102,50 +104,57 @@
     line-height: 19px;
     color: #72072D;
 }
-.sooda{
+
+.sooda {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
- .price{
-     background: linear-gradient(270deg, #FF005C 0%, #72072D 100%);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     font-style: normal;
-     font-weight: 700;
-     font-size: 36px;
-     line-height: 54px;
- }
- .description{
 
-     font-style: normal;
-     font-weight: 400;
-     font-size: 36px;
-     line-height: 54px;
+.price {
+    background: linear-gradient(270deg, #FF005C 0%, #72072D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
 
-     color: #434343;
- }
-.wer{
- color: white;
+.description {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: #434343;
+}
+
+.wer {
+    color: white;
     background: white;
 
 }
-.stule{
+
+.stule {
     border: solid #000000 2px;
     border-radius: 5px;
     transition: 0.5s;
     cursor: pointer;
 }
-.stule:hover{
+
+.stule:hover {
     border: 3px solid #FF005C;
     box-sizing: border-box;
- color: #FF005C ;
+    color: #FF005C;
 }
 
-.stule_btn{
+.stule_btn {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .App {
     font-family: sans-serif;
     max-width: 1200px;
@@ -153,16 +162,17 @@
 }
 
 
-.basket-card{
+.basket-card {
     padding: 5px 5px 20px 5px;
+
 }
 
-.basket-card img{
+.basket-card img {
     width: 100%;
     height: 268px;
 }
 
-.basket-card h1{
+.basket-card h1 {
     font-family: sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -172,14 +182,14 @@
     margin: 10px 0;
 }
 
-.req-card{
+.req-card {
     font-weight: bold;
     font-size: 30px;
     margin: 10px 0;
 }
 
 
-.develop{
+.develop {
     background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%);
     border-radius: 5px;
     padding: 5px 20px;
@@ -190,13 +200,526 @@
     font-size: 18px;
     line-height: 27px;
     text-align: start;
+    cursor: pointer;
 }
-.lorem_footer{
+.loader{
+    pointer-events: none;
+    border: 3px solid transparent;
+    animation: an1 1s ease infinite;
+}
+
+@keyframes an1  {
+    0%{
+        transform: rotate(0turn);
+    }
+    100%{
+        transform: rotate(1turn);
+    }
+}
+
+.lorem_footer {
     width: 350px;
     color: white;
     font-size: 14px;
 }
 
+.black_card {
+    width: 450px;
+    height: 270px;
+}
+
+.img-div {
+    border: solid 1px gray;
+    width: 290px;
+    height: 260px;
+}
+
+
+.detail-p {
+    width: 1100px;
+}
+
+.detail-img {
+    width: 400px;
+    height: 500px;
+}
+.detail-btn{
+    background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 1200px;
+
+    }
+
+    .input {
+        width: 400px;
+
+    }
+
+    .header {
+
+        width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .footer {
+
+        width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .lorem_footer {
+        width: 300px;
+    }
+
+    .sooda {
+        margin-left: 190px;
+    }
+
+    .black_card {
+        width: 400px;
+        margin-left: 60px;
+    }
+
+    .req-card {
+        margin-left: 120px;
+    }
+
+    .req {
+        width: 1200px;
+        margin-left: 90px;
+    }
+
+    .handle {
+        margin-left: 150px;
+    }
+
+    .div-basket {
+        margin-left: 230px;
+    }
+
+    .h1-basket {
+        margin-left: -120px;
+    }
+
+    .div-favorite {
+        margin-left: 150px;
+    }
+
+    .App {
+        margin-left: 190px;
+    }
+
+    .corzino {
+        margin-left: -140px;
+    }
+
+    .clothesdetails-div {
+        margin-left: 90px;
+    }
+
+    .tab {
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 1024px;
+
+    }
+
+    .input {
+        width: 400px;
+
+    }
+
+    .header {
+
+        width: 1024px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .footer {
+
+        width: 1024px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .lorem_footer {
+        width: 300px;
+    }
+
+    .sooda {
+        margin-left: 10px;
+    }
+
+    .black_card {
+        width: 400px;
+        margin-left: 60px;
+    }
+
+    .req-card {
+        margin-left: 120px;
+    }
+
+    .req {
+        width: 1024px;
+        margin-left: 1px;
+    }
+
+    .handle {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 30px;
+    }
+
+    .div-favorite {
+        margin-left: -20px;
+    }
+
+    .App {
+        margin-left: 190px;
+    }
+
+    .corzino {
+        margin-left: 50px;
+    }
+
+    .h1-basket {
+        margin-left: 10px;
+    }
+
+    .div-basket {
+        margin-left: 320px;
+    }
+
+    .clothesdetails-div {
+        margin-left: 190px;
+    }
+
+    .tab {
+        margin-top: 120px;
+    }
+
+    .detail-p {
+        width: 900px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 992px;
+
+    }
+
+    .input {
+        width: 350px;
+        margin-left: 5px;
+    }
+
+    .header {
+
+        width: 992px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    .footer {
+
+        width: 992px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .lorem_footer {
+        width: 300px;
+    }
+
+    .sooda {
+        margin-left: 130px;
+    }
+
+    .black_card {
+        width: 400px;
+        margin-left: 60px;
+    }
+
+    .req-card {
+        margin-left: 120px;
+    }
+
+    .req {
+        width: 992px;
+        margin-left: 100px;
+    }
+
+    .handle {
+        margin-left: 180px;
+    }
+
+    .div-favorite {
+        margin-left: 200px;
+    }
+
+    .div-basket {
+        margin-left: 190px;
+    }
+
+    .App {
+        margin-left: 190px;
+    }
+
+    .corzino {
+        margin-left: -140px;
+    }
+
+    .h1-basket {
+        margin-left: -110px;
+    }
+
+    .div-basket {
+        margin-left: 120px;
+    }
+
+    .clothesdetails-div {
+        margin-left: 190px;
+    }
+
+    .tab {
+        margin-top: 120px;
+    }
+
+    .detail-p {
+        width: 900px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 768px;
+
+    }
+
+    .input {
+        width: 250px;
+
+    }
+
+    .header-log {
+        margin-left: -23px;
+    }
+
+    .hidden {
+        margin-left: -90px;
+    }
+
+    .header {
+
+        width: 768px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    .footer {
+
+        width: 768px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .motion-footer {
+        margin-left: 90px;
+    }
+
+    .h1-footer {
+        margin-left: 70px;
+    }
+
+    .lorem_footer {
+        width: 90px;
+        height: 100px;
+        margin-left: 50px;
+    }
+
+    .sooda {
+
+        margin-top: -90px;
+    }
+
+    .black_card {
+        width: 300px;
+        margin-left: -60px;
+
+    }
+
+
+    .req-card {
+        margin-left: 20px;
+    }
+
+    .req {
+        width: 768px;
+        margin-left: 1px;
+    }
+
+    .div-favorite {
+        margin-left: -30px;
+    }
+
+    .div-basket {
+        margin-left: 190px;
+    }
+
+    .App {
+        margin-left: 190px;
+    }
+
+    .corzino {
+        margin-left: 60px;
+    }
+
+    .h1-basket {
+        margin-left: 110px;
+    }
+
+    .div-basket {
+        margin-left: 220px;
+    }
+
+    .img-div {
+        width: 200px;
+    }
+
+    .Link {
+        width: 250px;
+
+    }
+
+    .clothesdetails-div {
+        margin-left: 190px;
+    }
+
+    .tab {
+        margin-top: 20px;
+    }
+
+    .detail-p {
+        width: 900px;
+    }
+
+    .detail-img {
+        width: 300px;
+        height: 400px;
+    }
+    .description{
+        font-size: 25px;
+    }
+    
+}
+
+
+@media (max-width: 576px) {
+    .container {
+        width: 576px;
+
+    }
+
+    .input {
+        width: 250px;
+
+    }
+
+    .header-log {
+        margin-left: -23px;
+    }
+
+    .hidden {
+        margin-left: -90px;
+    }
+
+    .header {
+
+        width: 576px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    .footer {
+
+        width: 576px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .motion-footer {
+        margin-left: 90px;
+    }
+
+    .h1-footer {
+        margin-left: 70px;
+    }
+
+    .lorem_footer {
+        width: 90px;
+        height: 100px;
+        margin-left: 50px;
+    }
+
+    .sooda {
+
+        margin-top: -90px;
+    }
+
+    .black_card {
+        width: 300px;
+        margin-left: -60px;
+
+    }
+
+
+    .req-card {
+        margin-left: 20px;
+    }
+
+    .req {
+        width: 768px;
+        margin-left: 1px;
+    }
+
+
+}
+
+@media (max-width: 414px) {
+}
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 320px) {
+}
 
 
 

@@ -42,11 +42,6 @@ function App() {
                 <Route path="/search-results/:name" element={<SearchResults/>}/>
 
 
-                <Route path="/categories/:id" element={<Woman/>}/>
-
-
-
-
                 <Route path="children" element={<Children/>}/>
 
             </Routes>

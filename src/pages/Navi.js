@@ -19,7 +19,7 @@ const Navi = () => {
     console.log(navi, "shirin")
     return (
         <div>hello
-            <div className="handle flex items-center justify-center p-10 ">
+            <div className="handle flex items-center justify-center p-10  ">
                 {
                     navi.map(el => (
                         <Man el={el} key={el.id}/>
