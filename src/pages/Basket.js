@@ -218,7 +218,7 @@ const Basket = () => {
                                     </svg>
                                 </div>
                             </div>
-                            <button type="submit" className="w-[90%] h-12 mt-9 text-white text-xl"
+                            <button type="submit" className="w-80 h-12 mt-9 text-white text-xl"
                                     style={{
                                         background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)",
                                         borderRadius: "5px"

@@ -1,3 +1,6 @@
+.MOBILE-MENU{
+    display: none;
+}
 
 .circle {
     width: 30px;
@@ -638,7 +641,15 @@
     .description{
         font-size: 25px;
     }
-    
+.shotin{
+    display: none;
+}
+.MOBILE-MENU{
+    display: block;
+    margin-left: -200px;
+}
+
+
 }
 
 
@@ -715,7 +726,12 @@
         width: 768px;
         margin-left: 1px;
     }
+.MOBILE-MENU{
+    display: block;
+    margin-left: -300px;
+    margin-top: 90px;
 
+}
 
 }
 
