@@ -24,7 +24,7 @@
     border-radius: 10px;
 }
  .sooda{
-     margin-left: 200px;
+     margin-left: 250px;
  }
 
 .navigate {
@@ -168,8 +168,7 @@
 
 
 .faqCard{
-    margin-left: -110px;
-    margin-top: 200px;
+
 }
 
 
@@ -196,10 +195,11 @@
 .req-card {
     font-weight: bold;
     font-size: 30px;
-    margin-left: -90px;
+    margin-left: 90px;
  }
 .req{
-    margin-left: -99px;
+    margin-left: 190px;
+    margin-top: 50px;
 }
 
 
@@ -267,19 +267,16 @@
     background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)
 }
 .h1-about{
-    margin-top: 200px;
-    margin-left: -300px;
+
 }
 .p-about{
-    margin-left: -100px;
+
 }
 .div-about{
-    margin-left: -200px;
+
 }
 .corzino{
-    margin-top: 200px;
-    margin-left: -150px;
-    width: 1200px;
+
  }
 
 /*@media (max-width: 1200px) {*/
