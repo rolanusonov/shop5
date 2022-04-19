@@ -16,12 +16,11 @@ import ClothesDetails from "./pages/ClothesDetails";
 import SearchResults from "./pages/SearchResults";
 import Man from "./pages/Man";
 
-import Navi from "./pages/Navi";
 
 
 function App() {
     return (
-        <div className="App">
+        <>
             <Header/>
             <Home/>
 
@@ -33,7 +32,6 @@ function App() {
                 <Route path="about" element={<About/>}/>
                 <Route path="faq" element={<Faq/>}/>
                 <Route path="basket" element={<Basket/>}/>
-                <Route path="/about" element={<About/>}/>
                 <Route path="/details/:clothesId" element={<ClothesDetails/>}/>
 
 
@@ -46,7 +44,7 @@ function App() {
 
             </Routes>
             <Footer/>
-        </div>
+        </>
     );
 }
 

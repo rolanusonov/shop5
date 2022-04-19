@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import {Link, useParams} from "react-router-dom";
 
-import axios from "axios";
 import DetailPage from "./DetailPage";
 import {useDispatch} from "react-redux";
+import api from "../http/api";
 
 const ClothesDetails = ({el}) => {
 
@@ -18,7 +18,7 @@ const ClothesDetails = ({el}) => {
     } = details
 
     useEffect(() => {
-        axios(`https://shoponlain.herokuapp.com/prod-detail/${clothesId}/`)
+        api(`/prod-detail/${clothesId}/`)
             .then(({data}) => {
                 setDetails(data)
             })

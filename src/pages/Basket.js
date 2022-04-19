@@ -2,9 +2,9 @@ import React from 'react';
 import {useSelector} from "react-redux";
 import TableRow from "../companents/TableRow";
 import {useForm} from "react-hook-form";
-import axios from "axios";
 import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import api from "../http/api";
 
 
 const Basket = () => {
@@ -22,7 +22,7 @@ const Basket = () => {
             basket: JSON.stringify(basket)
 
         }
-        axios.post("https://shoponlain.herokuapp.com/ordering-create/", dataBasket)
+        api.post("ordering-create/", dataBasket)
             .then(() => {
                 toast.success("Успешно отправлено")
             })
@@ -40,8 +40,6 @@ const Basket = () => {
             <div className="container md:container py-5 px-10 div-favorite">
                 <form action="" >
                 {basket.length === 0 ?
-
-
                         <div className="flex p-4 corzino " id="alertId" role="alert" style={{
                             background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)",
                             borderRadius: "5px"

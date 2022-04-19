@@ -1,17 +1,15 @@
 import React, {useEffect, useState} from 'react';
 import {Link, useParams} from "react-router-dom";
-import axios from "axios";
 
-import ClothesCard from "./ClothesCard";
-import {Apikey} from "../Redux/Apikey";
+
 import {useDispatch} from "react-redux";
-
+import api from "../http/api";
 
 const SearchResults = () => {
     const [result, setResult] = useState([])
     const {name} = useParams()
     useEffect(() => {
-        axios(`https://shoponlain.herokuapp.com/prod-list?query=${name}`)
+        api(`/prod-list?query=${name}`)
             .then(({data}) => {
                 try {
                     setResult(data)

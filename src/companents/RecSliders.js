@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import axios from "axios";
 import RecSlidersItem from "./RecSlidersItem";
 import Slider from "react-slick";
+import api from "../http/api";
 
 
 const RecSliders = () => {
@@ -9,7 +9,7 @@ const RecSliders = () => {
     const [item2, setItem2] = useState([])
 
     useEffect(() => {
-        axios.get("https://shoponlain.herokuapp.com/rec-list/")
+        api("/rec-list/")
             .then(({data}) => {
                 setItem(data)
             })
@@ -17,7 +17,7 @@ const RecSliders = () => {
                 console.log(e)
             })
 
-        axios.get("https://shoponlain.herokuapp.com/prod-list/")
+        api("/prod-list/")
             .then(({data}) => {
                 setItem2(data)
             })

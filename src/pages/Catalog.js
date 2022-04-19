@@ -1,10 +1,9 @@
 import React, {useEffect} from 'react';
 import {useSelector} from "react-redux";
 import Card from "./Card";
-import Navi from "./Navi";
-import axios from "axios";
 import {useDispatch} from "react-redux";
 import RecSliders from "../companents/RecSliders";
+import api from "../http/api";
 
 const Catalog = () => {
     const dispatch = useDispatch()
@@ -13,7 +12,7 @@ const Catalog = () => {
 
     // console.log(catalog)
     useEffect(() => {
-        axios("https://shoponlain.herokuapp.com/category-list/")
+        api("/category-list/")
 
             .then(({data}) => {
                 dispatch({type: "UPLOAD_CATALOG", payload: data})
@@ -24,7 +23,7 @@ const Catalog = () => {
     return (
         <div className="container" style={{marginTop: "100px"}}>
 
-            <div className="flex flex-row flex-wrap   sooda  ml-24 my-9 "  >
+            <div className="flex flex-row flex-wrap imgDetail ml-24 my-9 "  >
 
                 {
                     catalog.map(el => (

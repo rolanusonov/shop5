@@ -1,16 +1,17 @@
 import React, {useEffect, useState} from 'react';
-
-import {useParams} from "react-router-dom";
-import axios from "axios";
-import ClothesCard from "./ClothesCard";
+//
+// import {useParams} from "react-router-dom";
+// import ClothesCard from "./ClothesCard";
 import Man from "./Man";
+import api from "../http/api";
 
 const Navi = () => {
 
     const [navi, setNavi] = useState([])
 
     useEffect(() => {
-        axios.get(`https://shoponlain.herokuapp.com/prod-detail/`)
+        api("/prod-detail/")
+
 
             .then(({data}) => {
                 setNavi(data)
