@@ -41,7 +41,6 @@ const SearchResults = () => {
                             <h1 style={{fontSize: "24px", color: "#FF005C"}}>{el.price} ₺</h1>
                             </Link>
                             <button onClick={() => addToBasket(el)} className="develop">В корзину</button>
-
                         </div>
                     </>
                 ))

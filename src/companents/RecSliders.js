@@ -4,8 +4,6 @@ import RecSlidersItem from "./RecSlidersItem";
 import Slider from "react-slick";
 
 
-
-
 const RecSliders = () => {
     const [item, setItem] = useState([])
     const [item2, setItem2] = useState([])
@@ -55,9 +53,7 @@ const RecSliders = () => {
                                     }
                                 </Slider>
                             </div>
-
                         }
-
                     </div>
                 ))
             }
