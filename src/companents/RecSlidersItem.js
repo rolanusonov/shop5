@@ -6,11 +6,19 @@ import {Link} from "react-router-dom";
 
 
 const RecSlidersItem = ({id} ) => {
-    const [details, setDetails] = useState([])
 
+
+
+
+
+
+
+    const [details, setDetails] = useState([])
+    const [loading, setLoading] = useState(false)
+    const [flag, setFlag] = useState(false)
     const dispatch = useDispatch()
 const  click =()=>{
-
+    // develop = document.querySelector(".develop")
 }
 
     useEffect(() => {
@@ -21,7 +29,15 @@ const  click =()=>{
     }, [])
     console.log(details, "details")
 
-    const addToBasket = (el) => {
+    const addToBasket =   (el) => {
+        setLoading(false)
+        setTimeout(() => {
+            setLoading(true)
+            setTimeout(() => {
+                setLoading(false)
+            },2000)
+        },1000)
+
         dispatch({type: "ADD_TO_BASKET", payload: el})
     }
 
@@ -31,19 +47,21 @@ const  click =()=>{
 
 
         <div style={{background: "#F8F8F8", margin: "0 5px"}} className="basket-card">
-            <Link  to={`/details/${details.id}`}>
 
+
+            <Link  to={`/details/${details.id}`}>
 
             <img src={details.img} alt=""/>
             <h1>{details.name}</h1>
             <h1 style={{fontSize: "24px", color: "#FF005C"}}>{details.price} ₺</h1>
         </Link>
-            <button onClick={(click) => addToBasket(details)} className="develop">
-                <div className="loader">
-                     корзину
-                </div>
 
-               </button>
+            <button onClick={() => addToBasket(details)} className="develop">
+                {
+                    loading ?  <div className="loader">
+                    </div>: "корзину"
+                }
+            </button>
 
         </div>
 

@@ -206,6 +206,10 @@
     pointer-events: none;
     border: 3px solid transparent;
     animation: an1 1s ease infinite;
+    width: 30px ;
+    height: 30px;
+    border-radius: 50%;
+    border-top-color: white;
 }
 
 @keyframes an1  {
@@ -636,6 +640,9 @@
     }
     
 }
+
+
+
 
 
 @media (max-width: 576px) {
