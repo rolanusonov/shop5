@@ -23,10 +23,13 @@ const Header = () => {
     }
         const {basket} = useSelector((store) => store)
     return (
-        <div className="container " style={{  width: "100%", top: "0", left: '0', margin: "auto", paddingBottom: "50px"}}>
-            <nav className=" px-2 header sm:px-4 py-2.5 rounded " style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)"}}>
-                <div className="header container flex flex-wrap justify-between items-center mx-auto" >
+        <div className="Header">
 
+
+        <div className="container " >
+            <nav className=" px-2 header   py-2.5 rounded "
+                >
+                <div className="header container flex flex-wrap justify-between items-center mx-auto" >
                    <Link className="text-3xl my-10 header-log"
                    style={{
                        fontFamily: 'Inter',
@@ -35,8 +38,6 @@ const Header = () => {
                        lineHeight:" 24px",
                        color: "#FFFFFF",
                    }}
-
-
                          to="/"
                    >MOTION SHOP</Link>
                     <div className=" w-96">
@@ -109,6 +110,7 @@ const Header = () => {
                 </div>
 
             </nav>
+        </div>
         </div>
     );
 };

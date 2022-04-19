@@ -27,7 +27,7 @@ import { Accordion } from "react-faq-acordion";
         }
             ];
             return (
-            <div className="App"  >
+            <div className="App  faqCard"  >
 
             <Accordion  data={data} theme="background: linear-gradient(269.84deg, #FF005C -10.98%, rgba(0, 0, 0, 0.88) 100%);"/>
             </div>

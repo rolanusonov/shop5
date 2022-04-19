@@ -21,7 +21,7 @@ import Navi from "./pages/Navi";
 
 function App() {
     return (
-        <div className="App">
+        <>
             <Header/>
             <Home/>
 
@@ -46,7 +46,7 @@ function App() {
 
             </Routes>
             <Footer/>
-        </div>
+        </>
     );
 }
 
