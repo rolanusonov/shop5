@@ -24,7 +24,11 @@ const About = () => {
                 in viverra. Sed ac, sit senectus purus. Tincidunt orci, condimentum pharetra placerat viverra nisl, dolor at arcu.
                 Dui ante fames eget ultrices non pretium.</p>
 
-            <div className="flex flex-row div-about">
+            <div className=
+
+
+
+                     "flex flex-row div-about">
                 <div className="basis-1/4 mx-32">
                     <h1 className="" style={{
                         fontFamily: 'Inter',
