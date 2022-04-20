@@ -26,10 +26,10 @@ const SearchResults = () => {
     }
 
     return (
-        <div className="grid grid-cols-5 flex items-center justify-center">
+        <div className="grid grid-cols-5 search flex items-center justify-center">
             {
                 result.map(el => (
-                    <>
+                    <div className=" searchDiv">
                         <div style={{background: "#F8F8F8", margin: "0 5px"}} className="basket-card">
                             <Link to={`/details/${el.id}`}>
                                 <img src={el.img} alt=""/>
@@ -38,9 +38,9 @@ const SearchResults = () => {
                             <h1>{el.name}</h1>
                             <h1 style={{fontSize: "24px", color: "#FF005C"}}>{el.price} ₺</h1>
                             </Link>
-                            <button onClick={() => addToBasket(el)} className="develop">В корзину</button>
+                            <button onClick={() => addToBasket(el)} className="develop searchBtn">В корзину</button>
                         </div>
-                    </>
+                    </div>
                 ))
             }
 

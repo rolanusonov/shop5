@@ -4,7 +4,6 @@ import {Link} from "react-router-dom";
 const Footer = () => {
     return (
         <div className="Hooter">
-
         <div className=" lg:container" style={{  width: "100%", bottom: "0", left: '0', margin: "auto"}}>
             <nav className="     px-2 sm:px-4 py-2.5 rounded "
                   >
