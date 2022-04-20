@@ -1,133 +1,49 @@
-@media (max-width: 576px) {
-    .container {
-        width: 576px;
 
-    }
-
-    .input {
-        width: 250px;
-
-    }
-
-    .header-log {
-        margin-left: -23px;
-    }
-
-    .hidden {
-        margin-left: -90px;
-    }
-
-    .header {
-
-        width: 576px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-
-    }
-    .footer {
-
-        width: 576px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .motion-footer {
-        margin-left: 90px;
-    }
-
-    .h1-footer {
-        margin-left: 70px;
-    }
-
-    .lorem_footer {
-        width: 90px;
-        height: 100px;
-        margin-left: 50px;
-    }
-
-    .imgDetail {
-
-
-
-    }
-
-    .black_card {
-        width: 300px;
-        margin-left: -60px;
-
-    }
-
-
-    .req-card {
-        margin-left: 20px;
-    }
-
-    /*.req {*/
-    /*    width: 576px;*/
-    /*    margin-left: 1px;*/
-    /*}*/
-
-    .div-favorite {
-        margin-left: -30px;
-    }
-
-    .div-basket {
-        margin-left: 190px;
-    }
-
-    .App {
-        margin-left: 190px;
-    }
-
-    .corzino {
+@media (min-width: 940px) {
+    .hidden{
         margin-left: 60px;
     }
-
-    .h1-basket {
-        margin-left: 110px;
+    .header-log{
+        margin-left: -5px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18;
     }
-
-    .div-basket {
-        margin-left: 220px;
+    .input{
+        width: 350px;
     }
-
-    .img-div {
-        width: 200px;
+    .motion-footer{
+        margin-left: -10px;
     }
-
-    .Link {
-
-
+    .corzino{
+        margin-left: 40px;
     }
-
-    .clothesdetails-div {
-        margin-left: 190px;
-    }
-
-    .tab {
-        margin-top: 20px;
-    }
-
-    .detail-p {
-        width: 900px;
-    }
-
-    .detail-img {
-        width: 300px;
-        height: 400px;
-    }
-    .description{
-        font-size: 25px;
-    }
-    .shotin{
-        display: none;
-    }
-    .MOBILE-MENU{
-        display: block;
-        margin-left: -200px;
+    .div-basket{
     }
 
 
 }
+@media (min-width: 768px){
+    .hidden{
+        margin-left: 60px;
+    }
+    .header-log{
+        margin-left: -5px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18;
+    }
+    .input{
+        width: 350px;
+    }
+    .motion-footer{
+
+    }
+
+
+
+
+
+
+}
+

@@ -1,9 +1,6 @@
 import React, {useState} from 'react';
 import {Link, NavLink, useNavigate} from "react-router-dom";
 import {useSelector} from "react-redux";
-import BurgerMenu from "../burger-menu/BurgerMenu";
-
-
 
 const Header = () => {
     const [searchInput,setSearchInput] = useState("")
@@ -24,13 +21,10 @@ const Header = () => {
         const {basket} = useSelector((store) => store)
     return (
         <div className="Header">
-
-
-        <div className="container " >
-            <nav className=" px-2 header   py-2.5 rounded "
-                >
+        <div className="container m-auto" >
+            <nav className=" px-2 header   py-2.5 rounded">
                 <div className="header container flex flex-wrap justify-between items-center mx-auto" >
-                   <Link className="text-3xl my-10 header-log ml-16 "
+                   <Link className="lg:text-3xl my-10 header-log ml-16 subtitle"
                    style={{
                        fontFamily: 'Inter',
                        fontWeight: "700",
@@ -40,9 +34,8 @@ const Header = () => {
                    }}
                          to="/"
                    >MOTION SHOP</Link>
-               <Link to="/">
                    <div className="lg:w-96 md:w-60">
-                       <ul className="w-96 md:mt-0 md:text-sm md:font-medium">
+                       <ul className="w-96 md:mt-0 md:text-sm md:font-medium ">
                            <div className="relative  input overflow-x-auto shadow-md sm:rounded-lg set w-1/3 ">
                                <div className="p-4 set input ">
                                    <div className="relative mt-1 ">
@@ -64,9 +57,7 @@ const Header = () => {
                                </div>
                            </div>
                        </ul>
-                       <BurgerMenu/>
                    </div>
-               </Link>
                     <div className="hidden  w-full md:block md:w-auto" id="mobile-menu">
                         <ul className="flex   flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
 
@@ -99,13 +90,11 @@ const Header = () => {
                                 <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path  className="shotin" fillRule="evenodd" clipRule="evenodd" d="M0 0.607892V1.21578H1.45556H2.91116L2.96015 1.40575C3.58561 3.83033 6.32233 14.0215 7.42874 18.0463L7.8986 19.7555L7.66654 19.9054C7.16916 20.2268 6.7375 20.813 6.55066 21.4209C6.4818 21.6448 6.45166 21.8888 6.45166 22.2225C6.45166 23.2079 6.89632 24.0239 7.73484 24.577C8.7473 25.2449 10.1991 25.1085 11.0815 24.2627C11.6493 23.7182 11.9459 23.0516 11.9592 22.2894C11.9683 21.7682 11.8898 21.4129 11.6654 20.9596L11.4961 20.6177H15.0013C16.9292 20.6177 18.499 20.6351 18.4897 20.6563C18.4805 20.6776 18.4112 20.82 18.3358 20.9729C17.7971 22.0655 18.0084 23.3358 18.8707 24.189C19.4368 24.7492 20.0064 24.9871 20.7915 24.9911C21.869 24.9966 22.7956 24.4279 23.2739 23.4676C23.8282 22.3546 23.6194 21.1124 22.7276 20.2161C22.3582 19.8448 21.765 19.5352 21.2703 19.4555C21.0566 19.421 18.8822 19.4025 15.0138 19.4023L9.0849 19.4019L9.00451 19.0853C8.9603 18.9112 8.87053 18.5749 8.80501 18.3381L8.68585 17.9075L14.8395 17.9228C19.304 17.9338 21.0756 17.9221 21.2935 17.8801C21.9359 17.7563 22.6191 17.2521 22.9238 16.6771C23.0362 16.4648 23.4403 15.0283 24.4418 11.2799C25.1925 8.47057 25.8066 6.12259 25.8065 6.06216C25.8062 5.88369 25.6159 5.6224 25.4291 5.54398C25.28 5.48131 23.8477 5.47103 15.2795 5.47103H5.30342L5.19167 5.0531C4.34222 1.87616 3.92211 0.373094 3.85452 0.269448C3.68874 0.0151467 3.56858 0 1.71534 0H0V0.607892ZM24.3723 6.82612C24.3536 6.90272 23.795 9.01707 23.1311 11.5246C21.7954 16.5687 21.8649 16.3672 21.371 16.6284L21.1076 16.7677L15.0523 16.7666C9.27744 16.7655 8.98772 16.7612 8.79543 16.6722C8.57587 16.5705 8.37638 16.3999 8.24961 16.2054C8.20505 16.1372 7.73882 14.5089 7.21351 12.5872C6.32318 9.33008 5.67762 6.98326 5.61481 6.77547C5.58936 6.69127 6.05947 6.68682 14.9971 6.68682H24.4063L24.3723 6.82612ZM9.89786 20.7896C10.2167 20.9463 10.5006 21.2413 10.653 21.574C10.8184 21.9352 10.8055 22.5825 10.6262 22.9226C10.3475 23.4512 9.87785 23.7597 9.29337 23.798C8.81887 23.8292 8.50012 23.722 8.16408 23.4184C7.03362 22.3969 7.77879 20.5462 9.2849 20.6347C9.51812 20.6484 9.70849 20.6965 9.89786 20.7896ZM21.5122 20.7898C22.0742 21.076 22.3892 21.5858 22.3932 22.2154C22.3952 22.5353 22.3727 22.6349 22.2341 22.9179C21.9337 23.5312 21.4061 23.8365 20.714 23.7977C20.0801 23.7622 19.6394 23.4529 19.3622 22.8489C19.0237 22.1113 19.3473 21.1864 20.0746 20.813C20.41 20.6408 20.5157 20.6185 20.8978 20.6397C21.1537 20.6538 21.3294 20.6967 21.5122 20.7898Z" fill="white"/>
                                 </svg>
-
                                 <NavLink to="basket"
                                          className="block shotin py-2 pr-4 pl-3 text-xl my-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
                                 >Корзина</NavLink>
                             </li>
                         </ul>
-                         <BurgerMenu/>
 
                     </div>
                 </div>

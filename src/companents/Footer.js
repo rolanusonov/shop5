@@ -5,14 +5,13 @@ const Footer = () => {
     return (
         <div className="Hooter">
 
-
-        <div className="container" style={{  width: "100%", bottom: "0", left: '0', margin: "auto"}}>
+        <div className=" lg:container" style={{  width: "100%", bottom: "0", left: '0', margin: "auto"}}>
             <nav className="     px-2 sm:px-4 py-2.5 rounded "
                   >
-                <div className="container   flex  justify-between items-center mx-auto">
+                <div className="flex  justify-between items-center ">
 
                     <h1 className="text-3xl motion-footer my-24"
-                        style={{
+                            style={{
                             fontFamily: 'Inter',
                             fontWeight: "700",
                             fontSize: "20px",
@@ -27,7 +26,7 @@ const Footer = () => {
                         margin: '50px',
                         color: 'white'
 
-                    }}>
+                    }} class="footerDetail">
                         <Link to="/" className="py-3">Женщинам </Link>
                         <Link to="/" className="py-3">Мужчинам </Link>
                         <Link to="/" className="py-3">Детям </Link>
