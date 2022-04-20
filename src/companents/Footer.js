@@ -42,6 +42,7 @@ const Footer = () => {
                     }}>Политика конфиденциальности</a>
                     <p  className="flex items-center justify-center footerP ml-52" style={{border: "solid 0.5px white", width: "230px"}}> </p>
 
+
                 </div>
                 <p className="flex items-center justify-center my-5" style={{
                     fontSize: "15px",
