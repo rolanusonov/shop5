@@ -3,10 +3,13 @@ import {Link} from "react-router-dom";
 
 const Footer = () => {
     return (
+        <div className="Hooter">
+
+
         <div className="container" style={{  width: "100%", bottom: "0", left: '0', margin: "auto"}}>
-            <nav className="header footer  px-2 sm:px-4 py-2.5 rounded "
-                 style={{background: "linear-gradient(269.84deg, #FF005C -10.98%, rgba(0, 0, 0, 0.88) 100%)"}}>
-                <div className="container footer flex  justify-between items-center mx-auto">
+            <nav className="     px-2 sm:px-4 py-2.5 rounded "
+                  >
+                <div className="container   flex  justify-between items-center mx-auto">
 
                     <h1 className="text-3xl motion-footer my-24"
                         style={{
@@ -104,6 +107,7 @@ const Footer = () => {
                     </div>
                 </div>
             </nav>
+        </div>
         </div>
     );
 };

@@ -21,7 +21,7 @@ const Catalog = () => {
 
 
     return (
-        <div className="container" style={{marginTop: "100px"}}>
+        <div className="container" style={{marginTop: "200px"}}>
 
             <div className="flex flex-row flex-wrap imgDetail ml-24 my-9 "  >
 

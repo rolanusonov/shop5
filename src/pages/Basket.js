@@ -37,10 +37,10 @@ const Basket = () => {
     return (
         <>
             <ToastContainer/>
-            <div className="container md:container py-5 px-10 div-favorite">
+            <div className="container md:container corzino py-5 px-10 div-favorite">
                 <form action="" >
                 {basket.length === 0 ?
-                        <div className="flex p-4 corzino " id="alertId" role="alert" style={{
+                        <div className="flex p-4  " id="alertId" role="alert" style={{
                             background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)",
                             borderRadius: "5px"
                         }}>
@@ -55,7 +55,7 @@ const Basket = () => {
                             </div>
                         </div> :
                         <div>
-                            <h1 className="my-9 text-center text-4xl"
+                            <h1 className="my-9 text-center  text-4xl"
                                 style={{
                                     fontFamily: 'Poppins',
                                     color: "#FF005C",

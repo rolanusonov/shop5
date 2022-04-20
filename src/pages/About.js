@@ -14,7 +14,7 @@ const About = () => {
                     color:"#FF005C"
                 }}>о нас</h1>
 
-            <p className=" my-12 mx-20 text-xl ml-28"
+            <p className=" p-about my-12 mx-20 text-xl ml-28"
                style={{
                    fontFamily: 'Montserrat'
                }}
@@ -24,7 +24,11 @@ const About = () => {
                 in viverra. Sed ac, sit senectus purus. Tincidunt orci, condimentum pharetra placerat viverra nisl, dolor at arcu.
                 Dui ante fames eget ultrices non pretium.</p>
 
-            <div className="flex flex-row">
+            <div className=
+
+
+
+                     "flex flex-row div-about">
                 <div className="basis-1/4 mx-32">
                     <h1 className="" style={{
                         fontFamily: 'Inter',
