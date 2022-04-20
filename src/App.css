@@ -376,11 +376,272 @@
      }
 }
 
+@media (max-width: 940px) {
+    .container {
+        width: 1024px;
 
+    }
 
+    .input {
+        width: 400px;
 
+    }
 
+    .header {
 
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .lorem_footer {
+        width: 300px;
+    }
+
+    .sooda {
+        margin-left: 10px;
+    }
+
+    .black_card {
+        width: 400px;
+        margin-left: 60px;
+    }
+
+    .req-card {
+        margin-left: 120px;
+    }
+
+    .req {
+        width: 1000px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .handle {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 30px;
+    }
+
+    .div-favorite {
+        margin-left: -20px;
+    }
+
+    .App {
+        margin-left: 190px;
+    }
+
+    .corzino {
+        margin-left: 10px;
+    }
+
+    .h1-basket {
+        margin-left: 10px;
+    }
+
+    .div-basket {
+        margin-left: 320px;
+    }
+
+    .clothesdetails-div {
+        margin-left: 190px;
+    }
+
+    .tab {
+        margin-top: 120px;
+    }
+
+    .detail-p {
+        width: 900px;
+    }
+
+    .fagCard{
+    }
+}
+
+@media (max-width: 840px) {
+    .container {
+        width: 1024px;
+
+    }
+
+    .input {
+        width: 400px;
+
+    }
+
+    .header {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .lorem_footer {
+        width: 300px;
+    }
+
+    .sooda {
+        margin-left: 10px;
+    }
+
+    .black_card {
+        width: 400px;
+        margin-left: 60px;
+    }
+
+    .req-card {
+        margin-left: 120px;
+    }
+
+    .req {
+        width: 1000px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .handle {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 30px;
+    }
+
+    .div-favorite {
+        margin-left: -20px;
+    }
+
+    .App {
+        margin-left: 190px;
+    }
+
+    .corzino {
+        margin-left: 10px;
+    }
+
+    .h1-basket {
+        margin-left: 10px;
+    }
+
+    .div-basket {
+        margin-left: 320px;
+    }
+
+    .clothesdetails-div {
+        margin-left: 190px;
+    }
+
+    .tab {
+        margin-top: 120px;
+    }
+
+    .detail-p {
+        width: 900px;
+    }
+
+    .fagCard{
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 1024px;
+
+    }
+
+    .input {
+        width: 400px;
+
+    }
+
+    .header {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .lorem_footer {
+        width: 300px;
+    }
+
+    .sooda {
+        margin-left: 10px;
+    }
+
+    .black_card {
+        width: 400px;
+        margin-left: 60px;
+    }
+
+    .req-card {
+        margin-left: 120px;
+    }
+
+    .req {
+        width: 1000px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .handle {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 30px;
+    }
+
+    .div-favorite {
+        margin-left: -20px;
+    }
+
+    .App {
+        margin-left: 190px;
+    }
+
+    .corzino {
+        margin-left: 10px;
+    }
+
+    .h1-basket {
+        margin-left: 10px;
+    }
+
+    .div-basket {
+        margin-left: 320px;
+    }
+
+    .clothesdetails-div {
+        margin-left: 190px;
+    }
+
+    .tab {
+        margin-top: 120px;
+    }
+
+    .detail-p {
+        width: 900px;
+    }
+
+    .fagCard{
+    }
+}
 @media (max-width: 640px) {
     .container {
         width: 640px;
