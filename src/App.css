@@ -267,18 +267,185 @@
 .detail-btn{
     background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)
 }
-.h1-about{
+@media (max-width: 1024px) {
+    .container {
+        width: 1024px;
 
+    }
+
+    .input {
+        width: 400px;
+
+    }
+
+    .header {
+
+         display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .footer {
+         display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .lorem_footer {
+        width: 300px;
+    }
+
+    .sooda {
+        margin-left: 10px;
+    }
+
+    .black_card {
+        width: 400px;
+        margin-left: 60px;
+    }
+
+    .req-card {
+        margin-left: 120px;
+    }
+
+    .req {
+        width: 1000px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .handle {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 30px;
+    }
+
+    .div-favorite {
+        margin-left: -20px;
+    }
+
+    .App {
+        margin-left: 190px;
+    }
+
+    .corzino {
+        margin-left: 10px;
+    }
+
+    .h1-basket {
+        margin-left: 10px;
+    }
+
+    .div-basket {
+        margin-left: 320px;
+    }
+
+    .clothesdetails-div {
+        margin-left: 190px;
+    }
+
+    .tab {
+        margin-top: 120px;
+    }
+
+    .detail-p {
+        width: 900px;
+    }
+
+    .fagCard{
+     }
 }
-.p-about{
 
+
+
+
+
+
+@media (max-width: 640px) {
+    .container {
+        width: 640px;
+
+    }
+
+    .input {
+        width: 250px;
+
+    }
+
+    .header-log {
+        margin-left: -23px;
+    }
+
+    .hidden {
+        margin-left: -90px;
+    }
+
+    .header {
+
+        width: 576px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    .footer {
+
+        width: 640px;
+        display: flex;
+        align-items: center;
+    }
+
+    .motion-footer {
+        margin-left: 390px;
+    }
+
+    .h1-footer {
+        margin-left: 70px;
+    }
+
+    .lorem_footer {
+        width: 90px;
+        height: 100px;
+        margin-left: 50px;
+    }
+
+    .sooda {
+
+        margin-top: -90px;
+    }
+
+    .black_card {
+
+    }
+
+
+    .req-card {
+    }
+
+    .req {
+        width: 640px;
+        margin-left: 1px;
+    }
+
+    .school {
+        width: 200px;
+        margin-left: 60px;
+    }
+
+    .develop {
+        width: 200px;
+        margin-left: 60px;
+    }
+
+    .MOBILE-MENU {
+        display: block;
+        margin-left: -300px;
+        margin-top: 90px;
+
+    }
 }
-.div-about{
 
-}
-.corzino{
-
- }
 
 /*@media (max-width: 1200px) {*/
 /*    .container {*/
