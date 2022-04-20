@@ -173,7 +173,8 @@
 
 
 .basket-card {
-    padding: 5px 5px 20px 5px;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -198,8 +199,8 @@
     margin-left: 90px;
  }
 .req{
-    margin-left: 190px;
-    margin-top: 50px;
+    /*margin-left: 190px;*/
+    /*margin-top: 50px;*/
 }
 
 

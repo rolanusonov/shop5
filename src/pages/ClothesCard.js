@@ -9,7 +9,7 @@ const ClothesCard = ({el}) => {
 
 
 
-            <div className=" w-72 Link" style={{background: "#F2F2F2"}}>
+            <div className=" w-72 Link " style={{background: "#F2F2F2"}}>
                 <div  className="m-10" to={``}>
 
                         <Link to={`/details/${el.id}`}>

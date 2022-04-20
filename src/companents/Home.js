@@ -19,7 +19,7 @@ const Home = () => {
 
 
     return (
-        <div className="container">
+        <div className="container mx-auto">
 
             {/*<Link className="m-4" to="/hero/women"> </Link>*/}
             {/*<Link className="m-4" to="/hero/Man"> </Link>*/}
@@ -36,11 +36,7 @@ const Home = () => {
                 <Route path="man" element={<Man/>}/>
             </Routes>
 
-            <div>
-
-            </div>
-
-        </div>
+                </div>
     );
 };
 

@@ -37,16 +37,14 @@ const RecSlidersItem = ({id}) => {
 
 
     return (
-
-
-        <div style={{background: "#F8F8F8", margin: "0 5px"}} className="basket-card">
-
-
+        <div className="basket-card lg:w-52 lg:h-96 ">
             <Link to={`/details/${details.id}`}>
+                <div>
+                    <img src={details.img} alt=""/>
+                    <h1>{details.name}</h1>
+                    <h1 style={{fontSize: "24px", color: "#FF005C"}}>{details.price} ₺</h1>
+                </div>
 
-                <img src={details.img} alt=""/>
-                <h1>{details.name}</h1>
-                <h1 style={{fontSize: "24px", color: "#FF005C"}}>{details.price} ₺</h1>
             </Link>
 
             <button onClick={() => addToBasket(details)} className="develop">
