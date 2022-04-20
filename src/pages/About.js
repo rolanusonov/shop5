@@ -25,9 +25,6 @@ const About = () => {
                 Dui ante fames eget ultrices non pretium.</p>
 
             <div className=
-
-
-
                      "flex flex-row div-about">
                 <div className="basis-1/4 mx-32">
                     <h1 className="" style={{
@@ -38,6 +35,9 @@ const About = () => {
                         color: "#252525"
 
                     }}>Контакты</h1>
+
+
+
 
                     <div className="flex my-3 mx-2  align-middle">
                         <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" className="mt-1 mx-3">

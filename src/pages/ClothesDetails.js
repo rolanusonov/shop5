@@ -27,13 +27,13 @@ const ClothesDetails = ({el}) => {
 
     return (
         <div style={{marginTop: "100px"}}>
-            <div className="m-10 grid grid-cols-2">
+            <div className="m-10 detailCard grid grid-cols-2">
                 <div>
                     <img className="ml-14 detail-img" src={img} alt=""  />
                 </div>
                 <div className="clothesdetails-div">
                     <h1 className=" description ">{description}</h1>
-                    <h1 style={{fontSize: "24px", color: "white"}} className="text-base text-blsck mt-4 price ">{price} ₺</h1>
+                    <h1   className="text-base   mt-4 price ">{price} ₺</h1>
                     <p className="tab">Таблица размеров:</p>
                      <div className="flex items-center my-5 ">
                         {
@@ -73,7 +73,7 @@ const ClothesDetails = ({el}) => {
 
 
 
-                     <div className=" my ">
+                     <div className="   ">
 
                          <div className="flex justify-between items-center">
                              <button
@@ -86,7 +86,7 @@ const ClothesDetails = ({el}) => {
                          <button
                              onClick={() => dispatch({type: "ADD_TO_BASKET", payload: el})}
                              style={{ border:"solid #72072D\n" , color:"#72072D\n"}}
-                             className="w-52 h-9 rounded-md text-white text-lg mt-5">
+                             className="w-52 h-9 btn1 rounded-md text-white text-lg mt-5">
                              <Link to="/basket">
                                  Купить сейчас
                              </Link>

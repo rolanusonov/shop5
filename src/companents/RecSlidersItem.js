@@ -43,7 +43,7 @@ const RecSlidersItem = ({id}) => {
         <div className="basket-card lg:w-52 lg:h-96 ">
             <Link className=""  to={`/details/${details.id}`}>
                 <div className="school">
-                    <img className="" src={details.img} alt=""/>
+                    <img className="imgSlider" src={details.img} alt=""/>
                     <h1>{details.name}</h1>
                     <h1 style={{fontSize: "24px", color: "#FF005C"}}>{details.price} ₺</h1>
                 </div>

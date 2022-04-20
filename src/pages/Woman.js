@@ -1,8 +1,10 @@
 import React, {useEffect, useState} from 'react';
-import axios from "axios";
-import { useParams} from "react-router-dom";
+
+import {NavLink, useParams} from "react-router-dom";
 import ClothesCard from "./ClothesCard";
 import api from "../http/api";
+import BurgerMenu from "../burger-menu/BurgerMenu";
+import {useSelector} from "react-redux";
 
 const Woman = () => {
     const [women, setWomen] = useState([])
@@ -13,6 +15,7 @@ const Woman = () => {
                 setWomen(data)
             })
     }, [])
+
     return (
         <div style={{marginTop : '100px'}} className="handle flex items-center justify-center  p-10 ">
             {
@@ -20,6 +23,9 @@ const Woman = () => {
                <ClothesCard el={el} key={el.id}/>
                 ))
             }
+
+
+
         </div>
     );
 };

@@ -27,9 +27,9 @@ const Header = () => {
 
 
         <div className="container " >
-            <nav className=" px-2 header   py-2.5 rounded "
-                >
-                <div className="header container flex flex-wrap justify-between items-center mx-auto" >
+            <nav className=" px-2 header   py-2.5 rounded " >
+
+                <div className="  container flex flex-wrap justify-between items-center mx-auto" >
                    <Link className="text-3xl my-10 header-log ml-16 "
                    style={{
                        fontFamily: 'Inter',
@@ -41,10 +41,9 @@ const Header = () => {
                          to="/"
                    >MOTION SHOP</Link>
                <Link to="/">
-                   <div className="lg:w-96 md:w-60">
-                       <ul className="w-96 md:mt-0 md:text-sm md:font-medium">
-                           <div className="relative  input overflow-x-auto shadow-md sm:rounded-lg set w-1/3 ">
-                               <div className="p-4 set input ">
+
+
+                                <div className="p-4 set input ">
                                    <div className="relative mt-1 ">
                                        <div className="absolute inset-y-0 left-0 flex items-center pl- pointer-events-none">
                                            <svg className="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor"
@@ -54,20 +53,27 @@ const Header = () => {
                                                      clipRule="evenodd"> </path>
                                            </svg>
                                        </div>
-                                       <input type="text" id="table-search"
-                                              className="  border-white-300 text-black-100 text-xl div w-full    rounded-xl focus:ring-blue-500 focus:border-blue-500 block   pl-10 p-2  dark:bg-white-700 dark:border-white-600 dark:placeholder:text-black-50 placeholder:outline-teal-50 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                              placeholder="Я ищу . . .  "
+                                       <input
+                                           style={{
+                                               background:"rgb(193,40,95)",
+                                               color:"white"
+                                           }}
+                                           type="text" id="table-search"
+                                              className="   border-white-300 text-black-100 text-xl   w-full    rounded-xl focus:ring-blue-500 focus:border-blue-500 block   pl-10 p-2  dark:bg-white-700 dark:border-white-600 dark:placeholder:text-white-50 placeholder:outline-white-800 dark:text-black  "
+                                              placeholder="Я ищу в Motion-Shop. . .    "
                                               onChange={(e) => handleChange(e)}
                                               onKeyDown={(e) => keySearch(e)}
                                        />
                                    </div>
+
                                </div>
-                           </div>
-                       </ul>
-                       <BurgerMenu/>
-                   </div>
+
+
+
+
+
                </Link>
-                    <div className="hidden  w-full md:block sm:block md:w-auto" id="mobile-menu">
+                    <div className=" Hidden  w-full md:block  md:w-auto" id="mobile-menu">
                         <ul className="flex   flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
 
                             <li>

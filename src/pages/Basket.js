@@ -78,7 +78,7 @@ const Basket = () => {
                                     <div className="flex flex-col">
                                         <div className="overflow-x-auto shadow-md sm:rounded-lg">
                                             <div className="inline-block min-w-full align-middle">
-                                                <div className="overflow-hidden  ">
+                                                <div className="overflow-hidden    ">
                                                     <table
                                                         className="min-w-full divide-y divide-gray-200 table-fixed dark:divide-gray-700">
                                                         <thead className=" "
@@ -89,7 +89,7 @@ const Basket = () => {
                                                                 Имя
                                                             </th>
                                                             <th scope="col"
-                                                                className="py-3 px-6 text-xs font-medium tracking-wider text-left text-white uppercase dark:text-white">
+                                                                className=" imgBasket py-3 px-6 text-xs font-medium tracking-wider text-left text-white uppercase dark:text-white">
                                                                 Фото
                                                             </th>
                                                             <th scope="col"
@@ -106,29 +106,7 @@ const Basket = () => {
                                                                 Удалить
                                                             </th>
                                                         </tr>
-                                                        <tr className="col ">
-                                                            <th scope="col"
-                                                                className="py-3 px-6 text-xs font-medium tracking-wider text-left text-white uppercase dark:text-white">
-                                                                Имя
-                                                            </th>
-                                                            <th scope="col"
-                                                                className="py-3 px-6 text-xs font-medium tracking-wider text-left text-white uppercase dark:text-white">
-                                                                Фото
-                                                            </th>
-                                                            <th scope="col"
-                                                                className="py-3 px-6 text-xs font-medium tracking-wider text-left text-left text-white uppercase dark:text-white">
-                                                                цена
-                                                            </th>
-                                                            <th scope="col"
-                                                                className="py-3 px-6 text-xs font-medium tracking-wider text-left text-left text-white uppercase dark:text-white">
-                                                                Количество
-                                                            </th>
-
-                                                            <th scope="col"
-                                                                className="py-3 px-6 text-xs font-medium tracking-wider text-left text-left text-white uppercase dark:text-white">
-                                                                Удалить
-                                                            </th>
-                                                        </tr>
+                                                       
                                                          </thead>
                                                         <tbody
                                                             className="bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
@@ -152,11 +130,11 @@ const Basket = () => {
                                                         <div className="ml-3 text-xl font-medium text-white ">
 
                                                             <label className="block text-gray-700 text-sm font-bold mb-2 flex" htmlFor="username">
-                                                                {errors.price &&
-                                                                <p className="mx-1" style={{color: "#FF005C"}}>*</p>}
+                                                                {errors.price   && <p className="mx-1" style={{color: "#FF005C"}}>* </p>}
+
                                                             </label>
-                                                            <input  style={{fontSize: "24px", color: "#FF005C"}}
-                                                                className="ml-3 text-xl font-medium text-black "
+                                                            <input  style={{fontSize: "24px", color: "#bdc3c7"}}
+                                                                className=" inputBasket ml-3 text-xl font-medium text-black "
                                                                 type="text"
                                                                 value={totalSum}
                                                          />
@@ -165,6 +143,7 @@ const Basket = () => {
 
                                                     </div>
                                                 </div>
+
                                             </div>
                                         </div>
                                     </div>

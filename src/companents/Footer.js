@@ -4,14 +4,14 @@ import {Link} from "react-router-dom";
 const Footer = () => {
     return (
         <div className="Hooter">
-            <div className="footerTwo">
+            <div className=" container footerTwo">
                 <h1 className="flex items-center justify-center"
                     style={{fontSize: "40px", lineHeight: "48px", fontWeight: "700",
                         color: "white",
 
 
                     }}>
-                    SHOP
+                    MOTION SHOP
                 </h1>
                 <h3 className="flex items-center justify-center"
                     style={{fontSize: "14px", fontWeight: "700px", lineHeight: "17px", color: "#FF00C7"}}>
@@ -30,21 +30,20 @@ const Footer = () => {
                         fontWeight: "400px",
                         color: "rgba(255, 255, 255, 0.6)"
                     }}>Пользовательские соглашения</a>
-                    <p  className="flex items-center justify-center ml-52 footerP" style={{border: "solid 0.5px white", width: "230px"}}> </p>
+                    <p  className="flex items-center justify-center  birka " style={{border: "solid 0.5px white", width: "230px"}}> </p>
 
                 </div>
                 <div className=" my-2">
-                    <a  className="flex items-center justify-center " style={{
+                    <a  className="flex items-center justify-center" style={{
                         fontSize: "15px",
                         lineHeight: "15px",
                         fontWeight: "400px",
                         color: "rgba(255, 255, 255, 0.6)"
                     }}>Политика конфиденциальности</a>
-                    <p  className="flex items-center justify-center footerP ml-52" style={{border: "solid 0.5px white", width: "230px"}}> </p>
-
+                    <p  className="   birka"  style={{border: "solid 0.5px white", width: "230px"}}> </p>
 
                 </div>
-                <p className="flex items-center justify-center my-5" style={{
+                <p className="hoot flex items-center  justify-center my-5" style={{
                     fontSize: "15px",
                     lineHeight: "15px",
                     fontWeight: "400px",
@@ -61,7 +60,7 @@ const Footer = () => {
             <div className="container footerOne  " style={{width: "100%", bottom: "0", left: '0', margin: "auto"}}>
 
 
-                <nav className="  footer   px-2 sm:px-4 py-2.5 rounded "
+                <nav className=" container footer   px-2 sm:px-4 py-2.5 rounded "
                 >
                     <div className="   flex  justify-between items-center  ">
 

@@ -1,22 +1,37 @@
-.MOBILE-MENU{
-    display: none;
-}
-.Header{
-    background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%);
-}
-.footerTwo{
+.MOBILE-MENU {
     display: none;
 }
 
-.table{
+.Header {
+    background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%);
+}
+.price{
+    font-size: 24px;
+
+}
+.inputBasket{
+  border: none;
+    background: transparent;
+    color: #bdc3c7;
+    width: 220px;
+    margin-left: 30px;
+}
+.footerTwo {
+    display: none;
+}
+
+
+.table {
     font-size: 24px;
     margin-top: 25px;
     color: white;
 }
-.tableName{
+
+.tableName {
     font-size: 15px;
 }
-.tableImg{
+
+.tableImg {
     width: 50px;
     height: 50px;
 
@@ -33,17 +48,20 @@
     align-items: center;
     justify-content: center;
 }
-.Hooter{
+
+.Hooter {
     background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%);
 }
+
 .img {
 
     background: linear-gradient(360deg, rgba(255, 0, 92, 0.59) 0%, rgba(0, 0, 0, 0) 100%);
     border-radius: 10px;
 }
- .sooda{
-     margin-left: 250px;
- }
+
+.sooda {
+    margin-left: 250px;
+}
 
 .navigate {
     margin-left: 190px;
@@ -78,17 +96,18 @@
 }
 
 .input {
+    color: white;
     width: 450px;
 }
 
 .handle {
     display: grid;
-     grid-template-columns: 1fr   1fr 1fr 1fr;
- }
+    grid-template-columns: 1fr   1fr 1fr 1fr;
+}
 
 .header12 {
     background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%);
- }
+}
 
 .faq {
     width: 571px;
@@ -170,7 +189,7 @@
     border-radius: 5px;
     transition: 0.5s;
     cursor: pointer;
- }
+}
 
 .stule:hover {
     border: 3px solid #FF005C;
@@ -183,7 +202,6 @@
     align-items: center;
     justify-content: center;
 }
-
 
 
 .basket-card {
@@ -210,8 +228,9 @@
 .req-card {
     font-weight: bold;
     font-size: 30px;
-  }
-.req{
+}
+
+.req {
     margin-left: 90px;
     /*margin-top: 50px;*/
 }
@@ -230,21 +249,22 @@
     text-align: start;
     cursor: pointer;
 }
-.loader{
+
+.loader {
     pointer-events: none;
     border: 3px solid transparent;
     animation: an1 1s ease infinite;
-    width: 30px ;
+    width: 30px;
     height: 30px;
     border-radius: 50%;
     border-top-color: white;
 }
 
-@keyframes an1  {
-    0%{
+@keyframes an1 {
+    0% {
         transform: rotate(0turn);
     }
-    100%{
+    100% {
         transform: rotate(1turn);
     }
 }
@@ -265,7 +285,8 @@
     width: 290px;
     height: 260px;
 }
-.footer{
+
+.footer {
     margin-left: -200px;
 }
 
@@ -277,15 +298,14 @@
     width: 400px;
     height: 500px;
 }
+
 .detail-btn {
     background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)
 }
 
-
-
-
-
-
+.menuBlock {
+    display: none;
+}
 
 @media (max-width: 1024px) {
     .container {
@@ -300,15 +320,16 @@
 
     .header {
 
-         display: flex;
+        display: flex;
         align-items: center;
         justify-content: space-around;
     }
 
     .footer {
-         display: flex;
+        display: flex;
         align-items: center;
         justify-content: space-around;
+        margin-left: 20px;
     }
 
     .lorem_footer {
@@ -372,8 +393,9 @@
         width: 900px;
     }
 
-    .fagCard{
-     }
+    .fagCard {
+    }
+
 }
 
 @media (max-width: 940px) {
@@ -383,12 +405,19 @@
     }
 
     .input {
-        width: 400px;
+        width: 300px;
+        margin-left: -10px;
+    }
+
+    .Hidden {
+
+    }
+
+    .shotin {
 
     }
 
     .header {
-
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -408,24 +437,22 @@
         margin-left: 10px;
     }
 
-    .black_card {
-        width: 400px;
-        margin-left: 60px;
-    }
-
-    .req-card {
-        margin-left: 120px;
-    }
-
     .req {
-        width: 1000px;
-        margin-left: 10px;
-        margin-top: 30px;
+        margin-left: -90px;
+        width: 940px;
+    }
+
+    .recCard {
+        margin-left: 20px;
+    }
+
+    .rec-sliders {
+        margin-left: -90px;
     }
 
     .handle {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr  1fr;
         margin-left: 30px;
     }
 
@@ -446,7 +473,7 @@
     }
 
     .div-basket {
-        margin-left: 320px;
+        margin-left: 200px;
     }
 
     .clothesdetails-div {
@@ -461,98 +488,11 @@
         width: 900px;
     }
 
-    .fagCard{
+    .fagCard {
     }
+
 }
 
-@media (max-width: 840px) {
-    .container {
-        width: 1024px;
-
-    }
-
-    .input {
-        width: 400px;
-
-    }
-
-    .header {
-
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .footer {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .lorem_footer {
-        width: 300px;
-    }
-
-    .sooda {
-        margin-left: 10px;
-    }
-
-    .black_card {
-        width: 400px;
-        margin-left: 60px;
-    }
-
-    .req-card {
-        margin-left: 120px;
-    }
-
-    .req {
-        width: 1000px;
-        margin-left: 10px;
-        margin-top: 30px;
-    }
-
-    .handle {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin-left: 30px;
-    }
-
-    .div-favorite {
-        margin-left: -20px;
-    }
-
-    .App {
-        margin-left: 190px;
-    }
-
-    .corzino {
-        margin-left: 10px;
-    }
-
-    .h1-basket {
-        margin-left: 10px;
-    }
-
-    .div-basket {
-        margin-left: 320px;
-    }
-
-    .clothesdetails-div {
-        margin-left: 190px;
-    }
-
-    .tab {
-        margin-top: 120px;
-    }
-
-    .detail-p {
-        width: 900px;
-    }
-
-    .fagCard{
-    }
-}
 
 @media (max-width: 768px) {
     .container {
@@ -561,7 +501,7 @@
     }
 
     .input {
-        width: 400px;
+        width: 300px;
 
     }
 
@@ -572,15 +512,6 @@
         justify-content: space-around;
     }
 
-    .footer {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .lorem_footer {
-        width: 300px;
-    }
 
     .sooda {
         margin-left: 10px;
@@ -596,16 +527,22 @@
     }
 
     .req {
-        width: 1000px;
-        margin-left: 10px;
+        width: 768px;
+        margin-left: -10px;
         margin-top: 30px;
     }
 
-    .handle {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin-left: 30px;
+    .birka {
+        margin-left: 270px;
     }
+
+    .handle {
+
+        display: grid;
+        grid-template-columns: 1fr  1fr;
+
+    }
+
 
     .div-favorite {
         margin-left: -20px;
@@ -624,58 +561,126 @@
     }
 
     .div-basket {
-        margin-left: 320px;
+        margin-left: 190px;
     }
 
     .clothesdetails-div {
         margin-left: 190px;
     }
 
+    .detail-img {
+        width: 300px;
+        height: 400px;
+    }
+
+    .clothesdetails-div {
+        margin-left: 30px;
+    }
+
+    .detail-p {
+        width: 700px;
+    }
+
+
     .tab {
         margin-top: 120px;
     }
 
-    .detail-p {
-        width: 900px;
+
+    .fagCard {
     }
 
-    .fagCard{
+    .footerOne {
+        display: none;
     }
+
+    .footerTwo {
+        display: block;
+    }
+
+
+
+
 }
+
+@media (max-width: 767px) {
+    .Hidden {
+        display: none;
+    }
+
+    .menuBlock {
+        display: block;
+    }
+
+    .menuBlock {
+        display: block;
+        background: #FF005C;
+        width: 600px;
+        margin-left: 30px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+    .menuUL {
+
+    }
+
+    .liver {
+        width: 90px;
+        margin: 30px;
+    }
+
+    .livers {
+        margin-left: 20px;
+    }
+
+}
+
 @media (max-width: 640px) {
     .container {
         width: 640px;
 
     }
 
-    .input {
-        width: 250px;
+    .menuBlock {
+        margin-left: 20px;
+    }
 
+    .detail-img {
+        margin-left: -30px;
+    }
+
+    .detail-p {
+        width: 500px;
+    }
+
+    .input {
+        width: 350px;
+        position: absolute;
+        margin-left: -300px;
+        margin-top: -40px;
     }
 
     .header-log {
         margin-left: -23px;
     }
 
-    .hidden {
-        margin-left: -90px;
+    .Hidden {
+        display: none;
     }
 
     .header {
 
-        width: 576px;
+        width: 500px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-
+        margin-left: 70px;
     }
 
-    .footer {
-
-        width: 640px;
-        display: flex;
-        align-items: center;
-     }
+    .birka {
+        margin-left: 209px;
+    }
 
     .motion-footer {
         margin-left: 390px;
@@ -696,78 +701,92 @@
         margin-top: -90px;
     }
 
-    .black_card {
-
+    .black_caard {
+        margin-left: 30px;
     }
 
 
     .req-card {
-     }
+    }
 
     .req {
         width: 640px;
         margin-left: 1px;
     }
-    .school{
+
+    .school {
         width: 200px;
         margin-left: 60px;
     }
-    .develop{
+
+    .develop {
         width: 200px;
         margin-left: 60px;
     }
-.MOBILE-MENU{
-    display: block;
-    margin-left: -300px;
-    margin-top: 90px;
 
-}
-.shotin{
-    display: block;
-    color: black;
-}
-.Link{
-    width: 620px;
-    margin-left: -165px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+    .MOBILE-MENU {
+        display: block;
+        margin-left: -300px;
+        margin-top: 90px;
 
-.search{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
- }
-.searchDiv{
-    width: 250px;
-    margin-top: 90px;
-    margin-left: 40px;
-}
-.searchBtn{
-    margin-left: 1px;
-}
-.corzino{
- }
+    }
 
-.basketLog{
-    margin-left: 1px;
-}
-.div-basket{
-    margin-left: 120px;
-}
-.imgWomen{
-    width: 200px;
-}
-.footerTwo{
-    display: block;
-}
-.footerOne{
+    .shotin {
+        display: block;
+        color: black;
+    }
+
+    .Link {
+        width: 620px;
+        margin-left: -165px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .search {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .searchDiv {
+        width: 250px;
+        margin-top: 90px;
+        margin-left: 40px;
+    }
+
+    .searchBtn {
+        margin-left: 1px;
+    }
+
+    .corzino {
+    }
+
+    .basketLog {
+        margin-left: 1px;
+    }
+
+    .div-basket {
+        margin-left: 120px;
+    }
+
+    .imgWomen {
+        width: 200px;
+    }
+
+    .handle {
+
+
+    }
+
+.imgBasket{
     display: none;
 }
-.handle{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-margin-left: -290px;
-}
+    .basketGarbage {
+        margin-left: -80px;
+    }
+
+
+
 }
 
 
@@ -776,10 +795,12 @@ margin-left: -290px;
         width: 450px;
 
     }
-.black_caard{
-    width: 380px;
-    margin-left: 35px;
-}
+
+    .black_caard {
+        width: 380px;
+        margin-left: 35px;
+    }
+
     .footer {
 
         width: 450px;
@@ -800,10 +821,11 @@ margin-left: -290px;
         height: 100px;
         margin-left: 50px;
     }
-     .footerP{
-         margin-left: 110px;
 
-     }
+    .footerP {
+        margin-left: 110px;
+
+    }
 
     .sooda {
 
@@ -815,111 +837,455 @@ margin-left: -290px;
         margin-left: -60px;
 
     }
-    .recLogo{
+
+    .recLogo {
         margin-left: 20px;
     }
 
-    .recBtn{
+    .recBtn {
         width: 250px;
         margin-left: 90px;
     }
-.req-card{
-    margin-left: 20px;
-}
-.recCard{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 
-}
+    .req-card {
+        margin-left: 20px;
+    }
+
+    .recCard {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
 
     .req {
         width: 400px;
         margin-left: 1px;
     }
-    .school{
+
+    .school {
         width: 250px;
         margin-left: 90px;
     }
 
-    .MOBILE-MENU{
+    .MOBILE-MENU {
         display: block;
         margin-left: -300px;
         margin-top: 90px;
 
     }
-    .shotin{
+
+    .shotin {
         display: block;
         color: black;
     }
-    .Link{
+
+    .Link {
         width: 450px;
         margin-left: 15px;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    .search{
+    .search {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .searchDiv{
+
+    .searchDiv {
         width: 250px;
         margin-top: 90px;
         margin-left: 40px;
     }
-    .searchBtn{
-        margin-left: 1px;
-    }
-    .corzino{
-    }
-.basketGarbage{
-     margin-left: -98px;
-    width: 450px;
 
-}
-.basketTR{
-    width: 440px;
- }
+    .searchBtn {
+        margin-left: 1px;
+    }
 
-.table{
- width: 440px;
- }
-.tableDiv{
-    width: 440px;
-}
-.tableName{
-    font-size: 13px;
-    margin-left: -20px;
-}
-.tableImg{
-    width: 50px;
-    margin-left: -40px;
-}
-.basketWERE{
-    width: 440px;
-}
-    .basketLog{
+    .corzino {
+    }
+
+    .basketGarbage {
+        margin-left: -98px;
+        width: 450px;
+
+    }
+
+    .basketTR {
+        width: 440px;
+    }
+
+    .table {
+        width: 440px;
+    }
+
+    .tableDiv {
+        width: 440px;
+    }
+
+    .tableName {
+        font-size: 13px;
+        margin-left: -20px;
+    }
+
+    .tableImg {
+        width: 50px;
+        margin-left: -40px;
+    }
+
+    .basketWERE {
+        width: 440px;
+    }
+
+    .basketLog {
         margin-left: 1px;
     }
-    .div-basket{
+
+    .div-basket {
         margin-left: 1px;
     }
-    .imgWomen{
+
+    .imgWomen {
         width: 200px;
-     }
-    .footerTwo{
+    }
+
+    .footerTwo {
         display: block;
     }
-    .footerOne{
+
+    .footerOne {
         display: none;
     }
-    .handle{
+
+    .handle {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-left: -290px;
     }
+
+    .header-log {
+        display: none;
+
+    }
+
+    .Header {
+        background: white;
+    }
+
+    .input {
+        width: 400px;
+        margin-left: -60px;
+        margin-top: 2px;
+    }
+
+    .menuBlock {
+        width: 449px;
+        margin-left: 1px;
+    }
+
+    .birka {
+        margin-left: 110px;
+    }
+
+    .clothesCard {
+
+
+    }
+    .Link{
+        width: 180px;
+    }
+
+    .img-div {
+        width: 180px;
+    }
+    .detail-img{
+        width: 200px;
+        height: 300px;
+    }
+    .description{
+        font-size: 20px;
+    }
+    .price{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+    .tab{
+        margin-top: -10px;
+    }
+.clothesdetails-div{
+    margin-left: 20px;
+}
+.btn1{
+    width: 165px;
+}
+.detail-p{
+    width: 380px;
 }
 
+
+}
+@media (max-width: 360px) {
+    .container {
+        width: 360px;
+
+    }
+
+    .black_caard {
+        width: 340px;
+        margin-left: 10px;
+    }
+
+    .footer {
+
+        width: 360px;
+        display: flex;
+        align-items: center;
+    }
+
+    .motion-footer {
+        margin-left: 390px;
+    }
+
+    .h1-footer {
+        margin-left: 70px;
+    }
+
+    .lorem_footer {
+        width: 90px;
+        height: 100px;
+        margin-left: 50px;
+    }
+
+    .footerP {
+        margin-left: 110px;
+
+    }
+
+    .sooda {
+
+        margin-top: -90px;
+    }
+
+    .black_card {
+        width: 300px;
+        margin-left: -60px;
+
+    }
+
+    .recLogo {
+        margin-left: 20px;
+    }
+
+    .recBtn {
+        width: 250px;
+        margin-left: 90px;
+    }
+
+    .req-card {
+        margin-left: 20px;
+    }
+
+    .recCard {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .req {
+        width: 350px;
+        margin-left: -60px;
+    }
+
+    .school {
+        width: 250px;
+        margin-left: 90px;
+    }
+
+    .MOBILE-MENU {
+        display: block;
+        margin-left: -300px;
+        margin-top: 90px;
+
+    }
+
+    .shotin {
+        display: block;
+        color: black;
+    }
+
+    .Link {
+        width: 450px;
+        margin-left: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .search {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .searchDiv {
+        width: 250px;
+        margin-top: 90px;
+        margin-left: 40px;
+    }
+
+    .searchBtn {
+        margin-left: 1px;
+    }
+
+    .corzino {
+    }
+
+    .basketGarbage {
+        margin-left: -98px;
+        width: 450px;
+
+    }
+
+    .basketTR {
+        width: 440px;
+    }
+
+    .table {
+        width: 440px;
+    }
+
+    .tableDiv {
+        width: 440px;
+    }
+
+    .tableName {
+        font-size: 13px;
+        margin-left: -20px;
+    }
+
+    .tableImg {
+        width: 50px;
+        margin-left: -40px;
+    }
+
+    .basketWERE {
+        width: 440px;
+    }
+
+    .basketLog {
+        margin-left: 1px;
+    }
+
+    .div-basket {
+        margin-left: -60px;
+    }
+
+    .imgWomen {
+        width: 200px;
+    }
+
+    .footerTwo {
+        display: block;
+    }
+
+    .footerOne {
+        display: none;
+    }
+
+    .handle {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: -290px;
+    }
+
+    .header-log {
+        display: none;
+
+    }
+
+    .Header {
+        background: white;
+    }
+
+    .input {
+        width: 360px;
+        margin-left: -134px;
+        margin-top: 2px;
+    }
+
+    .menuBlock {
+        width: 350px;
+        margin-left: 5px;
+    }
+    .menuBlocks{
+        font-size: 15px;
+
+    }
+    .books{
+        width: 70px;
+    }
+
+    .birka {
+        margin-left: 65px;
+    }
+.hoot{
+    margin-left: 20px;
+}
+.inputBasket{
+    margin-left: -90px;
+}
+    .clothesCard {
+
+
+    }
+    .Link{
+        width: 180px;
+    }
+
+    .img-div {
+        width: 180px;
+    }
+    .detail-img{
+        width: 200px;
+        height: 300px;
+    }
+    .description{
+        font-size: 20px;
+    }
+    .price{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+    .tab{
+        margin-top: -10px;
+    }
+    .clothesdetails-div{
+        margin-left: 20px;
+    }
+    .btn1{
+        width: 165px;
+    }
+    .detail-p{
+        width: 380px;
+    }
+
+
+}
+
+.hideMenuNav {
+    display: none;
+}
+
+.showMenuNav {
+    display: block;
+    position: absolute;
+    width: 500px;
+    height: 200px;
+
+    background: white;
+    z-index: 10;
+
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 
 
