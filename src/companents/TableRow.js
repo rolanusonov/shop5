@@ -4,20 +4,23 @@ import {useDispatch} from "react-redux";
 const TableRow = ({el, idx}) => {
     const dispatch = useDispatch()
     return (
-        <tr className="" style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)"}}>
-            <td className="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">
+
+
+
+        <tr className="basketWERE" style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)"}}>
+            <td className=" tableName py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 <img src={el.name} alt="" width="3v 0"/>
                 {el.name}
 
             </td>
-            <td className="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                <img src={el.img} alt="" width="35" height="40"/>
+            <td className="  py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                <img className="tableImg" src={el.img} alt=""  />
 
 
             </td>
 
 
-            <td  style={{fontSize: "24px", color: "white"}} className="py-4 px-6 text-sm font-medium text-white  whitespace-nowrap dark:text-white">
+            <td   className="table py-4 px-6 text-sm font-medium text-white  whitespace-nowrap dark:text-white">
                 {el.price * el.quantity}&nbsp;₺
 
             </td>
@@ -39,6 +42,7 @@ const TableRow = ({el, idx}) => {
                 </button>
             </td>
         </tr>
+
     );
 };
 

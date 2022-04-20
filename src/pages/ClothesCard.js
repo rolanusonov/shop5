@@ -8,9 +8,11 @@ const ClothesCard = ({el}) => {
     return (
 
 
+<div className="Link">
 
-            <div className=" w-72 Link " style={{background: "#F2F2F2"}}>
-                <div  className="m-10" to={``}>
+
+            <div className=" w-72  " style={{background: "#F2F2F2"}}>
+                <div  className="m-10 imgWomen" to={``}>
 
                         <Link to={`/details/${el.id}`}>
                         <img src={el.img} alt="wer" className="img-div"/>
@@ -32,6 +34,7 @@ const ClothesCard = ({el}) => {
                         </button>
                     </div>
                 </div>
+            </div>
             </div>
 
 

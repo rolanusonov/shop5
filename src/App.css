@@ -4,6 +4,24 @@
 .Header{
     background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%);
 }
+.footerTwo{
+    display: none;
+}
+
+.table{
+    font-size: 24px;
+    margin-top: 25px;
+    color: white;
+}
+.tableName{
+    font-size: 15px;
+}
+.tableImg{
+    width: 50px;
+    height: 50px;
+
+}
+
 .circle {
     width: 30px;
     height: 30px;
@@ -167,10 +185,6 @@
 }
 
 
-.faqCard{
-
-}
-
 
 .basket-card {
     display: flex;
@@ -196,10 +210,9 @@
 .req-card {
     font-weight: bold;
     font-size: 30px;
-    margin-left: 90px;
- }
+  }
 .req{
-    /*margin-left: 190px;*/
+    margin-left: 90px;
     /*margin-top: 50px;*/
 }
 
@@ -264,516 +277,382 @@
     width: 400px;
     height: 500px;
 }
-.detail-btn{
+.detail-btn {
     background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)
 }
-.h1-about{
+
+
+@media (max-width: 1024px) {
+    .container {
+        width: 1024px;
+
+    }
+
+    .input {
+        width: 400px;
+
+    }
+
+    .header {
+
+         display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .footer {
+         display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .lorem_footer {
+        width: 300px;
+    }
+
+    .sooda {
+        margin-left: 10px;
+    }
+
+    .black_card {
+        width: 400px;
+        margin-left: 60px;
+    }
+
+    .req-card {
+        margin-left: 120px;
+    }
+
+    .req {
+        width: 1000px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .handle {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 30px;
+    }
+
+    .div-favorite {
+        margin-left: -20px;
+    }
+
+    .App {
+        margin-left: 190px;
+    }
+
+    .corzino {
+        margin-left: 10px;
+    }
+
+    .h1-basket {
+        margin-left: 10px;
+    }
+
+    .div-basket {
+        margin-left: 320px;
+    }
+
+    .clothesdetails-div {
+        margin-left: 190px;
+    }
+
+    .tab {
+        margin-top: 120px;
+    }
+
+    .detail-p {
+        width: 900px;
+    }
+
+    .fagCard{
+     }
+}
+
+
+
+
+
+
+@media (max-width: 640px) {
+    .container {
+        width: 640px;
+
+    }
+
+    .input {
+        width: 250px;
+
+    }
+
+    .header-log {
+        margin-left: -23px;
+    }
+
+    .hidden {
+        margin-left: -90px;
+    }
+
+    .header {
+
+        width: 576px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    .footer {
+
+        width: 640px;
+        display: flex;
+        align-items: center;
+     }
+
+    .motion-footer {
+        margin-left: 390px;
+    }
+
+    .h1-footer {
+        margin-left: 70px;
+    }
+
+    .lorem_footer {
+        width: 90px;
+        height: 100px;
+        margin-left: 50px;
+    }
+
+    .sooda {
+
+        margin-top: -90px;
+    }
+
+    .black_card {
+
+    }
+
+
+    .req-card {
+     }
+
+    .req {
+        width: 640px;
+        margin-left: 1px;
+    }
+    .school{
+        width: 200px;
+        margin-left: 60px;
+    }
+    .develop{
+        width: 200px;
+        margin-left: 60px;
+    }
+.MOBILE-MENU{
+    display: block;
+    margin-left: -300px;
+    margin-top: 90px;
 
 }
-.p-about{
-
+.shotin{
+    display: block;
+    color: black;
 }
-.div-about{
+.Link{
+    width: 620px;
+    margin-left: -165px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
+.search{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+.searchDiv{
+    width: 250px;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+.searchBtn{
+    margin-left: 1px;
 }
 .corzino{
-
  }
 
-/*@media (max-width: 1200px) {*/
-/*    .container {*/
-/*        width: 1200px;*/
-
-/*    }*/
-
-/*    .input {*/
-/*        width: 400px;*/
-
-/*    }*/
-
-/*    .header {*/
-/*margin-left: 0;*/
-/*        width: 1200px;*/
-/*        display: flex;*/
-/*        align-items: center;*/
-/*        justify-content: space-around;*/
-
-/*    }*/
-
-/*    .footer {*/
-/*margin-left: -200px;*/
-/*        width: 1200px;*/
-/*        display: flex;*/
-/*        align-items: center;*/
-/*        justify-content: space-around;*/
-/*    }*/
-
-/*    .lorem_footer {*/
-/*        width: 300px;*/
-/*    }*/
-
-/*    .sooda {*/
-/*        margin-left: -100px;*/
-/*        margin-top: 200px;*/
-/*    }*/
-/*.img{*/
-/*    margin-left: -200px;*/
-/*}*/
-/*    .black_card {*/
-/*        width: 400px;*/
-/*        margin-left: 60px;*/
-/*    }*/
-
-/*    .req-card {*/
-/*        margin-left: 120px;*/
-/*    }*/
-
-/*    .req {*/
-/*        width: 1200px;*/
-/*        margin-left: 90px;*/
-/*    }*/
-
-/*    .handle {*/
-/*        margin-left: 150px;*/
-/*    }*/
-
-/*    .div-basket {*/
-/*        margin-left: 230px;*/
-/*    }*/
-
-/*    .h1-basket {*/
-/*        margin-left: -120px;*/
-/*    }*/
-
-/*    .div-favorite {*/
-/*        margin-left: 150px;*/
-/*    }*/
-
-/*    .App {*/
-/*        margin-left: 190px;*/
-/*    }*/
-
-/*    .corzino {*/
-/*        margin-left: -140px;*/
-/*    }*/
-
-/*    .clothesdetails-div {*/
-/*        margin-left: 90px;*/
-/*    }*/
-
-/*    .tab {*/
-/*        margin-top: 20px;*/
-/*    }*/
-
-/*}*/
-
-/*@media (max-width: 1024px) {*/
-/*    .container {*/
-/*        width: 1024px;*/
-
-/*    }*/
-
-/*    .input {*/
-/*        width: 400px;*/
-
-/*    }*/
-
-/*    .header {*/
-
-/*        width: 1024px;*/
-/*        display: flex;*/
-/*        align-items: center;*/
-/*        justify-content: space-around;*/
-
-/*    }*/
-
-/*    .footer {*/
-
-/*        width: 1024px;*/
-/*        display: flex;*/
-/*        align-items: center;*/
-/*        justify-content: space-around;*/
-/*    }*/
-
-/*    .lorem_footer {*/
-/*        width: 300px;*/
-/*    }*/
-
-/*    .sooda {*/
-/*        margin-left: 10px;*/
-/*    }*/
-
-/*    .black_card {*/
-/*        width: 400px;*/
-/*        margin-left: 60px;*/
-/*    }*/
-
-/*    .req-card {*/
-/*        margin-left: 120px;*/
-/*    }*/
-
-/*    .req {*/
-/*        width: 1024px;*/
-/*        margin-left: 1px;*/
-/*    }*/
-
-/*    .handle {*/
-/*        display: grid;*/
-/*        grid-template-columns: 1fr 1fr 1fr;*/
-/*        margin-left: 30px;*/
-/*    }*/
-
-/*    .div-favorite {*/
-/*        margin-left: -20px;*/
-/*    }*/
-
-/*    .App {*/
-/*        margin-left: 190px;*/
-/*    }*/
-
-/*    .corzino {*/
-/*        margin-left: 50px;*/
-/*    }*/
-
-/*    .h1-basket {*/
-/*        margin-left: 10px;*/
-/*    }*/
-
-/*    .div-basket {*/
-/*        margin-left: 320px;*/
-/*    }*/
-
-/*    .clothesdetails-div {*/
-/*        margin-left: 190px;*/
-/*    }*/
-
-/*    .tab {*/
-/*        margin-top: 120px;*/
-/*    }*/
-
-/*    .detail-p {*/
-/*        width: 900px;*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 992px) {*/
-/*    .container {*/
-/*        width: 992px;*/
-
-/*    }*/
-
-/*    .input {*/
-/*        width: 350px;*/
-/*        margin-left: 5px;*/
-/*    }*/
-
-/*    .header {*/
-
-/*        width: 992px;*/
-/*        display: flex;*/
-/*        align-items: center;*/
-/*        justify-content: space-evenly;*/
-
-/*    }*/
-
-/*    .footer {*/
-
-/*        width: 992px;*/
-/*        display: flex;*/
-/*        align-items: center;*/
-/*        justify-content: space-around;*/
-/*    }*/
-
-/*    .lorem_footer {*/
-/*        width: 300px;*/
-/*    }*/
-
-/*    .sooda {*/
-/*        margin-left: 130px;*/
-/*    }*/
-
-/*    .black_card {*/
-/*        width: 400px;*/
-/*        margin-left: 60px;*/
-/*    }*/
-
-/*    .req-card {*/
-/*        margin-left: 120px;*/
-/*    }*/
-
-/*    .req {*/
-/*        width: 992px;*/
-/*        margin-left: 100px;*/
-/*    }*/
-
-/*    .handle {*/
-/*        margin-left: 180px;*/
-/*    }*/
-
-/*    .div-favorite {*/
-/*        margin-left: 200px;*/
-/*    }*/
-
-/*    .div-basket {*/
-/*        margin-left: 190px;*/
-/*    }*/
-
-/*    .App {*/
-/*        margin-left: 190px;*/
-/*    }*/
-
-/*    .corzino {*/
-/*        margin-left: -140px;*/
-/*    }*/
-
-/*    .h1-basket {*/
-/*        margin-left: -110px;*/
-/*    }*/
-
-/*    .div-basket {*/
-/*        margin-left: 120px;*/
-/*    }*/
-
-/*    .clothesdetails-div {*/
-/*        margin-left: 190px;*/
-/*    }*/
-
-/*    .tab {*/
-/*        margin-top: 120px;*/
-/*    }*/
-
-/*    .detail-p {*/
-/*        width: 900px;*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 768px) {*/
-/*    .container {*/
-/*        width: 768px;*/
-
-/*    }*/
-
-/*    .input {*/
-/*        width: 250px;*/
-
-/*    }*/
-
-/*    .header-log {*/
-/*        margin-left: -23px;*/
-/*    }*/
-
-/*    .hidden {*/
-/*        margin-left: -90px;*/
-/*    }*/
-
-/*    .header {*/
-
-/*        width: 768px;*/
-/*        display: flex;*/
-/*        align-items: center;*/
-/*        justify-content: space-evenly;*/
-
-/*    }*/
-
-/*    .footer {*/
-
-/*        width: 768px;*/
-/*        display: flex;*/
-/*        align-items: center;*/
-/*        justify-content: space-around;*/
-/*    }*/
-
-/*    .motion-footer {*/
-/*        margin-left: 90px;*/
-/*    }*/
-
-/*    .h1-footer {*/
-/*        margin-left: 70px;*/
-/*    }*/
-
-/*    .lorem_footer {*/
-/*        width: 90px;*/
-/*        height: 100px;*/
-/*        margin-left: 50px;*/
-/*    }*/
-
-/*    .sooda {*/
-
-/*        margin-top: -90px;*/
-/*    }*/
-
-/*    .black_card {*/
-/*        width: 300px;*/
-/*        margin-left: -60px;*/
-
-/*    }*/
-
-
-/*    .req-card {*/
-/*        margin-left: 20px;*/
-/*    }*/
-
-/*    .req {*/
-/*        width: 768px;*/
-/*        margin-left: 1px;*/
-/*    }*/
-
-/*    .div-favorite {*/
-/*        margin-left: -30px;*/
-/*    }*/
-
-/*    .div-basket {*/
-/*        margin-left: 190px;*/
-/*    }*/
-
-/*    .App {*/
-/*        margin-left: 190px;*/
-/*    }*/
-
-/*    .corzino {*/
-/*        margin-left: 60px;*/
-/*    }*/
-
-/*    .h1-basket {*/
-/*        margin-left: 110px;*/
-/*    }*/
-
-/*    .div-basket {*/
-/*        margin-left: 220px;*/
-/*    }*/
-
-/*    .img-div {*/
-/*        width: 200px;*/
-/*    }*/
-
-/*    .Link {*/
-/*        width: 250px;*/
-
-/*    }*/
-
-/*    .clothesdetails-div {*/
-/*        margin-left: 190px;*/
-/*    }*/
-
-/*    .tab {*/
-/*        margin-top: 20px;*/
-/*    }*/
-
-/*    .detail-p {*/
-/*        width: 900px;*/
-/*    }*/
-
-/*    .detail-img {*/
-/*        width: 300px;*/
-/*        height: 400px;*/
-/*    }*/
-/*    .description{*/
-/*        font-size: 25px;*/
-/*    }*/
-/*.shotin{*/
-/*    display: none;*/
-/*}*/
-/*.MOBILE-MENU{*/
-
-/*    display: block;*/
-/*    margin-left: 20px;*/
-/* }*/
-
-
-
-/*}*/
-
-
-
-
-
-/*@media (max-width: 576px) {*/
-/*    .container {*/
-/*        width: 576px;*/
-
-/*    }*/
-
-/*    .input {*/
-/*        width: 250px;*/
-
-/*    }*/
-
-/*    .header-log {*/
-/*        margin-left: -23px;*/
-/*    }*/
-
-/*    .hidden {*/
-/*        margin-left: -90px;*/
-/*    }*/
-
-/*    .header {*/
-
-/*        width: 576px;*/
-/*        display: flex;*/
-/*        align-items: center;*/
-/*        justify-content: space-evenly;*/
-
-/*    }*/
-
-/*    .footer {*/
-
-/*        width: 576px;*/
-/*        display: flex;*/
-/*        align-items: center;*/
-/*        justify-content: space-around;*/
-/*    }*/
-
-/*    .motion-footer {*/
-/*        margin-left: 90px;*/
-/*    }*/
-
-/*    .h1-footer {*/
-/*        margin-left: 70px;*/
-/*    }*/
-
-/*    .lorem_footer {*/
-/*        width: 90px;*/
-/*        height: 100px;*/
-/*        margin-left: 50px;*/
-/*    }*/
-
-/*    .sooda {*/
-
-/*        margin-top: -90px;*/
-/*    }*/
-
-/*    .black_card {*/
-/*        width: 300px;*/
-/*        margin-left: -60px;*/
-
-/*    }*/
-
-
-/*    .req-card {*/
-/*        margin-left: 20px;*/
-/*    }*/
-
-/*    .req {*/
-/*        width: 768px;*/
-/*        margin-left: 1px;*/
-/*    }*/
-/*.MOBILE-MENU{*/
-/*    display: block;*/
-/*    margin-left: -300px;*/
-/*    margin-top: 90px;*/
-
-/*}*/
-
-/*}*/
-
-/*@media (max-width: 414px) {*/
-/*}*/
-
-/*@media (max-width: 375px) {*/
-/*}*/
-
-/*@media (max-width: 320px) {*/
-/*}*/
+.basketLog{
+    margin-left: 1px;
+}
+.div-basket{
+    margin-left: 120px;
+}
+.imgWomen{
+    width: 200px;
+}
+.footerTwo{
+    display: block;
+}
+.footerOne{
+    display: none;
+}
+.handle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+margin-left: -290px;
+}
+}
+
+
+@media (max-width: 450px) {
+    .container {
+        width: 450px;
+
+    }
+.black_caard{
+    width: 380px;
+    margin-left: 35px;
+}
+    .footer {
+
+        width: 450px;
+        display: flex;
+        align-items: center;
+    }
+
+    .motion-footer {
+        margin-left: 390px;
+    }
+
+    .h1-footer {
+        margin-left: 70px;
+    }
+
+    .lorem_footer {
+        width: 90px;
+        height: 100px;
+        margin-left: 50px;
+    }
+     .footerP{
+         margin-left: 110px;
+
+     }
+
+    .sooda {
+
+        margin-top: -90px;
+    }
+
+    .black_card {
+        width: 300px;
+        margin-left: -60px;
+
+    }
+    .recLogo{
+        margin-left: 20px;
+    }
+
+    .recBtn{
+        width: 250px;
+        margin-left: 90px;
+    }
+.req-card{
+    margin-left: 20px;
+}
+.recCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+    .req {
+        width: 400px;
+        margin-left: 1px;
+    }
+    .school{
+        width: 250px;
+        margin-left: 90px;
+    }
+
+    .MOBILE-MENU{
+        display: block;
+        margin-left: -300px;
+        margin-top: 90px;
+
+    }
+    .shotin{
+        display: block;
+        color: black;
+    }
+    .Link{
+        width: 450px;
+        margin-left: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .search{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .searchDiv{
+        width: 250px;
+        margin-top: 90px;
+        margin-left: 40px;
+    }
+    .searchBtn{
+        margin-left: 1px;
+    }
+    .corzino{
+    }
+.basketGarbage{
+     margin-left: -98px;
+    width: 450px;
+
+}
+.basketTR{
+    width: 440px;
+ }
+
+.table{
+ width: 440px;
+ }
+.tableDiv{
+    width: 440px;
+}
+.tableName{
+    font-size: 13px;
+    margin-left: -20px;
+}
+.tableImg{
+    width: 50px;
+    margin-left: -40px;
+}
+.basketWERE{
+    width: 440px;
+}
+    .basketLog{
+        margin-left: 1px;
+    }
+    .div-basket{
+        margin-left: 1px;
+    }
+    .imgWomen{
+        width: 200px;
+     }
+    .footerTwo{
+        display: block;
+    }
+    .footerOne{
+        display: none;
+    }
+    .handle{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: -290px;
+    }
+}
 
 
 
