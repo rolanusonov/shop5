@@ -5,17 +5,20 @@
 .Header {
     background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%);
 }
-.price{
+
+.price {
     font-size: 24px;
 
 }
-.inputBasket{
-  border: none;
+
+.inputBasket {
+    border: none;
     background: transparent;
     color: #bdc3c7;
     width: 220px;
     margin-left: 30px;
 }
+
 .footerTwo {
     display: none;
 }
@@ -49,7 +52,7 @@
     justify-content: center;
 }
 
-.footerH1{
+.footerH1 {
     margin-left: 230px;
 }
 
@@ -234,9 +237,11 @@
     font-size: 30px;
 
 }
-.recCard{
+
+.recCard {
     margin: 20px;
 }
+
 .req {
     margin-left: 90px;
 }
@@ -312,10 +317,12 @@
 .menuBlock {
     display: none;
 }
-.carding{
+
+.carding {
     width: 580px;
     height: 250px;
 }
+
 @media (max-width: 1024px) {
     .container {
         width: 1024px;
@@ -326,9 +333,11 @@
         width: 400px;
 
     }
-.footerH1{
-    margin-left: 60px;
-}
+
+    .footerH1 {
+        margin-left: 60px;
+    }
+
     .header {
 
         display: flex;
@@ -414,9 +423,11 @@
         width: 1024px;
 
     }
-    .footerH1{
+
+    .footerH1 {
         margin-left: 10px;
     }
+
     .input {
         width: 300px;
         margin-left: -10px;
@@ -611,9 +622,9 @@
         display: block;
     }
 
-.schoolH1{
-    margin-left: 60px;
-}
+    .schoolH1 {
+        margin-left: 60px;
+    }
 
 
 }
@@ -752,25 +763,28 @@
     }
 
 
-    .Links{
+    .Links {
         width: 200px;
         display: grid;
         grid-template-columns: 1fr 1fr;
 
     }
+
     /*.img-div{*/
     /*    height: 200px;*/
     /*}*/
-    .Link{
+    .Link {
 
         width: 350px;
         height: 400px;
         margin: 20px;
     }
+
     .handle {
-margin-left: -40px;
+        margin-left: -40px;
 
     }
+
     .search {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -802,18 +816,18 @@ margin-left: -40px;
     }
 
 
+    .imgBasket {
+        display: none;
+    }
 
-.imgBasket{
-    display: none;
-}
     .basketGarbage {
         margin-left: -80px;
     }
 
 
-.Icon{
-    margin-left: 10px;
-}
+    .Icon {
+        margin-left: 10px;
+    }
 }
 
 
@@ -827,10 +841,12 @@ margin-left: -40px;
         width: 380px;
         margin-left: 35px;
     }
-    .carding{
+
+    .carding {
         width: 400px;
         height: 250px;
     }
+
     .footer {
 
         width: 450px;
@@ -878,7 +894,7 @@ margin-left: -40px;
     }
 
     .req-card {
-        width:300px;
+        width: 300px;
         margin-left: 20px;
     }
 
@@ -909,7 +925,6 @@ margin-left: -40px;
         display: block;
         color: black;
     }
-
 
 
     .search {
@@ -987,7 +1002,6 @@ margin-left: -40px;
     }
 
 
-
     .header-log {
         display: none;
 
@@ -1017,94 +1031,113 @@ margin-left: -40px;
 
     }
 
-    .Links{
+    .Links {
         width: 200px;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-/*.img-div{*/
-/*    height: 200px;*/
-/*}*/
-    .Link{
- margin: 20px;
-        width: 250px;
-height: 400px;
 
-     }
-.ert{
-    position: absolute;
-     margin-left: -20px;
-    margin-top: 90px;
-}
-.ter{
-    width: 180px;
-}
-.handle{
-    margin-left: 20px;
-    width: 400px;
-}
-/*    .img-div {*/
-/*        width: 180px;*/
-/*    }*/
-    .detail-img{
+    /*.img-div{*/
+    /*    height: 200px;*/
+    /*}*/
+    .Link {
+        margin: 20px;
+        width: 250px;
+        height: 400px;
+
+    }
+
+    .ert {
+        position: absolute;
+        margin-left: -20px;
+        margin-top: 90px;
+    }
+
+    .ter {
+        width: 180px;
+    }
+
+    .handle {
+        margin-left: 20px;
+        width: 400px;
+    }
+
+    /*    .img-div {*/
+    /*        width: 180px;*/
+    /*    }*/
+    .detail-img {
         width: 200px;
         height: 300px;
     }
-    .detail-btn{
+
+    .detail-btn {
         margin-top: -20px;
     }
-    .description{
+
+    .description {
         font-size: 20px;
     }
-    .price{
+
+    .price {
         font-size: 20px;
         margin-top: -20px;
     }
-    .tab{
+
+    .tab {
         margin-top: -10px;
     }
-.clothesdetails-div{
-    margin-left: 20px;
+
+    .clothesdetails-div {
+        margin-left: 20px;
+    }
+
+    .btn1 {
+        width: 165px;
+    }
+
+    .detail-p {
+        width: 380px;
+    }
+
+    /*.school{*/
+    /*    width: 150px;*/
+    /*     height: 150px;*/
+    /*}*/
+    .schoolH1 {
+        margin-left: 100px;
+    }
+
+    /*.recBtn{*/
+    /*     width: 150px;*/
+    /*}*/
+    /* .imgSlider{*/
+    /*      height: 150px;*/
+    /* }*/
+    .basket-card {
+        height: 400px;
+        margin-left: -10px;
+    }
+
+    .faqCard {
+        margin-top: 90px;
+    }
+
+    .div-about {
+        margin-left: -20px;
+    }
+
+    .basketLog {
+        margin-top: 60px;
+    }
+    .header {
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 70px;
+    }
 }
-.btn1{
-    width: 165px;
-}
-.detail-p{
-    width: 380px;
-}
-/*.school{*/
-/*    width: 150px;*/
-/*     height: 150px;*/
-/*}*/
-.schoolH1{
-    margin-left: 100px;
- }
 
-/*.recBtn{*/
-/*     width: 150px;*/
-
-/*}*/
-/* .imgSlider{*/
-/*      height: 150px;*/
-
-/* }*/
- .basket-card{
-height: 400px;
-     margin-left: -10px;
- }
- .faqCard{
-    margin-top: 90px;
- }
- .div-about{
-     margin-left: -20px;
- }
- .basketLog{
-     margin-top: 60px;
- }
-
-
-
-}
 @media (max-width: 360px) {
     .container {
         width: 360px;
@@ -1194,27 +1227,31 @@ height: 400px;
         color: black;
     }
 
-    .Links{
+    .Links {
 
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
     /*.img-div{*/
     /*    height: 200px;*/
     /*}*/
-    .Link{
+    .Link {
 
-         height: 400px;
+        height: 400px;
 
     }
-    .ter{
+
+    .ter {
         width: 150px;
     }
-    .ert{
+
+    .ert {
         margin-left: -20px;
         margin-top: 55px;
     }
-    .handle{
+
+    .handle {
         width: 110px;
         margin-left: 130px;
     }
@@ -1309,23 +1346,28 @@ height: 400px;
         width: 350px;
         margin-left: 5px;
     }
-    .menuBlocks{
+
+    .menuBlocks {
         font-size: 15px;
 
     }
-    .books{
+
+    .books {
         width: 70px;
     }
 
     .birka {
         margin-left: 65px;
     }
-.hoot{
-    margin-left: 20px;
-}
-.inputBasket{
-    margin-left: 40px;
-}
+
+    .hoot {
+        margin-left: 20px;
+    }
+
+    .inputBasket {
+        margin-left: 40px;
+    }
+
     .clothesCard {
 
 
@@ -1334,74 +1376,91 @@ height: 400px;
     .img-div {
         width: 180px;
     }
-    .detail-img{
+
+    .detail-img {
         width: 150px;
         height: 200px;
     }
-    .description{
+
+    .description {
         font-size: 20px;
         margin-top: -20px;
     }
-    .price{
+
+    .price {
         font-size: 15px;
         margin-top: -20px;
     }
-    .tab{
+
+    .tab {
         width: 140px;
         margin-top: -10px;
     }
-    .clothesdetails-div{
+
+    .clothesdetails-div {
         margin-left: 20px;
         font-size: 15px;
     }
 
-    .btn1{
+    .btn1 {
         width: 165px;
     }
-    .detail-p{
+
+    .detail-p {
         width: 320px;
         margin-left: 20px;
     }
-    .detail-btn{
+
+    .detail-btn {
         font-size: 12px;
         width: 130px;
         height: 30px;
 
     }
-.btn1{
-    font-size: 12px;
-    width: 130px;
-    height: 30px;
 
-}
-.plus{
-    margin-left: -10px;
-}
-    .plus1{
+    .btn1 {
+        font-size: 12px;
+        width: 130px;
+        height: 30px;
+
+    }
+
+    .plus {
+        margin-left: -10px;
+    }
+
+    .plus1 {
         margin-left: -16px;
     }
-    .remove{
-     }
-    .feel{
 
-margin-left: -20px;
+    .remove {
+    }
+
+    .feel {
+
+        margin-left: -20px;
         width: 350px;
-   }
-    .basketFin2{
+    }
+
+    .basketFin2 {
 
     }
-    .gel{
+
+    .gel {
         margin-left: -30px;
         position: absolute;
     }
-    .gels{
+
+    .gels {
         position: absolute;
         margin-left: 80px;
     }
-    .div-about{
+
+    .div-about {
         margin-left: -120px;
     }
-    .contactAbout{
+
+    .contactAbout {
         margin-left: 20px;
     }
 }
