@@ -7,12 +7,13 @@ const ClothesCard = ({el}) => {
     const dispatch = useDispatch()
     return (
 
+<div className="Links">
 
 
             <div className="   Link " style={{background: "#F2F2F2"}}>
-                <div  className=" ert  " to={``}>
+                <div  className=" ter  " to={``}>
 
-                        <Link class="ert" to={`/details/${el.id}`}>
+                        <Link class=" " to={`/details/${el.id}`}>
                         <img src={el.img} alt="wer" className="img-div "/>
                             <h1  className="text-lg text-black">{el.description}</h1>
                     <h1  style={{fontSize: "24px", color: "#FF005C"}} className="text-base text-blsck mt-4">{el.price} ₺ </h1>
@@ -32,6 +33,7 @@ const ClothesCard = ({el}) => {
                         </button>
                     </div>
                 </div>
+            </div>
             </div>
 
 

@@ -50,7 +50,7 @@ const Basket = () => {
                                       d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
                                       clipRule="evenodd"/>
                             </svg>
-                            <div className="ml-3    text-2xl font-medium text-white dark:text-white">
+                            <div className="ml-3      text-2xl font-medium text-white dark:text-white">
                                 Корзина пусто!
                             </div>
                         </div> :
@@ -80,12 +80,12 @@ const Basket = () => {
                                             <div className="inline-block min-w-full align-middle">
                                                 <div className="overflow-hidden    ">
                                                     <table
-                                                        className="min-w-full divide-y divide-gray-200 table-fixed dark:divide-gray-700">
+                                                        className="min-w-full feel divide-y divide-gray-200 table-fixed dark:divide-gray-700">
                                                         <thead className=" "
                                                                style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)"}}>
-                                                        <tr className="col ">
+                                                        <tr className="col   ">
                                                             <th scope="col"
-                                                                className="py-3 px-6 text-xs font-medium tracking-wider text-left text-white uppercase dark:text-white">
+                                                                className="py-3 px-6   text-xs font-medium tracking-wider text-left text-white uppercase dark:text-white">
                                                                 Имя
                                                             </th>
                                                             <th scope="col"
@@ -93,16 +93,16 @@ const Basket = () => {
                                                                 Фото
                                                             </th>
                                                             <th scope="col"
-                                                                className="py-3 px-6 text-xs font-medium tracking-wider text-left text-left text-white uppercase dark:text-white">
+                                                                className="py-3 px-6    text-xs font-medium tracking-wider text-left text-left text-white uppercase dark:text-white">
                                                                 цена
                                                             </th>
                                                             <th scope="col"
-                                                                className="py-3 px-6 text-xs font-medium tracking-wider text-left text-left text-white uppercase dark:text-white">
+                                                                className="py-3 px-6 gel   text-xs font-medium tracking-wider text-left text-left text-white uppercase dark:text-white">
                                                                 Количество
                                                             </th>
 
                                                             <th scope="col"
-                                                                className="py-3 px-6 text-xs font-medium tracking-wider text-left text-left text-white uppercase dark:text-white">
+                                                                className="py-3 px-6 gels  text-xs remove font-medium tracking-wider text-left text-left text-white uppercase dark:text-white">
                                                                 Удалить
                                                             </th>
                                                         </tr>

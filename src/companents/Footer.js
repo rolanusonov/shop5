@@ -5,18 +5,18 @@ const Footer = () => {
     return (
         <div className="Hooter">
             <div className=" container footerTwo">
-                <h1 className="flex items-center justify-center"
+                <Link  className="flex items-center justify-center"
                     style={{fontSize: "40px", lineHeight: "48px", fontWeight: "700",
                         color: "white",
 
 
-                    }}>
+                    }} to="/" >
                     MOTION SHOP
-                </h1>
-                <h3 className="flex items-center justify-center"
+                </Link>
+                <Link to="/"  className="flex items-center justify-center"
                     style={{fontSize: "14px", fontWeight: "700px", lineHeight: "17px", color: "#FF00C7"}}>
                     SHOP
-                </h3>
+                </Link>
                 <p className="flex items-center justify-center my-5" style={{
                     fontSize: "12px",
                     lineHeight: "15px",
