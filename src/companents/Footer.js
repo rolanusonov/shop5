@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="Hooter">
             <div className=" container footerTwo">
-                <Link  className="flex items-center justify-center"
+                <Link  className="  flex items-center justify-center footerBig"
                     style={{fontSize: "40px", lineHeight: "48px", fontWeight: "700",
                         color: "white",
 
@@ -62,9 +62,9 @@ const Footer = () => {
 
                 <nav className=" container footer   px-2 sm:px-4 py-2.5 rounded "
                 >
-                    <div className="   flex  justify-between items-center  ">
+                    <div className="  foter  flex  justify-between items-center  ">
 
-                        <h1 className="text-3xl  "
+                        <h1 className="text-3xl  footerH1 "
                             style={{
                                 fontFamily: 'Inter',
                                 fontWeight: "700",
@@ -161,7 +161,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div style={{}} className="mb-5">
+                        <div style={{}} className="mb-5 ml-6">
                             <h1 style={{
                                 color: 'white',
                                 fontSize: '22px'

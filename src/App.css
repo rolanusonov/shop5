@@ -49,6 +49,10 @@
     justify-content: center;
 }
 
+.footerH1{
+    margin-left: 230px;
+}
+
 .Hooter {
     background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%);
 }
@@ -319,7 +323,9 @@
         width: 400px;
 
     }
-
+.footerH1{
+    margin-left: 60px;
+}
     .header {
 
         display: flex;
@@ -405,7 +411,9 @@
         width: 1024px;
 
     }
-
+    .footerH1{
+        margin-left: 10px;
+    }
     .input {
         width: 300px;
         margin-left: -10px;
