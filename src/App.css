@@ -228,11 +228,13 @@
 .req-card {
     font-weight: bold;
     font-size: 30px;
-}
 
+}
+.recCard{
+    margin: 20px;
+}
 .req {
     margin-left: 90px;
-    /*margin-top: 50px;*/
 }
 
 
@@ -598,7 +600,9 @@
         display: block;
     }
 
-
+.schoolH1{
+    margin-left: 60px;
+}
 
 
 }
@@ -736,13 +740,26 @@
         color: black;
     }
 
-    .Link {
-        width: 620px;
-        margin-left: -165px;
+
+    .Links{
+        width: 200px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-    }
 
+    }
+    /*.img-div{*/
+    /*    height: 200px;*/
+    /*}*/
+    .Link{
+
+        width: 350px;
+        height: 400px;
+        margin: 20px;
+    }
+    .handle {
+margin-left: -40px;
+
+    }
     .search {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -773,10 +790,7 @@
         width: 200px;
     }
 
-    .handle {
 
-
-    }
 
 .imgBasket{
     display: none;
@@ -993,14 +1007,22 @@
 /*    height: 200px;*/
 /*}*/
     .Link{
- margin-left: 10px;
-        width: 350px;
+ margin: 20px;
+        width: 250px;
 height: 400px;
 
      }
 .ert{
-     margin-left: -180px;
-    margin-top: 220px;
+    position: absolute;
+     margin-left: -20px;
+    margin-top: 90px;
+}
+.ter{
+    width: 180px;
+}
+.handle{
+    margin-left: 20px;
+    width: 400px;
 }
 /*    .img-div {*/
 /*        width: 180px;*/
@@ -1154,7 +1176,7 @@ height: 400px;
     }
 
     .Links{
-        width: 200px;
+
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -1162,14 +1184,20 @@ height: 400px;
     /*    height: 200px;*/
     /*}*/
     .Link{
-        margin-left: 10px;
-        width: 300px;
-        height: 400px;
+
+         height: 400px;
 
     }
+    .ter{
+        width: 150px;
+    }
     .ert{
-        margin-left: -167px;
-        margin-top: 220px;
+        margin-left: -20px;
+        margin-top: 55px;
+    }
+    .handle{
+        width: 110px;
+        margin-left: 130px;
     }
 
     .search {
