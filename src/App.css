@@ -914,7 +914,11 @@ margin-left: -40px;
 
     .search {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns:  1fr;
+        align-items: center;
+        width: 300px;
+        margin-left: 70px;
+        justify-content: center;
     }
 
     .searchDiv {
