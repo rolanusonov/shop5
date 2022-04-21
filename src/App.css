@@ -312,7 +312,10 @@
 .menuBlock {
     display: none;
 }
-
+.carding{
+    width: 580px;
+    height: 250px;
+}
 @media (max-width: 1024px) {
     .container {
         width: 1024px;
@@ -824,7 +827,10 @@ margin-left: -40px;
         width: 380px;
         margin-left: 35px;
     }
-
+    .carding{
+        width: 400px;
+        height: 250px;
+    }
     .footer {
 
         width: 450px;
@@ -872,6 +878,7 @@ margin-left: -40px;
     }
 
     .req-card {
+        width:300px;
         margin-left: 20px;
     }
 

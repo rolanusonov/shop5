@@ -6,7 +6,7 @@ const Card = ({el}) => {
 
         <div className="  bg-gray-#FF005C rounded-xl  black_caard  mx-6 ml-16 dark:border-white-900">
             <Link to={`/categories/${el.id}`}>
-                <img className="p-2 img dark:bg-gray-500 z-1 " style={{width: "580px", height: " 252px"}} src={el.img}
+                <img className="p-2 img carding dark:bg-gray-500 z-1 " src={el.img}
                       alt="product image!!!"/>
 
                 <Link to="/" className="svg">
