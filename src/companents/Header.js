@@ -30,7 +30,7 @@ const Header = () => {
             <nav className=" px-2 header   py-2.5 rounded " >
 
                 <div className="  container flex flex-wrap justify-between items-center mx-auto" >
-                   <Link className="text-3xl my-10 header-log ml-16 "
+                   <Link to="/" className="text-3xl my-10 header-log ml-16 "
                    style={{
                        fontFamily: 'Inter',
                        fontWeight: "700",
@@ -38,7 +38,7 @@ const Header = () => {
                        lineHeight:" 24px",
                        color: "#FFFFFF",
                    }}
-                         to="/"
+
                    >MOTION SHOP</Link>
                <Link to="/">
 
@@ -111,12 +111,14 @@ const Header = () => {
                                 >Корзина</NavLink>
                             </li>
                         </ul>
-                         <BurgerMenu/>
+
 
                     </div>
                 </div>
 
             </nav>
+
+
         </div>
         </div>
     );

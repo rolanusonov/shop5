@@ -15,9 +15,9 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(
   <BrowserRouter>
       <Provider store={store}>
-          <StrictMode>
+
               <App />
-          </StrictMode>,
+
       </Provider>
  
   </BrowserRouter>,

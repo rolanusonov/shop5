@@ -20,14 +20,14 @@ function App() {
             <Header/>
             <Routes>
                 <Route path="/" element={<Catalog/>}/>
-                <Route path="about" element={<About/>}/>
-                <Route path="faq" element={<Faq/>}/>
-                <Route path="basket" element={<Basket/>}/>
+                <Route path="/about" element={<About/>}/>
+                <Route path="/faq" element={<Faq/>}/>
+                <Route path="/basket" element={<Basket/>}/>
                 <Route path="/details/:clothesId" element={<ClothesDetails/>}/>
-                <Route path="man" element={<Man/>}/>
+                <Route path="/man" element={<Man/>}/>
                 <Route path="/categories/:id" element={<Woman/>}/>
                 <Route path="/search-results/:name" element={<SearchResults/>}/>
-                <Route path="children" element={<Children/>}/>
+                <Route path="/children" element={<Children/>}/>
             </Routes>
             <Footer/>
         </>

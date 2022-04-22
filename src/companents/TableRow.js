@@ -26,7 +26,9 @@ const TableRow = ({el, idx}) => {
         </td>
         <td className="py-4 px-6 text-sm font-medium text-white whitespace-nowrap dark:text-white">
             <button
-                onClick={() => dispatch({type: "ADD_TO_BASKET", payload: el})}
+                onClick={() => {
+                    dispatch({type: "ADD_TO_BASKET", payload: el})
+                }}
                 className="text-white plus dark:text-white mx-4 text-2xl ">+
             </button>
             {el.quantity}

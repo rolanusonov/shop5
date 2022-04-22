@@ -11,7 +11,9 @@ const Basket = () => {
     const basket = useSelector(s => s.basket)
     const totalSum = basket.reduce((acc, el) => el.quantity * el.price + acc, 0)
 
-    const {register, handleSubmit, formState: {errors}} = useForm();
+    const {register, handleSubmit, formState: {errors}} = useForm({
+        preventDefault: true
+    });
     const onSubmit = data => {
         console.log(data)
         const dataBasket = {
@@ -38,7 +40,7 @@ const Basket = () => {
         <>
             <ToastContainer/>
             <div className="container md:container corzino py-5 px-10 div-favorite">
-                <form action="" >
+
                 {basket.length === 0 ?
                         <div className="flex p-4 basketLog  " id="alertId" role="alert" style={{
                             background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)",
@@ -136,6 +138,7 @@ const Basket = () => {
                                                             <input  style={{fontSize: "24px", color: "#bdc3c7"}}
                                                                 className=" inputBasket ml-3 text-xl font-medium text-black "
                                                                 type="text"
+                                                                    onChange={() => {}}
                                                                 value={totalSum}
                                                          />
                                                         </div>
@@ -153,7 +156,7 @@ const Basket = () => {
 
                             </div>
                        </div>
-                        }</form>
+                        }
                 <div>
                     <h1 className="text-center h1-basket my-7" style={{
                         fontFamily: 'Poppins',

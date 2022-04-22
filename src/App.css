@@ -632,9 +632,7 @@
 
     }
 
-    .schoolH1 {
-        margin-left: 60px;
-    }
+
 
 
 }
@@ -646,6 +644,10 @@
 
     .menuBlock {
         display: block;
+position: fixed;
+       height: 120px;
+
+
     }
 
     .menuBlock {
