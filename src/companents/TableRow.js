@@ -2,6 +2,7 @@ import React from 'react';
 import {useDispatch} from "react-redux";
 
 const TableRow = ({el, idx}) => {
+
     const dispatch = useDispatch()
     return (
 
@@ -24,6 +25,28 @@ const TableRow = ({el, idx}) => {
             {el.price * el.quantity}&nbsp;₺
 
         </td>
+
+
+
+        {/*<td className="py-4 px-6 text-sm font-medium text-white whitespace-nowrap dark:text-white">*/}
+
+        {/*    <button*/}
+        {/*        onClick={() => {*/}
+        {/*            dispatch({type: "ADD_TO_DESCRIPTION", payload  : el})*/}
+        {/*        }}*/}
+        {/*        className="text-white plus dark:text-white mx-4 text-2xl ">+*/}
+        {/*    </button>*/}
+        {/*        <h1>{el.quantity}</h1>*/}
+
+        {/*    <button*/}
+        {/*        onClick={() => dispatch({type: "REMOVE_DESCRIPTION", payload: idx})}*/}
+        {/*        className="text-white dark:text-white mx-4 text-2xl ">-*/}
+        {/*    </button>*/}
+        {/*</td>*/}
+
+
+
+
         <td className="py-4 px-6 text-sm font-medium text-white whitespace-nowrap dark:text-white">
             <button
                 onClick={() => {

@@ -26,7 +26,7 @@ function App() {
                 <Route path="/details/:clothesId" element={<ClothesDetails/>}/>
                 <Route path="/man" element={<Man/>}/>
                 <Route path="/categories/:id" element={<Woman/>}/>
-                <Route path="/search-results/:name" element={<SearchResults/>}/>
+                <Route path="/search-results/:search" element={<SearchResults/>}/>
                 <Route path="/children" element={<Children/>}/>
             </Routes>
             <Footer/>

@@ -54,6 +54,7 @@ const Header = () => {
                                            </svg>
                                        </div>
                                        <input
+
                                            style={{
                                                background:"rgb(193,40,95)",
                                                color:"white"
@@ -98,7 +99,7 @@ const Header = () => {
                                 style={{position: "relative"}}>
 
                                 {
-                                    basket.length === 0 ? null : <div className="circle">
+                                    basket.length === 0 ? null : <div className="circle ml-10" style={{background:"white",borderRadius:"50%"}}>
                                         {basket.length}
                                     </div>
                                 }

@@ -7,12 +7,14 @@ import api from "../http/api";
 
 const SearchResults = () => {
     const [result, setResult] = useState([])
-    const {name} = useParams()
+    const {search} = useParams()
+
     useEffect(() => {
-        api(`/prod-list?query=${name}`)
+        api(`/prod-list?name=${search}`)
             .then(({data}) => {
                 try {
                     setResult(data)
+                    console.log(setResult(data) , "SET")
                 } catch (error) {
                     console.log(error)
                 }

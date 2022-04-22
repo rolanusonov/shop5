@@ -18,8 +18,6 @@ export const reducer = (state = initialState, action) => {
         case GET_SHOP:
             return {...state, shopList: action.payload}
 
-        // case "UPLOAD_PRODUCT":
-        //     return {...state, : action.payload}
 
 
         case "ADD_TO_BASKET":
@@ -48,6 +46,36 @@ export const reducer = (state = initialState, action) => {
                     })
                 }
             }
+
+
+        case "ADD_TO_DESCRIPTION":
+            const description = state.basket.find(el => el.id === action.payload.id)
+
+            if (description) {
+                return {
+                    ...state, basket: state.basket.map(el => {
+                        if (el.id === action.payload.id) {
+                            return {...el, quantity: el.quantity + 1}
+                        }
+                        return el
+                    })
+                }
+            }
+
+            return {...state, basket: [...state.basket, {...action.payload, quantity: 1}]}
+        case "REMOVE_DESCRIPTION":
+            if (state.basket[action.payload].quantity > 1) {
+                return {
+                    ...state, basket: state.basket.map((el, idx) => {
+                        if (idx === action.payload) {
+                            return {...el, quantity: el.quantity - 1}
+                        }
+                        return el
+                    })
+                }
+            }
+
+
 
         case "REMOVE_BASKET":
             return {...state, basket: state.basket.filter(el => el.id !== action.payload)}

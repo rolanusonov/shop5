@@ -32,7 +32,7 @@ const ClothesDetails = ({el}) => {
                     <img className="ml-14 detail-img" src={img} alt=""  />
                 </div>
                 <div className="clothesdetails-div">
-                    <h1 className=" description ">{description}</h1>
+                    <h1 className=" description  ">{description}</h1>
                     <h1   className="text-base   mt-4 price ">{price} ₺</h1>
                     <p className="tab">Таблица размеров:</p>
                      <div className="flex items-center my-5 ">
