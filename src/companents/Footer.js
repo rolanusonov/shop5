@@ -161,7 +161,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div style={{}} className="mb-5 ml-6">
+                        <div style={{}} className="mb-5 footerMB ml-6">
                             <h1 style={{
                                 color: 'white',
                                 fontSize: '22px'

@@ -10,7 +10,7 @@ const ClothesCard = ({el}) => {
 <div className="Links">
 
 
-            <div className="   Link " style={{background: "#F2F2F2"}}>
+            <div className="   Link " style={{background: "#ffffff"}}>
                 <div  className=" ter  " to={``}>
 
                         <Link class=" " to={`/details/${el.id}`}>

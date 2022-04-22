@@ -40,7 +40,7 @@ const RecSlidersItem = ({id}) => {
         <div className="recCard">
 
 
-        <div className="basket-card     ">
+        <div className="basket-card      ">
             <Link className=""  to={`/details/${details.id}`}>
                 <div className="school">
                     <img className="imgSlider" src={details.img} alt=""/>

@@ -102,7 +102,7 @@ const Basket = () => {
                                                             </th>
 
                                                             <th scope="col"
-                                                                className="py-3 px-6 gels  text-xs remove font-medium tracking-wider text-left text-left text-white uppercase dark:text-white">
+                                                                className="py-3 px-6 gels  text-xs   font-medium tracking-wider text-left text-left text-white uppercase dark:text-white">
                                                                 Удалить
                                                             </th>
                                                         </tr>
@@ -165,7 +165,7 @@ const Basket = () => {
                     }}>Платёжные Реквизиты</h1>
                     <div className="w-96 ml-96 div-basket  ">
 
-                        <form className="accent-gray-500 shadow-md rounded px-8 pt-6 pb-8 mb-4  "
+                        <form className="accent-gray-500 shadow-md korzinos rounded px-8 pt-6 pb-8 mb-4  "
                               onSubmit={handleSubmit(onSubmit)}>
                             <div className="mb-4">
                                 <label className="block text-gray-700 text-sm font-bold mb-2 flex " htmlFor="username">

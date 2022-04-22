@@ -59,7 +59,7 @@ const Header = () => {
                                                color:"white"
                                            }}
                                            type="text" id="table-search"
-                                              className="   border-white-300 text-black-100 text-xl   w-full    rounded-xl focus:ring-blue-500 focus:border-blue-500 block   pl-10 p-2  dark:bg-white-700 dark:border-white-600 dark:placeholder:text-white-50 placeholder:outline-white-800 dark:text-black  "
+                                              className=" inputHed  border-white-300 text-black-100 text-xl   w-full    rounded-xl focus:ring-blue-500 focus:border-blue-500 block   pl-10 p-2  dark:bg-white-700 dark:border-white-600 dark:placeholder:text-white-50 placeholder:outline-white-800 dark:text-black  "
                                               placeholder="Я ищу в Motion-Shop. . .    "
                                               onChange={(e) => handleChange(e)}
                                               onKeyDown={(e) => keySearch(e)}

@@ -26,7 +26,10 @@ const SearchResults = () => {
     }
 
     return (
-        <div className="grid grid-cols-5 search flex items-center justify-center">
+        <div className=" ">
+
+
+        <div className="SEARCH  ">
             {
                 result.map(el => (
                     <div className=" searchDiv">
@@ -44,6 +47,7 @@ const SearchResults = () => {
                 ))
             }
 
+        </div>
         </div>
     );
 };

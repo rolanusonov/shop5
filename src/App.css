@@ -322,6 +322,11 @@
     width: 580px;
     height: 250px;
 }
+.SEARCH{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px;
+}
 
 @media (max-width: 1024px) {
     .container {
@@ -413,15 +418,20 @@
         width: 900px;
     }
 
-    .fagCard {
-    }
-
 }
 
 @media (max-width: 940px) {
     .container {
         width: 1024px;
 
+    }
+
+    .foter {
+        width: 900px;
+    }
+
+    .footerMB {
+        width: 250px;
     }
 
     .footerH1 {
@@ -454,7 +464,7 @@
     }
 
     .lorem_footer {
-        width: 300px;
+        width: 250px;
     }
 
     .sooda {
@@ -463,16 +473,13 @@
 
     .req {
         margin-left: -90px;
-        width: 940px;
+        width: 920px;
     }
 
     .recCard {
         margin-left: 20px;
     }
 
-    .rec-sliders {
-        margin-left: -90px;
-    }
 
     .handle {
         display: grid;
@@ -510,6 +517,7 @@
 
     .detail-p {
         width: 900px;
+        margin-left: 10px;
     }
 
     .fagCard {
@@ -551,8 +559,8 @@
     }
 
     .req {
-        width: 768px;
-        margin-left: -10px;
+        width: 740px;
+        margin-left: 1px;
         margin-top: 30px;
     }
 
@@ -578,6 +586,7 @@
 
     .corzino {
         margin-left: 10px;
+        width: 758px;
     }
 
     .h1-basket {
@@ -620,6 +629,7 @@
 
     .footerTwo {
         display: block;
+
     }
 
     .schoolH1 {
@@ -667,7 +677,12 @@
         width: 640px;
 
     }
-
+    .SEARCH{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        padding: 50px;
+        margin-left: -40px;
+    }
     .menuBlock {
         margin-left: 20px;
     }
@@ -736,7 +751,7 @@
     }
 
     .req {
-        width: 640px;
+        width: 610px;
         margin-left: 1px;
     }
 
@@ -775,9 +790,9 @@
     /*}*/
     .Link {
 
-        width: 350px;
+        width: 320px;
         height: 400px;
-        margin: 20px;
+        margin-left: 20px;
     }
 
     .handle {
@@ -801,6 +816,7 @@
     }
 
     .corzino {
+        width: 630px;
     }
 
     .basketLog {
@@ -836,7 +852,12 @@
         width: 450px;
 
     }
-
+    .SEARCH{
+        display: grid;
+        grid-template-columns:   1fr;
+        padding: 50px;
+      margin-left: 20px;
+    }
     .black_caard {
         width: 380px;
         margin-left: 35px;
@@ -947,10 +968,11 @@
     }
 
     .corzino {
+        width: 430px;
     }
 
     .basketGarbage {
-        margin-left: -98px;
+        margin-left: -83px;
         width: 450px;
 
     }
@@ -1042,7 +1064,7 @@
     /*}*/
     .Link {
         margin: 20px;
-        width: 250px;
+        width: 210px;
         height: 400px;
 
     }
@@ -1129,6 +1151,7 @@
     .basketLog {
         margin-top: 60px;
     }
+
     .header {
         width: 200px;
         display: flex;
@@ -1142,6 +1165,15 @@
     .container {
         width: 360px;
 
+    }
+    .SEARCH{
+        display: grid;
+        grid-template-columns:   1fr;
+        padding: 50px;
+        margin-left: -26px;
+    }
+    .inputHed {
+        margin-left: 56px;
     }
 
     .black_caard {
@@ -1228,34 +1260,29 @@
     }
 
     .Links {
-
+        width: 150px;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
-    /*.img-div{*/
-    /*    height: 200px;*/
-    /*}*/
     .Link {
-
+        width: 100px;
         height: 400px;
 
     }
 
+    .handle {
+        width: 360px;
+        margin-left: -20px;
+    }
+
     .ter {
-        width: 150px;
+        width: 140px;
     }
 
     .ert {
         margin-left: -20px;
         margin-top: 55px;
     }
-
-    .handle {
-        width: 110px;
-        margin-left: 130px;
-    }
-
     .search {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -1272,12 +1299,20 @@
     }
 
     .corzino {
+        width: 340px;
     }
-
+.korzinos{
+    width: 340px;
+}
     .basketGarbage {
-        margin-left: -98px;
-        width: 450px;
+        margin-left: -90px;
+        width: 360px;
 
+    }
+    .feel {
+
+        margin-left: -20px;
+        width: 360px;
     }
 
     .basketTR {
@@ -1311,6 +1346,7 @@
     }
 
     .div-basket {
+        width: 360px;
         margin-left: -60px;
     }
 
@@ -1366,11 +1402,6 @@
 
     .inputBasket {
         margin-left: 40px;
-    }
-
-    .clothesCard {
-
-
     }
 
     .img-div {
@@ -1433,14 +1464,6 @@
         margin-left: -16px;
     }
 
-    .remove {
-    }
-
-    .feel {
-
-        margin-left: -20px;
-        width: 350px;
-    }
 
     .basketFin2 {
 
@@ -1451,10 +1474,6 @@
         position: absolute;
     }
 
-    .gels {
-        position: absolute;
-        margin-left: 80px;
-    }
 
     .div-about {
         margin-left: -120px;
