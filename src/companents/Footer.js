@@ -180,7 +180,7 @@ const Footer = () => {
                     </div>
                 </nav>
             </div>
-            <div className=" menuBlock  relative fixed bottom-0 left-0 right-0 max-h-14 w-full md:block  md:w-auto" >
+            <div className=" menuBlock  relative fixed bottom-1 left-0 right-0 max-h-14 w-full md:block  md:w-auto" >
 
 
                 <ul className="flex items-center justify-center menuUL   ">
@@ -216,7 +216,7 @@ const Footer = () => {
 
 
                         <NavLink to="/about"
-                                 className="block menuBlocks books   rounded-lg py-1   text-xs pl-7 my-1 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                                 className="block menuBlocks books aboutUS  rounded-lg py-1   text-xs pl-7 my-1 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
                         >O нас</NavLink>
                     </li>
                     <li

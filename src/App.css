@@ -10,7 +10,9 @@
     font-size: 24px;
 
 }
-
+.aformit{
+    margin-left: -31px;
+}
 .inputBasket {
     border: none;
     background: transparent;
@@ -1070,7 +1072,7 @@ width: 15px;
     }
 
     .carding {
-        width: 400px;
+        width: 362px;
         height: 250px;
     }
 
@@ -1174,15 +1176,16 @@ width: 15px;
     }
 
     .corzino {
-        width: 430px;
+        width: 420px;
     }
 
     .basketGarbage {
-        margin-left: -83px;
+        margin-left: -116px;
         width: 450px;
-
     }
-
+    .pLiver {
+        margin-left: 20px;
+    }
     .basketTR {
         width: 440px;
     }
@@ -1214,7 +1217,7 @@ width: 15px;
     }
 
     .div-basket {
-        margin-left: 1px;
+        margin-left: -33px;
     }
 
     .imgWomen {
@@ -1241,7 +1244,7 @@ width: 15px;
 
     .input {
         width: 400px;
-        margin-left: -60px;
+        margin-left: -49px;
         margin-top: 2px;
     }
 
@@ -1252,11 +1255,6 @@ width: 15px;
 
     .birka {
         margin-left: 110px;
-    }
-
-    .clothesCard {
-
-
     }
 
     .Links {
@@ -1282,14 +1280,18 @@ width: 15px;
     }
 
     .ter {
-        width: 180px;
+        width: 293px;
     }
 
     .handle {
         margin-left: 20px;
         width: 400px;
     }
+.detailBTN{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
+}
     /*    .img-div {*/
     /*        width: 180px;*/
     /*    }*/
@@ -1327,25 +1329,14 @@ width: 15px;
         width: 380px;
     }
 
-    /*.school{*/
-    /*    width: 150px;*/
-    /*     height: 150px;*/
-    /*}*/
     .schoolH1 {
         margin-left: 100px;
     }
-
-    /*.recBtn{*/
-    /*     width: 150px;*/
-    /*}*/
-    /* .imgSlider{*/
-    /*      height: 150px;*/
-    /* }*/
-    .basket-card {
-        height: 400px;
-        margin-left: -10px;
+    .basket-card img {
+        width: 262px;
+        height: 317px;
+        margin-left: -5px;
     }
-
     .faqCard {
         margin-top: 90px;
     }
@@ -1364,6 +1355,18 @@ width: 15px;
         align-items: center;
         justify-content: space-evenly;
         margin-left: 70px;
+    }
+    .aformit{
+        margin-left: -29px;
+    }
+.menuUL {
+    width: 450px;
+}
+.aboutUS{
+    width: 60px;
+}
+    .basketLog {
+        width: 317px;
     }
 }
 @media (max-width: 414px) {

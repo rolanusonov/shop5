@@ -35,7 +35,7 @@ const ClothesDetails = ({el}) => {
                     <h1 className=" description  ">{description}</h1>
                     <h1   className="text-base   mt-4 price ">{price} ₺</h1>
                     <p className="tab">Таблица размеров:</p>
-                     <div className="flex items-center my-5 ">
+                     <div className="flex items-center my-5 detailBTN ">
                         {
                             details?.prod_detail?.map(el => (
                                 <DetailPage el={el}/>

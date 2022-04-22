@@ -57,7 +57,7 @@ const Basket = () => {
                             </div>
                         </div> :
                         <div>
-                            <h1 className="my-9 text-center  text-4xl"
+                            <h1 className="my-9 text-center  aformit text-4xl"
                                 style={{
                                     fontFamily: 'Poppins',
                                     color: "#FF005C",
