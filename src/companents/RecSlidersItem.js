@@ -54,9 +54,9 @@ const RecSlidersItem = ({id}) => {
                 </div>
             </Link>
 
-            <button onClick={() => addToBasket(details)} className="develop recBtn">
+            <button onClick={() => addToBasket(details)} className="develop recBtn ">
                 {
-                    loading ? <div className="loader">
+                    loading ? <div className="loader ">
                     </div> : "корзину"
                 }
             </button>

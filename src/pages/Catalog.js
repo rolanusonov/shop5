@@ -19,7 +19,7 @@ const Catalog = () => {
     return (
         <div className="container mx-auto" >
 
-            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4   pt-[100px]   "  >
+            <div className="grid catalogSET sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4   pt-[100px]   "  >
 
                 {
                     catalog.map(el => (

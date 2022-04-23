@@ -7,8 +7,8 @@ const Footer = () => {
 
     return (
         <div className="Hooter">
-            <div className=" container footerTwo">
-                <Link  className="  flex items-center justify-center footerBig"
+            <div className=" container footerTwo ">
+                <Link  className="  flex items-center justify-center footerBig "
                     style={{fontSize: "40px", lineHeight: "48px", fontWeight: "700",
                         color: "white",
 
@@ -52,7 +52,7 @@ const Footer = () => {
                     fontWeight: "400px",
                     color: "rgba(255, 255, 255, 0.6)"
                 }}>Все товары привозные из Турции. Гарантия / Качество / </p>
-                <p className="flex items-center justify-center " style={{
+                <p className="flex items-center justify-center footerMIG " style={{
                     fontSize: "15px",
                     lineHeight: "15px",
                     fontWeight: "400px",

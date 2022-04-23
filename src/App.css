@@ -263,6 +263,8 @@
     line-height: 27px;
     text-align: start;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
 }
 
 .loader {
@@ -273,6 +275,7 @@
     height: 30px;
     border-radius: 50%;
     border-top-color: white;
+
 }
 
 @keyframes an1 {
@@ -326,8 +329,7 @@
     padding: 4px;
     margin-left: 33px;
 }
-.liver{
- }
+
 .menuUL{
 margin-top: -30px;
 }
@@ -654,7 +656,8 @@ width: 15px;
 
     }
 
-
+.basket-card{
+ }
 
 
 }
@@ -763,10 +766,6 @@ width: 15px;
         margin-left: 30px;
     }
 
-
-    .req-card {
-    }
-
     .req {
         width: 610px;
         margin-left: 1px;
@@ -802,9 +801,6 @@ width: 15px;
 
     }
 
-    /*.img-div{*/
-    /*    height: 200px;*/
-    /*}*/
     .Link {
 
         width: 320px;
@@ -814,7 +810,6 @@ width: 15px;
 
     .handle {
         margin-left: -40px;
-
     }
 
     .search {
@@ -854,7 +849,7 @@ width: 15px;
     }
 
     .basketGarbage {
-        margin-left: -80px;
+        margin-left: -56px;
     }
 
 
@@ -868,6 +863,9 @@ width: 15px;
         width: 576px;
 
     }
+    .footerTwo{
+        margin-left: 110px;
+    }
     .SEARCH{
         display: grid;
         grid-template-columns:  1fr 1fr;
@@ -876,7 +874,7 @@ width: 15px;
     }
    .carding{
        width: 500px;
-       margin-left: 10px;
+       margin-left: -67px;
    }
 
     .detail-img {
@@ -888,14 +886,11 @@ width: 15px;
     }
 
     .input {
-        width: 350px;
-        position: absolute;
-        margin-left: -350px;
-        margin-top: -40px;
+        margin-left: -276px;
     }
 
     .header-log {
-        margin-left: -23px;
+        margin-left: -89px;
     }
 
     .Hidden {
@@ -912,7 +907,7 @@ width: 15px;
     }
 
     .birka {
-        margin-left: 174px;
+        margin-left: 67px;
     }
 
     .motion-footer {
@@ -944,9 +939,11 @@ width: 15px;
     }
     .req {
         width: 550px;
-        margin-left: 1px;
+        margin-left: -122px;
     }
-
+    .req-card {
+        margin-left: -59px;
+    }
     .school {
         width: 200px;
         margin-left: 60px;
@@ -990,7 +987,8 @@ width: 15px;
         display: grid;
         grid-template-columns:   1fr;
     }
-.ert{
+
+    .ert{
     margin-left: -21px;
     width: 290px;
 
@@ -1015,7 +1013,8 @@ width: 15px;
         margin-left: 28px;
     }
     .basketLog {
-        margin-left: 1px;
+        width: 500px;
+        margin-left: -26px;
     }
 
     .div-basket {
@@ -1032,9 +1031,14 @@ width: 15px;
     }
 
     .basketGarbage {
-        margin-left: -80px;
+        margin-left: -56px;
+        width: 500px;
     }
 
+    .p-about{
+    width: 400px;
+
+    }
 
     .Icon {
         margin-left: 10px;
@@ -1052,7 +1056,11 @@ width: 15px;
         margin-left: 124px;
     }
     .h1-basket {
-        margin-left: -76px;
+        margin-left: 21px;
+    }
+    .aformit {
+        width: 500px;
+        margin-left: -31px;
     }
 
 }
@@ -1062,6 +1070,9 @@ width: 15px;
         width: 450px;
 
     }
+    .footerTwo{
+        margin-left: 49px;
+    }
     .SEARCH{
         display: grid;
         grid-template-columns:   1fr;
@@ -1069,13 +1080,14 @@ width: 15px;
       margin-left: 20px;
     }
     .black_caard {
-        width: 380px;
+        width: 362px;
         margin-left: 35px;
     }
 
     .carding {
         width: 362px;
         height: 250px;
+        margin-left: -34px;
     }
 
     .footer {
@@ -1137,7 +1149,7 @@ width: 15px;
 
     .req {
         width: 400px;
-        margin-left: 1px;
+        margin-left: -58px;
     }
 
     .school {
@@ -1256,7 +1268,7 @@ width: 15px;
     }
 
     .birka {
-        margin-left: 110px;
+        margin-left: 67px;
     }
 
     .Links {
@@ -1265,9 +1277,6 @@ width: 15px;
         grid-template-columns: 1fr 1fr;
     }
 
-    /*.img-div{*/
-    /*    height: 200px;*/
-    /*}*/
     .Link {
         margin: 20px;
         width: 210px;
@@ -1294,9 +1303,7 @@ width: 15px;
     grid-template-columns: 1fr 1fr;
 
 }
-    /*    .img-div {*/
-    /*        width: 180px;*/
-    /*    }*/
+
     .detail-img {
         width: 200px;
         height: 300px;
@@ -1370,6 +1377,13 @@ width: 15px;
     .basketLog {
         width: 317px;
     }
+    .aformit {
+        width: 400px;
+        margin-left: -54px;
+    }
+    .p-about {
+        margin-left: 16px;
+    }
 }
 @media (max-width: 414px) {
     .container {
@@ -1383,14 +1397,14 @@ width: 15px;
         margin-left: 20px;
     }
     .black_caard {
-        width: 380px;
+        width: 350px;
         margin-left: 35px;
     }
 
     .carding {
         width: 350px;
         height: 200px;
-        margin-left: -2px;
+        margin-left: -30px;
     }
 
     .footer {
@@ -1446,12 +1460,12 @@ width: 15px;
 
     .recCard {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-
+        grid-template-columns:   1fr;
+        margin-left: -5px;
     }
 
     .req {
-        width: 400px;
+        width: 370px;
         margin-left: -18px;
     }
 
@@ -1570,7 +1584,7 @@ width: 15px;
     }
 
     .birka {
-        margin-left: 92px;
+        margin-left: 68px;
     }
 
     .Links {
@@ -1684,7 +1698,13 @@ width: 15px;
         margin-left: 17px;
     }
     .aformit {
-        margin-left: -36px;
+        margin-left: -55px;
+    }
+    .catalogSET{
+        width: 20px;
+    }
+    .footerTwo {
+        margin-left: 31px;
     }
 }
 
@@ -1692,6 +1712,13 @@ width: 15px;
     .container {
         width: 360px;
 
+    }
+    .carding {
+        width: 323px;
+        margin-left: 8px;
+    }
+    .footerTwo {
+        margin-left: 3px;
     }
     .SEARCH{
         display: grid;
@@ -1760,13 +1787,13 @@ width: 15px;
 
     .recCard {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns:   1fr;
 
     }
 
     .req {
-        width: 350px;
-        margin-left: -60px;
+        width: 330px;
+        margin-left: -1px;
     }
 
     .school {
@@ -2037,6 +2064,20 @@ width: 15px;
 
     .selectOL{
         width: 275px;
+    }
+    .aformit {
+        margin-left: -70px;
+        width: 360px;
+    }
+    .p-about {
+        width: 320px;
+    }
+    .liver {
+        margin-left: 30px;
+    }
+    .menuUL {
+
+        margin-left: -15px;
     }
 }
 
