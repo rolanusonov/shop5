@@ -224,7 +224,9 @@ const Basket = () => {
                                     </svg>
                                 </div>
                             </div>
-                            <button type="submit" className="w-80 h-12 mt-9 text-white text-xl gl:w-64  flex justify-center"
+                            <button type="submit" className="w-80 h-12 mt-9 text-white text-xl gl:w-64  flex items-center justify-center"
+                                onClick={onSubmit}
+
                                     style={{
                                         background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)",
                                         borderRadius: "5px"
