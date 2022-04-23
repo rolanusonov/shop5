@@ -198,7 +198,7 @@ const Basket = () => {
                                 </label>
                                 <select
                                     {...register("region", {required: true})}
-                                    className="block  appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow
+                                    className="block    appearance-none w-64 bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow
                                 leading-tight focus:outline-none focus:shadow-outline text-xl" style={{
                                     fontFamily: 'Poppins',
                                     fontWeight: "400",
@@ -215,16 +215,16 @@ const Basket = () => {
                                     <option className="w-72" value="7">Ысык-кол</option>
                                 </select>
                                 <div
-                                    className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 mt-6 "
+                                    className="pointer-events-none absolute   inset-y-0 right-0 flex items-center px-3 mt-6 "
                                     style={{color: "#FF005C"}}>
-                                    <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg"
+                                    <svg className="fill-current h-4 w-4  BTNLG " xmlns="http://www.w3.org/2000/svg"
                                          viewBox="0 0 20 20">
                                         <path
                                             d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
                                     </svg>
                                 </div>
                             </div>
-                            <button type="submit" className="w-80 h-12 mt-9 text-white text-xl"
+                            <button type="submit" className="w-80 h-12 mt-9 text-white text-xl gl:w-64  flex justify-center"
                                     style={{
                                         background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)",
                                         borderRadius: "5px"
