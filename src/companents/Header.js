@@ -27,9 +27,9 @@ const Header = () => {
 
 
         <div className="container " >
-            <nav className=" px-2 header   py-2.5 rounded " >
+            <nav className="  headerMENU   py-2.5   " >
 
-                <div className="  container flex flex-wrap justify-between items-center mx-auto" >
+                <div className="   header   " >
                    <Link to="/" className="text-3xl my-10 header-log ml-16 "
                    style={{
                        fontFamily: 'Inter',
@@ -75,7 +75,7 @@ const Header = () => {
 
                </Link>
                     <div className=" Hidden  w-full md:block  md:w-auto" id="mobile-menu">
-                        <ul className="flex   flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                        <ul className="flex   flex-col mt-4 md:flex-row md:space-x-8  ">
 
                             <li>
                                 <svg width="25" height="27" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">

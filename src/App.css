@@ -1,20 +1,36 @@
+.container{
+    width: 1440px;
+}
+
+
 .MOBILE-MENU {
     display: none;
 }
-
 .Header {
     background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%);
 }
-.BTNLG{
+.header{
+
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    margin-left: 140px;
+}
+
+.BTNLG {
     margin-left: -78px;
 }
+
 .price {
     font-size: 24px;
 
 }
-.aformit{
-    margin-left: -31px;
+
+.aformit {
+   display: flex;
+    justify-content: center;
 }
+
 .inputBasket {
     border: none;
     background: transparent;
@@ -68,6 +84,7 @@
 
     background: linear-gradient(360deg, rgba(255, 0, 92, 0.59) 0%, rgba(0, 0, 0, 0) 100%);
     border-radius: 10px;
+    z-index: auto;
 }
 
 .sooda {
@@ -239,15 +256,11 @@
 .req-card {
     font-weight: bold;
     font-size: 30px;
-
+ margin: 20px;
 }
 
 .recCard {
     margin: 20px;
-}
-
-.req {
-    margin-left: 90px;
 }
 
 
@@ -325,1754 +338,1879 @@
     display: none;
 
 }
-.livers{
+
+.livers {
     padding: 4px;
     margin-left: 33px;
 }
 
-.menuUL{
-margin-top: -30px;
+.menuUL {
+    margin-top: -30px;
 }
-.circle{
+
+.circle {
     background: white;
     border-radius: 50%;
-width: 15px;
+    width: 15px;
     height: 15px;
 }
-.pLiver{
+
+.pLiver {
     margin-left: -7px;
 }
+
 .carding {
     width: 580px;
     height: 250px;
+
 }
-.SEARCH{
+
+.SEARCH {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 50px;
 }
-
-@media (max-width: 1024px) {
-    .container {
-        width: 1024px;
-
-    }
-
-    .input {
-        width: 400px;
-
-    }
-
-    .footerH1 {
-        margin-left: 60px;
-    }
-
-    .header {
-
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .footer {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        margin-left: 20px;
-    }
-
-    .lorem_footer {
-        width: 300px;
-    }
-
-    .sooda {
-        margin-left: 10px;
-    }
-
-    .black_card {
-        width: 400px;
-        margin-left: 60px;
-    }
-
-    .req-card {
-        margin-left: 120px;
-    }
-
-    .req {
-        width: 1000px;
-        margin-left: 10px;
-        margin-top: 30px;
-    }
-
-    .handle {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin-left: 30px;
-    }
-
-    .div-favorite {
-        margin-left: -20px;
-    }
-
-    .App {
-        margin-left: 190px;
-    }
-
-    .corzino {
-        margin-left: 10px;
-    }
-
-    .h1-basket {
-        margin-left: 10px;
-    }
-
-    .div-basket {
-        margin-left: 320px;
-    }
-
-    .clothesdetails-div {
-        margin-left: 190px;
-    }
-
-    .tab {
-        margin-top: 120px;
-    }
-
-    .detail-p {
-        width: 900px;
-    }
-
+.corzino{
+    margin-left: 249px;
 }
-@media (max-width: 940px) {
-    .container {
-        width: 940px;
-
-    }
-
-    .foter {
-        width: 900px;
-    }
-
-    .footerMB {
-        width: 250px;
-    }
-
-    .footerH1 {
-        margin-left: 10px;
-    }
-
-    .input {
-        width: 300px;
-        margin-left: -10px;
-    }
-
-    .Hidden {
-
-    }
-
-    .shotin {
-
-    }
-
-    .header {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .footer {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .lorem_footer {
-        width: 250px;
-    }
-
-    .sooda {
-        margin-left: 10px;
-    }
-
-    .req {
-        margin-left: -90px;
-        width: 920px;
-    }
-
-    .recCard {
-        margin-left: 20px;
-    }
-
-
-    .handle {
-        display: grid;
-        grid-template-columns: 1fr  1fr;
-        margin-left: 30px;
-    }
-
-    .div-favorite {
-        margin-left: -20px;
-    }
-
-    .App {
-        margin-left: 190px;
-    }
-
-    .corzino {
-        margin-left: 10px;
-    }
-
-    .h1-basket {
-        margin-left: 10px;
-    }
-
-    .div-basket {
-        margin-left: 200px;
-    }
-
-    .clothesdetails-div {
-        margin-left: 190px;
-    }
-
-    .tab {
-        margin-top: 120px;
-    }
-
-    .detail-p {
-        width: 900px;
-        margin-left: 10px;
-    }
-
-    .fagCard {
-    }
-
+.div-basket{
+margin-left: 330px;
 }
-@media (max-width: 768px) {
-    .container {
+.Hidden{
+    margin: 20px;
+}
+
+@media(max-width: 1024px){
+    .container{
         width: 1024px;
-
     }
-
-    .input {
-        width: 300px;
-
-    }
-
-    .header {
-
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
+ .header{
 
 
-    .sooda {
-        margin-left: 10px;
-    }
-
-    .black_card {
-        width: 400px;
-        margin-left: 60px;
-    }
-
-    .req-card {
-        margin-left: 120px;
-    }
-
-    .req {
-        width: 740px;
-        margin-left: 1px;
-        margin-top: 30px;
-    }
-
-    .birka {
-        margin-left: 270px;
-    }
-
-    .handle {
-
-        display: grid;
-        grid-template-columns: 1fr  1fr;
-
-    }
-
-
-    .div-favorite {
-        margin-left: -20px;
-    }
-
-    .App {
-        margin-left: 190px;
-    }
-
-    .corzino {
-        margin-left: 10px;
-        width: 758px;
-    }
-
-    .h1-basket {
-        margin-left: 10px;
-    }
-
-    .div-basket {
-        margin-left: 190px;
-    }
-
-    .clothesdetails-div {
-        margin-left: 190px;
-    }
-
-    .detail-img {
-        width: 300px;
-        height: 400px;
-    }
-
-    .clothesdetails-div {
-        margin-left: 30px;
-    }
-
-    .detail-p {
-        width: 700px;
-    }
-
-
-    .tab {
-        margin-top: 120px;
-    }
-
-
-    .fagCard {
-    }
-
-    .footerOne {
-        display: none;
-    }
-
-    .footerTwo {
-        display: block;
-
-    }
-
-.basket-card{
  }
 
 
-}
-@media (max-width: 767px) {
-    .Hidden {
-        display: none;
-    }
-
-    .menuBlock {
-        display: block;
-        background: #FF005C;
-        width: 600px;
-        margin-left: 30px;
-        border-radius: 10px;
-        margin-top: 30px;
-        position: fixed;
-        height: 120px;
-    }
-
-    .menuUL {
-
-    }
-
-    .liver {
-        width: 90px;
-        margin: 30px;
-    }
-
-    .livers {
-     }
 
 }
-@media (max-width: 640px) {
-    .container {
-        width: 640px;
-
-    }
-    .SEARCH{
-        display: grid;
-        grid-template-columns:  1fr 1fr;
-        padding: 50px;
-        margin-left: -40px;
-    }
-    .menuBlock {
-        margin-left: 20px;
-    }
-
-    .detail-img {
-        margin-left: -30px;
-    }
-
-    .detail-p {
-        width: 500px;
-    }
-
-    .input {
-        width: 350px;
-        position: absolute;
-        margin-left: -300px;
-        margin-top: -40px;
-    }
-
-    .header-log {
-        margin-left: -23px;
-    }
-
-    .Hidden {
-        display: none;
-    }
-
-    .header {
-
-        width: 500px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-left: 70px;
-    }
-
-    .birka {
-        margin-left: 209px;
-    }
-
-    .motion-footer {
-        margin-left: 390px;
-    }
-
-    .h1-footer {
-        margin-left: 70px;
-    }
-
-    .lorem_footer {
-        width: 90px;
-        height: 100px;
-        margin-left: 50px;
-    }
-
-    .sooda {
-
-        margin-top: -90px;
-    }
-
-    .black_caard {
-        margin-left: 30px;
-    }
-
-    .req {
-        width: 610px;
-        margin-left: 1px;
-    }
-
-    .school {
-        width: 200px;
-        margin-left: 60px;
-    }
-
-    .develop {
-        width: 200px;
-        margin-left: 60px;
-    }
-
-    .MOBILE-MENU {
-        display: block;
-        margin-left: -300px;
-        margin-top: 90px;
-
-    }
-
-    .shotin {
-        display: block;
-        color: black;
-    }
-
 
-    .Links {
-        width: 200px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-
-    }
-
-    .Link {
-
-        width: 320px;
-        height: 400px;
-        margin-left: 20px;
-    }
-
-    .handle {
-        margin-left: -40px;
-    }
-
-    .search {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .searchDiv {
-        width: 250px;
-        margin-top: 90px;
-        margin-left: 40px;
-    }
-
-    .searchBtn {
-        margin-left: 1px;
-    }
-
-    .corzino {
-        width: 630px;
-    }
-
-    .basketLog {
-        margin-left: 1px;
-    }
-
-    .div-basket {
-        margin-left: 120px;
-    }
-
-    .imgWomen {
-        width: 200px;
-    }
-
-
-    .imgBasket {
-        display: none;
-    }
-
-    .basketGarbage {
-        margin-left: -56px;
-    }
-
-
-    .Icon {
-        margin-left: 10px;
-    }
-}
-@media (max-width: 576px) {
-    .container {
-        width: 576px;
-
-    }
-    .footerTwo{
-        margin-left: 110px;
-    }
-    .SEARCH{
-        display: grid;
-        grid-template-columns:  1fr 1fr;
-        padding: 50px;
-        margin-left: -40px;
-    }
-   .carding{
-       width: 500px;
-       margin-left: -67px;
-   }
-
-    .detail-img {
-        margin-left: -30px;
-    }
-
-    .detail-p {
-        width: 500px;
-    }
-
-    .input {
-        margin-left: -276px;
-    }
-
-    .header-log {
-        margin-left: -89px;
-    }
-
-    .Hidden {
-        display: none;
-    }
-
-    .header {
-
-        width: 500px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-left: 70px;
-    }
-
-    .birka {
-        margin-left: 67px;
-    }
-
-    .motion-footer {
-        margin-left: 390px;
-    }
-
-    .h1-footer {
-        margin-left: 70px;
-    }
-
-    .lorem_footer {
-        width: 90px;
-        height: 100px;
-        margin-left: 50px;
-    }
-
-    .sooda {
-
-        margin-top: -90px;
-    }
-
-    .black_caard {
-        margin-left: 30px;
-    }
-    .basket-card img {
-        width: 312px;
-        height: 317px;
-        margin-left: 65px;
-    }
-    .req {
-        width: 550px;
-        margin-left: -122px;
-    }
-    .req-card {
-        margin-left: -59px;
-    }
-    .school {
-        width: 200px;
-        margin-left: 60px;
-    }
-
-    .develop {
-        width: 316px;
-        margin-left: 123px;
-        display: flex;
-        justify-content: center;
-    }
-    .MOBILE-MENU {
-        display: block;
-        margin-left: -300px;
-        margin-top: 90px;
-
-    }
-
-    .shotin {
-        display: block;
-        color: black;
-    }
-
-
-    .Links {
-        width: 200px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-
-    }
-
-    .Link {
-
-        width: 320px;
-        height: 400px;
-        margin-left: 20px;
-    }
-
-    .handle {
-        margin-left: 80px;
-        display: grid;
-        grid-template-columns:   1fr;
-    }
-
-    .ert{
-    margin-left: -21px;
-    width: 290px;
-
-}
-    .search {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .searchDiv {
-        width: 250px;
-        margin-top: 90px;
-        margin-left: 40px;
-    }
-
-    .searchBtn {
-        margin-left: 1px;
-    }
-
-    .corzino {
-        width: 521px;
-        margin-left: 28px;
-    }
-    .basketLog {
-        width: 500px;
-        margin-left: -26px;
-    }
-
-    .div-basket {
-        margin-left: 19px;
-    }
-
-    .imgWomen {
-        width: 200px;
-    }
-
-
-    .imgBasket {
-        display: none;
-    }
-
-    .basketGarbage {
-        margin-left: -56px;
-        width: 500px;
-    }
-
-    .p-about{
-    width: 400px;
-
-    }
-
-    .Icon {
-        margin-left: 10px;
-    }
-    .menuBlock{
-        width: 576px;
-        margin-left: 1px;
-    }
-    .menuUL{
-        width: 576px;
-
-    }
-    .schoolH1{
-        width: 200px;
-        margin-left: 124px;
-    }
-    .h1-basket {
-        margin-left: 21px;
-    }
-    .aformit {
-        width: 500px;
-        margin-left: -31px;
-    }
-
-}
-@media (max-width: 450px) {
-    .container {
-        width: 450px;
-
-    }
-    .footerTwo{
-        margin-left: 49px;
-    }
-    .SEARCH{
-        display: grid;
-        grid-template-columns:   1fr;
-        padding: 50px;
-      margin-left: 20px;
-    }
-    .black_caard {
-        width: 362px;
-        margin-left: 35px;
-    }
-
-    .carding {
-        width: 362px;
-        height: 250px;
-        margin-left: -34px;
-    }
-
-    .footer {
-
-        width: 450px;
-        display: flex;
-        align-items: center;
-    }
-
-    .motion-footer {
-        margin-left: 390px;
-    }
-
-    .h1-footer {
-        margin-left: 70px;
-    }
-
-    .lorem_footer {
-        width: 90px;
-        height: 100px;
-        margin-left: 50px;
-    }
-
-    .footerP {
-        margin-left: 110px;
-
-    }
-
-    .sooda {
-
-        margin-top: -90px;
-    }
-
-    .black_card {
-        width: 300px;
-        margin-left: -60px;
-
-    }
-
-    .recLogo {
-        margin-left: 20px;
-    }
-
-    .recBtn {
-        width: 250px;
-        margin-left: 90px;
-    }
-
-    .req-card {
-        width: 300px;
-        margin-left: 20px;
-    }
-
-    .recCard {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-
-    }
-
-    .req {
-        width: 400px;
-        margin-left: -58px;
-    }
-
-    .school {
-        width: 250px;
-        margin-left: 90px;
-    }
-
-    .MOBILE-MENU {
-        display: block;
-        margin-left: -300px;
-        margin-top: 90px;
-
-    }
-
-    .shotin {
-        display: block;
-        color: black;
-    }
-
-
-    .search {
-        display: grid;
-        grid-template-columns:  1fr;
-        align-items: center;
-        width: 300px;
-        margin-left: 70px;
-        justify-content: center;
-    }
-
-    .searchDiv {
-        width: 250px;
-        margin-top: 90px;
-        margin-left: 40px;
-    }
-
-    .searchBtn {
-        margin-left: 1px;
-    }
-
-    .corzino {
-        width: 420px;
-    }
-
-    .basketGarbage {
-        margin-left: -116px;
-        width: 450px;
-    }
-    .pLiver {
-        margin-left: 20px;
-    }
-    .basketTR {
-        width: 440px;
-    }
-
-    .table {
-        width: 440px;
-    }
-
-    .tableDiv {
-        width: 440px;
-    }
-
-    .tableName {
-        font-size: 13px;
-        margin-left: -20px;
-    }
-
-    .tableImg {
-        width: 50px;
-        margin-left: -40px;
-    }
-
-    .basketWERE {
-        width: 440px;
-    }
-
-    .basketLog {
-        margin-left: 1px;
-    }
-
-    .div-basket {
-        margin-left: -33px;
-    }
-
-    .imgWomen {
-        width: 200px;
-    }
-
-    .footerTwo {
-        display: block;
-    }
-
-    .footerOne {
-        display: none;
-    }
-
-
-    .header-log {
-        display: none;
-
-    }
-
-    .Header {
-        background: white;
-    }
-
-    .input {
-        width: 400px;
-        margin-left: -49px;
-        margin-top: 2px;
-    }
-
-    .menuBlock {
-        width: 449px;
-        margin-left: 1px;
-    }
-
-    .birka {
-        margin-left: 67px;
-    }
-
-    .Links {
-        width: 200px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .Link {
-        margin: 20px;
-        width: 210px;
-        height: 400px;
-
-    }
-
-    .ert {
-        position: absolute;
-        margin-left: -20px;
-        margin-top: 90px;
-    }
-
-    .ter {
-        width: 293px;
-    }
-
-    .handle {
-        margin-left: 20px;
-        width: 400px;
-    }
-.detailBTN{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-}
-
-    .detail-img {
-        width: 200px;
-        height: 300px;
-    }
-
-    .detail-btn {
-        margin-top: -20px;
-    }
-
-    .description {
-        font-size: 20px;
-    }
-
-    .price {
-        font-size: 20px;
-        margin-top: -20px;
-    }
-
-    .tab {
-        margin-top: -10px;
-    }
-
-    .clothesdetails-div {
-        margin-left: 20px;
-    }
-
-    .btn1 {
-        width: 165px;
-    }
-
-    .detail-p {
-        width: 380px;
-    }
-
-    .schoolH1 {
-        margin-left: 100px;
-    }
-    .basket-card img {
-        width: 262px;
-        height: 317px;
-        margin-left: -5px;
-    }
-    .faqCard {
-        margin-top: 90px;
-    }
-
-    .div-about {
-        margin-left: -20px;
-    }
-
-    .basketLog {
-        margin-top: 60px;
-    }
-
-    .header {
-        width: 200px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-left: 70px;
-    }
-    .aformit{
-        margin-left: -29px;
-    }
-.menuUL {
-    width: 450px;
-}
-.aboutUS{
-    width: 60px;
-}
-    .basketLog {
-        width: 317px;
-    }
-    .aformit {
-        width: 400px;
-        margin-left: -54px;
-    }
-    .p-about {
-        margin-left: 16px;
-    }
-}
-@media (max-width: 414px) {
-    .container {
-        width: 414px;
-
-    }
-    .SEARCH{
-        display: grid;
-        grid-template-columns:   1fr;
-        padding: 50px;
-        margin-left: 20px;
-    }
-    .black_caard {
-        width: 350px;
-        margin-left: 35px;
-    }
-
-    .carding {
-        width: 350px;
-        height: 200px;
-        margin-left: -30px;
-    }
-
-    .footer {
-
-        width: 450px;
-        display: flex;
-        align-items: center;
-    }
-
-    .motion-footer {
-        margin-left: 390px;
-    }
-
-    .h1-footer {
-        margin-left: 70px;
-    }
-
-    .lorem_footer {
-        width: 90px;
-        height: 100px;
-        margin-left: 50px;
-    }
-
-    .footerP {
-        margin-left: 110px;
-
-    }
-
-    .sooda {
-
-        margin-top: -90px;
-    }
-
-    .black_card {
-        width: 300px;
-        margin-left: -60px;
-
-    }
-
-    .recLogo {
-        margin-left: 20px;
-    }
-
-    .recBtn {
-        width: 250px;
-        margin-left: 90px;
-    }
-
-    .req-card {
-        width: 300px;
-        margin-left: 20px;
-    }
-
-    .recCard {
-        display: grid;
-        grid-template-columns:   1fr;
-        margin-left: -5px;
-    }
-
-    .req {
-        width: 370px;
-        margin-left: -18px;
-    }
-
-    .school {
-        width: 250px;
-        margin-left: 90px;
-    }
-
-    .MOBILE-MENU {
-        display: block;
-        margin-left: -300px;
-        margin-top: 90px;
-
-    }
-
-    .shotin {
-        display: block;
-        color: black;
-    }
-
-
-    .search {
-        display: grid;
-        grid-template-columns:  1fr;
-        align-items: center;
-        width: 300px;
-        margin-left: 70px;
-        justify-content: center;
-    }
-
-    .searchDiv {
-        width: 250px;
-        margin-top: 90px;
-        margin-left: 40px;
-    }
-
-    .searchBtn {
-        margin-left: 1px;
-    }
-
-    .corzino {
-        width: 386px;
-    }
-
-    .basketGarbage {
-        margin-left: -115px;
-        width: 414px;
-
-    }
-
-    .basketTR {
-        width: 440px;
-    }
-
-    .table {
-        width: 440px;
-    }
-
-    .tableDiv {
-        width: 440px;
-    }
-
-    .tableName {
-        font-size: 13px;
-        margin-left: -20px;
-    }
-
-    .tableImg {
-        width: 50px;
-        margin-left: -40px;
-    }
-
-    .basketWERE {
-        width: 440px;
-    }
-
-    .basketLog {
-        margin-left: 1px;
-    }
-
-    .div-basket {
-        margin-left: -55px;
-    }
-
-    .imgWomen {
-        width: 200px;
-    }
-
-    .footerTwo {
-        display: block;
-    }
-
-    .footerOne {
-        display: none;
-    }
-
-
-    .header-log {
-        display: none;
-
-    }
-
-    .Header {
-        background: white;
-    }
-
-    .input {
-        width: 400px;
-        margin-left: -70px;
-        margin-top: 2px;
-    }
-
-    .menuBlock {
-        width: 449px;
-        margin-left: 1px;
-    }
-
-    .birka {
-        margin-left: 68px;
-    }
-
-    .Links {
-        width: 200px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .Link {
-        margin: 20px;
-        width: 210px;
-        height: 400px;
-
-    }
-
-    .ert {
-        position: absolute;
-        margin-left: -20px;
-        margin-top: 90px;
-    }
-
-    .ter {
-        width: 286px;
-    }
-
-    .handle {
-        margin-left: 10px;
-        width: 400px;
-    }
-
-    .detail-img {
-        width: 200px;
-        height: 300px;
-    }
-
-    .detail-btn {
-        margin-top: -20px;
-    }
-
-    .description {
-        font-size: 20px;
-    }
-
-    .price {
-        font-size: 20px;
-        margin-top: -20px;
-    }
-
-    .tab {
-        margin-top: -10px;
-    }
-
-    .clothesdetails-div {
-        margin-left: 20px;
-    }
-    .detailBTN {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-left: -13px;
-    }
-    .btn1 {
-        width: 146px;
-    }
-
-    .detail-p {
-        width: 380px;
-    }
-
-    .schoolH1 {
-        margin-left: 100px;
-    }
-
-    .basket-card {
-        height: 420px;
-        margin-left: -10px;
-    }
-
-    .faqCard {
-        margin-top: 90px;
-    }
-
-    .div-about {
-        margin-left: -94px;
-    }
-
-    .basketLog {
-        margin-top: 60px;
-        margin-left: -19px;
-    }
-
-    .header {
-        width: 200px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-left: 70px;
-    }
-    .menuBlock{
-        width: 414px;
-    }
-.menuUL{
-    width: 414px;
-}
-.basketLG{
-    margin-left: -30px;
-}
-    .basketLG2{
-        margin-left: -10px;
-    }
-    .circle{
-        margin-left: 17px;
-    }
-    .aformit {
-        margin-left: -55px;
-    }
-    .catalogSET{
-        width: 20px;
-    }
-    .footerTwo {
-        margin-left: 31px;
-    }
-}
-
-@media (max-width: 360px) {
-    .container {
-        width: 360px;
-
-    }
-    .carding {
-        width: 323px;
-        margin-left: 8px;
-    }
-    .footerTwo {
-        margin-left: 3px;
-    }
-    .SEARCH{
-        display: grid;
-        grid-template-columns:   1fr;
-        padding: 50px;
-        margin-left: -26px;
-    }
-    .inputHed {
-        margin-left: 56px;
-    }
-
-    .black_caard {
-        width: 340px;
-        margin-left: 10px;
-    }
-
-    .footer {
-
-        width: 360px;
-        display: flex;
-        align-items: center;
-    }
-
-    .motion-footer {
-        margin-left: 390px;
-    }
-
-    .h1-footer {
-        margin-left: 70px;
-    }
-
-    .lorem_footer {
-        width: 90px;
-        height: 100px;
-        margin-left: 50px;
-    }
-
-    .footerP {
-        margin-left: 110px;
-
-    }
-
-    .sooda {
-
-        margin-top: -90px;
-    }
-
-    .black_card {
-        width: 300px;
-        margin-left: -60px;
-
-    }
-
-    .recLogo {
-        margin-left: 20px;
-    }
-
-    .recBtn {
-        width: 250px;
-        margin-left: 81px;
-    }
-
-    .req-card {
-        margin-left: 20px;
-    }
-
-    .recCard {
-        display: grid;
-        grid-template-columns:   1fr;
-
-    }
-
-    .req {
-        width: 330px;
-        margin-left: -1px;
-    }
-
-    .school {
-        width: 250px;
-        margin-left: 90px;
-    }
-
-    .MOBILE-MENU {
-        display: block;
-        margin-left: -300px;
-        margin-top: 90px;
-
-    }
-
-    .shotin {
-        display: block;
-        color: black;
-    }
-
-    .Links {
-        width: 150px;
-        display: grid;
-        grid-template-columns: 1fr  ;
-    }
-    .Link {
-        width: 100px;
-        height: 400px;
-
-    }
-
-    .handle {
-        width: 360px;
-        margin-left: -20px;
-    }
-
-    .ter {
-        width: 300px;
-    }
-
-    .ert {
-        margin-left: -20px;
-        margin-top: 55px;
-    }
-    .search {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .searchDiv {
-        width: 250px;
-        margin-top: 90px;
-        margin-left: 40px;
-    }
-
-    .searchBtn {
-        margin-left: 1px;
-    }
-
-    .corzino {
-        width: 327px;
-    }
-.korzinos{
-    width: 340px;
-}
-    .basketGarbage {
-        margin-left: -106px;
-        width: 360px;
-
-    }
-    .feel {
-
-        margin-left: -20px;
-        width: 360px;
-    }
-
-    .basketTR {
-        width: 440px;
-    }
-
-    .table {
-        width: 440px;
-    }
-
-    .tableDiv {
-        width: 440px;
-    }
-
-    .tableName {
-        font-size: 13px;
-        margin-left: -20px;
-    }
-
-    .tableImg {
-        width: 50px;
-        margin-left: -40px;
-    }
-
-    .basketWERE {
-        width: 440px;
-    }
-
-    .basketLog {
-        margin-left: 1px;
-    }
-
-    .div-basket {
-        width: 350px;
-        margin-left: -60px;
-    }
-
-    .imgWomen {
-        width: 200px;
-    }
-
-    .footerTwo {
-        display: block;
-    }
-
-    .footerOne {
-        display: none;
-    }
-
-
-    .header-log {
-        display: none;
-
-    }
-
-    .Header {
-        background: white;
-    }
-
-    .input {
-        width: 360px;
-        margin-left: -134px;
-        margin-top: 2px;
-    }
-
-    .menuBlock {
-        width: 350px;
-        margin-left: 5px;
-    }
-
-    .menuBlocks {
-        font-size: 15px;
-
-    }
-
-    .books {
-        width: 70px;
-    }
-
-    .birka {
-        margin-left: 65px;
-    }
-
-    .hoot {
-        margin-left: 20px;
-    }
-
-    .inputBasket {
-        margin-left: 40px;
-    }
-
-    .img-div {
-        width: 280px;
-    }
-
-    .detail-img {
-        width: 150px;
-        height: 200px;
-    }
-
-    .description {
-        font-size: 20px;
-        margin-top: -20px;
-    }
-
-    .price {
-        font-size: 15px;
-        margin-top: -20px;
-    }
-
-    .tab {
-        width: 140px;
-        margin-top: -10px;
-    }
-
-    .clothesdetails-div {
-        margin-left: 20px;
-        font-size: 15px;
-    }
-
-    .btn1 {
-        width: 120px;
-    }
-
-    .detail-p {
-        width: 320px;
-        margin-left: 20px;
-    }
-
-    .detail-btn {
-        font-size: 12px;
-        width: 130px;
-        height: 30px;
-
-    }
-
-    .btn1 {
-        font-size: 12px;
-        width: 130px;
-        height: 30px;
-
-    }
-
-    .plus {
-        margin-left: -10px;
-    }
-
-    .plus1 {
-        margin-left: -16px;
-    }
-
-
-    .gel {
-        margin-left: -30px;
-        position: absolute;
-    }
-
-    .basket-card img {
-        width: 242px;
-
-    }
-    .div-about {
-        margin-left: -120px;
-    }
-
-    .contactAbout {
-        margin-left: 20px;
-    }
-    .basketLG {
-        margin-left: -108px;
-    }
-    .basketLG2 {
-        margin-left: -81px;
-    }
-    .basketGL{
-        margin-left: -97px;
-    }
-    .basketGL2{
-        margin-left: -63px;
-    }
-    .basketJL{
-
-        margin-left: -67px;
-    }
-    .basketJL2{
-        margin-left: -30px;
-
-    }
-    .circle{
-        margin-left: -55px;
-    }
-    .basketLog {
-        margin-left: -45px;
-    }
-
-    .selectOL{
-        width: 275px;
-    }
-    .aformit {
-        margin-left: -70px;
-        width: 360px;
-    }
-    .p-about {
-        width: 320px;
-    }
-    .liver {
-        margin-left: 30px;
-    }
-    .menuUL {
-
-        margin-left: -15px;
-    }
-}
+/*@media (max-width: 1024px) {*/
+/*    .container {*/
+/*        width: 1024px;*/
+
+/*    }*/
+
+/*    .footerH1 {*/
+/*        margin-left: 60px;*/
+/*    }*/
+
+
+/*    .header {*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        margin-left: -90px;*/
+/*    }*/
+/*    .carding{*/
+/*        margin-left: -24px;*/
+/*    }*/
+/*.basketGarbage{*/
+/*    margin-left: -44px;*/
+/*}*/
+/*    .footer {*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*        justify-content: space-around;*/
+/*        margin-left: 20px;*/
+/*    }*/
+
+/*    .lorem_footer {*/
+/*        width: 300px;*/
+/*    }*/
+
+/*    .sooda {*/
+/*        margin-left: 10px;*/
+/*    }*/
+
+/*    .black_card {*/
+/*        width: 400px;*/
+/*        margin-left: 60px;*/
+/*    }*/
+
+/*    .req-card {*/
+/*        margin-left: 120px;*/
+/*    }*/
+
+/*    .req {*/
+/*        width: 900px;*/
+/*        margin-left: 65px;*/
+
+/*    }*/
+
+/*    .handle {*/
+/*        display: grid;*/
+/*        grid-template-columns: 1fr 1fr 1fr;*/
+/*        margin-left: 30px;*/
+/*    }*/
+
+/*    .div-favorite {*/
+/*        margin-left: -20px;*/
+/*    }*/
+
+/*    .App {*/
+/*        margin-left: 190px;*/
+/*    }*/
+
+/*    .corzino {*/
+/*        width: 999px;*/
+/*        margin-left: 11px;*/
+/*    }*/
+
+
+/*    .h1-basket {*/
+/*        margin-left: 10px;*/
+/*    }*/
+
+/*    .div-basket {*/
+/*        margin-left: 346px;*/
+/*    }*/
+
+/*    .clothesdetails-div {*/
+/*        margin-left: 190px;*/
+/*    }*/
+
+/*    .tab {*/
+/*        margin-top: 120px;*/
+/*    }*/
+
+/*    .detail-p {*/
+/*        width: 900px;*/
+/*    }*/
+
+/*}*/
+
+/*@media (max-width: 992px) {*/
+/*    .container {*/
+/*        width: 992px;*/
+
+/*    }*/
+
+/*    .footerH1 {*/
+/*        margin-left: 60px;*/
+/*    }*/
+
+
+/*    .header {*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        width: 980px;*/
+/*        margin-left: -90px;*/
+/*    }*/
+/*    .carding{*/
+/*        margin-left: -24px;*/
+/*    }*/
+/*    .basketGarbage{*/
+/*        margin-left: -44px;*/
+/*    }*/
+/*    .footer {*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*        justify-content: space-around;*/
+/*        margin-left: 20px;*/
+/*    }*/
+
+/*    .lorem_footer {*/
+/*        width: 300px;*/
+/*    }*/
+
+/*    .sooda {*/
+/*        margin-left: 10px;*/
+/*    }*/
+
+/*    .black_card {*/
+/*        width: 400px;*/
+/*        margin-left: 60px;*/
+/*    }*/
+
+/*    .req-card {*/
+/*        margin-left: 120px;*/
+/*    }*/
+
+/*    .req {*/
+/*        width: 900px;*/
+/*        margin-left: 65px;*/
+
+/*    }*/
+
+/*    .handle {*/
+/*        display: grid;*/
+/*        grid-template-columns: 1fr 1fr 1fr;*/
+/*        margin-left: 30px;*/
+/*    }*/
+
+/*    .div-favorite {*/
+/*        margin-left: -20px;*/
+/*    }*/
+
+/*    .App {*/
+/*        margin-left: 190px;*/
+/*    }*/
+
+/*    .corzino {*/
+/*        width: 999px;*/
+/*        margin-left: 11px;*/
+/*    }*/
+
+
+/*    .h1-basket {*/
+/*        margin-left: 10px;*/
+/*    }*/
+
+/*    .div-basket {*/
+/*        margin-left: 346px;*/
+/*    }*/
+
+/*    .clothesdetails-div {*/
+/*        margin-left: 190px;*/
+/*    }*/
+
+/*    .tab {*/
+/*        margin-top: 120px;*/
+/*    }*/
+
+/*    .detail-p {*/
+/*        width: 900px;*/
+/*    }*/
+
+/*}*/
+
+/*@media (max-width: 940px) {*/
+/*    .container {*/
+/*        width: 940px;*/
+
+/*    }*/
+
+/*    .foter {*/
+/*        width: 900px;*/
+/*    }*/
+
+/*    .footerMB {*/
+/*        width: 250px;*/
+/*    }*/
+
+/*    .footerH1 {*/
+/*        margin-left: 10px;*/
+/*    }*/
+
+/*    .input {*/
+/*        width: 300px;*/
+/*        margin-left: -10px;*/
+/*    }*/
+
+/*    .Hidden {*/
+
+/*    }*/
+
+/*    .shotin {*/
+
+/*    }*/
+
+/*    .header {*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*        justify-content: space-around;*/
+/*    }*/
+
+/*    .footer {*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*        justify-content: space-around;*/
+/*    }*/
+
+/*    .lorem_footer {*/
+/*        width: 250px;*/
+/*    }*/
+
+/*    .sooda {*/
+/*        margin-left: 10px;*/
+/*    }*/
+
+/*    .req {*/
+/*        margin-left: -90px;*/
+/*        width: 920px;*/
+/*    }*/
+
+/*    .recCard {*/
+/*        margin-left: 20px;*/
+/*    }*/
+
+
+/*    .handle {*/
+/*        display: grid;*/
+/*        grid-template-columns: 1fr  1fr;*/
+/*        margin-left: 30px;*/
+/*    }*/
+
+/*    .div-favorite {*/
+/*        margin-left: -20px;*/
+/*    }*/
+
+/*    .App {*/
+/*        margin-left: 190px;*/
+/*    }*/
+
+/*    .corzino {*/
+/*        margin-left: 10px;*/
+/*    }*/
+
+/*    .h1-basket {*/
+/*        margin-left: 10px;*/
+/*    }*/
+
+/*    .div-basket {*/
+/*        margin-left: 200px;*/
+/*    }*/
+
+/*    .clothesdetails-div {*/
+/*        margin-left: 190px;*/
+/*    }*/
+
+/*    .tab {*/
+/*        margin-top: 120px;*/
+/*    }*/
+
+/*    .detail-p {*/
+/*        width: 900px;*/
+/*        margin-left: 10px;*/
+/*    }*/
+
+/*    .fagCard {*/
+/*    }*/
+
+/*}*/
+/*@media (max-width: 768px) {*/
+/*    .container {*/
+/*        width: 1024px;*/
+
+/*    }*/
+
+/*    .input {*/
+/*        width: 300px;*/
+
+/*    }*/
+
+/*    .header {*/
+
+/*        display: flex;*/
+/*        align-items: center;*/
+/*        justify-content: space-around;*/
+/*    }*/
+
+
+/*    .sooda {*/
+/*        margin-left: 10px;*/
+/*    }*/
+
+/*    .black_card {*/
+/*        width: 400px;*/
+/*        margin-left: 60px;*/
+/*    }*/
+
+/*    .req-card {*/
+/*        margin-left: 120px;*/
+/*    }*/
+
+/*    .req {*/
+/*        width: 740px;*/
+/*        margin-left: 1px;*/
+/*        margin-top: 30px;*/
+/*    }*/
+
+/*    .birka {*/
+/*        margin-left: 270px;*/
+/*    }*/
+
+/*    .handle {*/
+
+/*        display: grid;*/
+/*        grid-template-columns: 1fr  1fr;*/
+
+/*    }*/
+
+
+/*    .div-favorite {*/
+/*        margin-left: -20px;*/
+/*    }*/
+
+/*    .App {*/
+/*        margin-left: 190px;*/
+/*    }*/
+
+/*    .corzino {*/
+/*        margin-left: 10px;*/
+/*        width: 758px;*/
+/*    }*/
+
+/*    .h1-basket {*/
+/*        margin-left: 10px;*/
+/*    }*/
+
+/*    .div-basket {*/
+/*        margin-left: 190px;*/
+/*    }*/
+
+/*    .clothesdetails-div {*/
+/*        margin-left: 190px;*/
+/*    }*/
+
+/*    .detail-img {*/
+/*        width: 300px;*/
+/*        height: 400px;*/
+/*    }*/
+
+/*    .clothesdetails-div {*/
+/*        margin-left: 30px;*/
+/*    }*/
+
+/*    .detail-p {*/
+/*        width: 700px;*/
+/*    }*/
+
+
+/*    .tab {*/
+/*        margin-top: 120px;*/
+/*    }*/
+
+
+/*    .fagCard {*/
+/*    }*/
+
+/*    .footerOne {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .footerTwo {*/
+/*        display: block;*/
+
+/*    }*/
+
+/*.basket-card{*/
+/* }*/
+
+
+/*}*/
+/*@media (max-width: 767px) {*/
+/*    .Hidden {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .menuBlock {*/
+/*        display: block;*/
+/*        background: #FF005C;*/
+/*        width: 600px;*/
+/*        margin-left: 30px;*/
+/*        border-radius: 10px;*/
+/*        margin-top: 30px;*/
+/*        position: fixed;*/
+/*        height: 120px;*/
+/*    }*/
+
+/*    .menuUL {*/
+
+/*    }*/
+
+/*    .liver {*/
+/*        width: 90px;*/
+/*        margin: 30px;*/
+/*    }*/
+
+/*    .livers {*/
+/*     }*/
+
+/*}*/
+/*@media (max-width: 640px) {*/
+/*    .container {*/
+/*        width: 640px;*/
+
+/*    }*/
+/*    .SEARCH{*/
+/*        display: grid;*/
+/*        grid-template-columns:  1fr 1fr;*/
+/*        padding: 50px;*/
+/*        margin-left: -40px;*/
+/*    }*/
+/*    .menuBlock {*/
+/*        margin-left: 20px;*/
+/*    }*/
+
+/*    .detail-img {*/
+/*        margin-left: -30px;*/
+/*    }*/
+
+/*    .detail-p {*/
+/*        width: 500px;*/
+/*    }*/
+
+/*    .input {*/
+/*        width: 350px;*/
+/*        position: absolute;*/
+/*        margin-left: -300px;*/
+/*        margin-top: -40px;*/
+/*    }*/
+
+/*    .header-log {*/
+/*        margin-left: -23px;*/
+/*    }*/
+
+/*    .Hidden {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .header {*/
+
+/*        width: 500px;*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*        justify-content: space-evenly;*/
+/*        margin-left: 70px;*/
+/*    }*/
+
+/*    .birka {*/
+/*        margin-left: 209px;*/
+/*    }*/
+
+/*    .motion-footer {*/
+/*        margin-left: 390px;*/
+/*    }*/
+
+/*    .h1-footer {*/
+/*        margin-left: 70px;*/
+/*    }*/
+
+/*    .lorem_footer {*/
+/*        width: 90px;*/
+/*        height: 100px;*/
+/*        margin-left: 50px;*/
+/*    }*/
+
+/*    .sooda {*/
+
+/*        margin-top: -90px;*/
+/*    }*/
+
+/*    .black_caard {*/
+/*        margin-left: 30px;*/
+/*    }*/
+
+/*    .req {*/
+/*        width: 610px;*/
+/*        margin-left: 1px;*/
+/*    }*/
+
+/*    .school {*/
+/*        width: 200px;*/
+/*        margin-left: 60px;*/
+/*    }*/
+
+/*    .develop {*/
+/*        width: 200px;*/
+/*        margin-left: 60px;*/
+/*    }*/
+
+/*    .MOBILE-MENU {*/
+/*        display: block;*/
+/*        margin-left: -300px;*/
+/*        margin-top: 90px;*/
+
+/*    }*/
+
+/*    .shotin {*/
+/*        display: block;*/
+/*        color: black;*/
+/*    }*/
+
+
+/*    .Links {*/
+/*        width: 200px;*/
+/*        display: grid;*/
+/*        grid-template-columns: 1fr 1fr;*/
+
+/*    }*/
+
+/*    .Link {*/
+
+/*        width: 320px;*/
+/*        height: 400px;*/
+/*        margin-left: 20px;*/
+/*    }*/
+
+/*    .handle {*/
+/*        margin-left: -40px;*/
+/*    }*/
+
+/*    .search {*/
+/*        display: grid;*/
+/*        grid-template-columns: 1fr 1fr;*/
+/*    }*/
+
+/*    .searchDiv {*/
+/*        width: 250px;*/
+/*        margin-top: 90px;*/
+/*        margin-left: 40px;*/
+/*    }*/
+
+/*    .searchBtn {*/
+/*        margin-left: 1px;*/
+/*    }*/
+
+/*    .corzino {*/
+/*        width: 630px;*/
+/*    }*/
+
+/*    .basketLog {*/
+/*        margin-left: 1px;*/
+/*    }*/
+
+/*    .div-basket {*/
+/*        margin-left: 120px;*/
+/*    }*/
+
+/*    .imgWomen {*/
+/*        width: 200px;*/
+/*    }*/
+
+
+/*    .imgBasket {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .basketGarbage {*/
+/*        margin-left: -56px;*/
+/*    }*/
+
+
+/*    .Icon {*/
+/*        margin-left: 10px;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 576px) {*/
+/*    .container {*/
+/*        width: 576px;*/
+
+/*    }*/
+/*    .footerTwo{*/
+/*        margin-left: 110px;*/
+/*    }*/
+/*    .SEARCH{*/
+/*        display: grid;*/
+/*        grid-template-columns:  1fr 1fr;*/
+/*        padding: 50px;*/
+/*        margin-left: -40px;*/
+/*    }*/
+/*   .carding{*/
+/*       width: 500px;*/
+/*       margin-left: -67px;*/
+/*   }*/
+
+/*    .detail-img {*/
+/*        margin-left: -30px;*/
+/*    }*/
+
+/*    .detail-p {*/
+/*        width: 500px;*/
+/*    }*/
+
+/*    .input {*/
+/*        margin-left: -276px;*/
+/*    }*/
+
+/*    .header-log {*/
+/*        margin-left: -89px;*/
+/*    }*/
+
+/*    .Hidden {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .header {*/
+
+/*        width: 500px;*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*        justify-content: space-evenly;*/
+/*        margin-left: 70px;*/
+/*    }*/
+
+/*    .birka {*/
+/*        margin-left: 67px;*/
+/*    }*/
+
+/*    .motion-footer {*/
+/*        margin-left: 390px;*/
+/*    }*/
+
+/*    .h1-footer {*/
+/*        margin-left: 70px;*/
+/*    }*/
+
+/*    .lorem_footer {*/
+/*        width: 90px;*/
+/*        height: 100px;*/
+/*        margin-left: 50px;*/
+/*    }*/
+
+/*    .sooda {*/
+
+/*        margin-top: -90px;*/
+/*    }*/
+
+/*    .black_caard {*/
+/*        margin-left: 30px;*/
+/*    }*/
+/*    .basket-card img {*/
+/*        width: 312px;*/
+/*        height: 317px;*/
+/*        margin-left: 65px;*/
+/*    }*/
+/*    .req {*/
+/*        width: 550px;*/
+/*        margin-left: -122px;*/
+/*    }*/
+/*    .req-card {*/
+/*        margin-left: -59px;*/
+/*    }*/
+/*    .school {*/
+/*        width: 200px;*/
+/*        margin-left: 60px;*/
+/*    }*/
+
+/*    .develop {*/
+/*        width: 316px;*/
+/*        margin-left: 123px;*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*    }*/
+/*    .MOBILE-MENU {*/
+/*        display: block;*/
+/*        margin-left: -300px;*/
+/*        margin-top: 90px;*/
+
+/*    }*/
+
+/*    .shotin {*/
+/*        display: block;*/
+/*        color: black;*/
+/*    }*/
+
+
+/*    .Links {*/
+/*        width: 200px;*/
+/*        display: grid;*/
+/*        grid-template-columns: 1fr 1fr;*/
+
+/*    }*/
+
+/*    .Link {*/
+
+/*        width: 320px;*/
+/*        height: 400px;*/
+/*        margin-left: 20px;*/
+/*    }*/
+
+/*    .handle {*/
+/*        margin-left: 80px;*/
+/*        display: grid;*/
+/*        grid-template-columns:   1fr;*/
+/*    }*/
+
+/*    .ert{*/
+/*    margin-left: -21px;*/
+/*    width: 290px;*/
+
+/*}*/
+/*    .search {*/
+/*        display: grid;*/
+/*        grid-template-columns: 1fr 1fr;*/
+/*    }*/
+
+/*    .searchDiv {*/
+/*        width: 250px;*/
+/*        margin-top: 90px;*/
+/*        margin-left: 40px;*/
+/*    }*/
+
+/*    .searchBtn {*/
+/*        margin-left: 1px;*/
+/*    }*/
+
+/*    .corzino {*/
+/*        width: 521px;*/
+/*        margin-left: 28px;*/
+/*    }*/
+/*    .basketLog {*/
+/*        width: 500px;*/
+/*        margin-left: -26px;*/
+/*    }*/
+
+/*    .div-basket {*/
+/*        margin-left: 19px;*/
+/*    }*/
+
+/*    .imgWomen {*/
+/*        width: 200px;*/
+/*    }*/
+
+
+/*    .imgBasket {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .basketGarbage {*/
+/*        margin-left: -56px;*/
+/*        width: 500px;*/
+/*    }*/
+
+/*    .p-about{*/
+/*    width: 400px;*/
+
+/*    }*/
+
+/*    .Icon {*/
+/*        margin-left: 10px;*/
+/*    }*/
+/*    .menuBlock{*/
+/*        width: 576px;*/
+/*        margin-left: 1px;*/
+/*    }*/
+/*    .menuUL{*/
+/*        width: 576px;*/
+
+/*    }*/
+/*    .schoolH1{*/
+/*        width: 200px;*/
+/*        margin-left: 124px;*/
+/*    }*/
+/*    .h1-basket {*/
+/*        margin-left: 21px;*/
+/*    }*/
+/*    .aformit {*/
+/*        width: 500px;*/
+/*        margin-left: -31px;*/
+/*    }*/
+
+/*}*/
+/*@media (max-width: 450px) {*/
+/*    .container {*/
+/*        width: 450px;*/
+
+/*    }*/
+/*    .footerTwo{*/
+/*        margin-left: 49px;*/
+/*    }*/
+/*    .SEARCH{*/
+/*        display: grid;*/
+/*        grid-template-columns:   1fr;*/
+/*        padding: 50px;*/
+/*      margin-left: 20px;*/
+/*    }*/
+/*    .black_caard {*/
+/*        width: 362px;*/
+/*        margin-left: 35px;*/
+/*    }*/
+
+/*    .carding {*/
+/*        width: 362px;*/
+/*        height: 250px;*/
+/*        margin-left: -34px;*/
+/*    }*/
+
+/*    .footer {*/
+
+/*        width: 450px;*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*    }*/
+
+/*    .motion-footer {*/
+/*        margin-left: 390px;*/
+/*    }*/
+
+/*    .h1-footer {*/
+/*        margin-left: 70px;*/
+/*    }*/
+
+/*    .lorem_footer {*/
+/*        width: 90px;*/
+/*        height: 100px;*/
+/*        margin-left: 50px;*/
+/*    }*/
+
+/*    .footerP {*/
+/*        margin-left: 110px;*/
+
+/*    }*/
+
+/*    .sooda {*/
+
+/*        margin-top: -90px;*/
+/*    }*/
+
+/*    .black_card {*/
+/*        width: 300px;*/
+/*        margin-left: -60px;*/
+
+/*    }*/
+
+/*    .recLogo {*/
+/*        margin-left: 20px;*/
+/*    }*/
+
+/*    .recBtn {*/
+/*        width: 250px;*/
+/*        margin-left: 90px;*/
+/*    }*/
+
+/*    .req-card {*/
+/*        width: 300px;*/
+/*        margin-left: 20px;*/
+/*    }*/
+
+/*    .recCard {*/
+/*        display: grid;*/
+/*        grid-template-columns: 1fr 1fr;*/
+
+/*    }*/
+
+/*    .req {*/
+/*        width: 400px;*/
+/*        margin-left: -58px;*/
+/*    }*/
+
+/*    .school {*/
+/*        width: 250px;*/
+/*        margin-left: 90px;*/
+/*    }*/
+
+/*    .MOBILE-MENU {*/
+/*        display: block;*/
+/*        margin-left: -300px;*/
+/*        margin-top: 90px;*/
+
+/*    }*/
+
+/*    .shotin {*/
+/*        display: block;*/
+/*        color: black;*/
+/*    }*/
+
+
+/*    .search {*/
+/*        display: grid;*/
+/*        grid-template-columns:  1fr;*/
+/*        align-items: center;*/
+/*        width: 300px;*/
+/*        margin-left: 70px;*/
+/*        justify-content: center;*/
+/*    }*/
+
+/*    .searchDiv {*/
+/*        width: 250px;*/
+/*        margin-top: 90px;*/
+/*        margin-left: 40px;*/
+/*    }*/
+
+/*    .searchBtn {*/
+/*        margin-left: 1px;*/
+/*    }*/
+
+/*    .corzino {*/
+/*        width: 420px;*/
+/*    }*/
+
+/*    .basketGarbage {*/
+/*        margin-left: -116px;*/
+/*        width: 450px;*/
+/*    }*/
+/*    .pLiver {*/
+/*        margin-left: 20px;*/
+/*    }*/
+/*    .basketTR {*/
+/*        width: 440px;*/
+/*    }*/
+
+/*    .table {*/
+/*        width: 440px;*/
+/*    }*/
+
+/*    .tableDiv {*/
+/*        width: 440px;*/
+/*    }*/
+
+/*    .tableName {*/
+/*        font-size: 13px;*/
+/*        margin-left: -20px;*/
+/*    }*/
+
+/*    .tableImg {*/
+/*        width: 50px;*/
+/*        margin-left: -40px;*/
+/*    }*/
+
+/*    .basketWERE {*/
+/*        width: 440px;*/
+/*    }*/
+
+/*    .basketLog {*/
+/*        margin-left: 1px;*/
+/*    }*/
+
+/*    .div-basket {*/
+/*        margin-left: -33px;*/
+/*    }*/
+
+/*    .imgWomen {*/
+/*        width: 200px;*/
+/*    }*/
+
+/*    .footerTwo {*/
+/*        display: block;*/
+/*    }*/
+
+/*    .footerOne {*/
+/*        display: none;*/
+/*    }*/
+
+
+/*    .header-log {*/
+/*        display: none;*/
+
+/*    }*/
+
+/*    .Header {*/
+/*        background: white;*/
+/*    }*/
+
+/*    .input {*/
+/*        width: 400px;*/
+/*        margin-left: -49px;*/
+/*        margin-top: 2px;*/
+/*    }*/
+
+/*    .menuBlock {*/
+/*        width: 449px;*/
+/*        margin-left: 1px;*/
+/*    }*/
+
+/*    .birka {*/
+/*        margin-left: 67px;*/
+/*    }*/
+
+/*    .Links {*/
+/*        width: 200px;*/
+/*        display: grid;*/
+/*        grid-template-columns: 1fr 1fr;*/
+/*    }*/
+
+/*    .Link {*/
+/*        margin: 20px;*/
+/*        width: 210px;*/
+/*        height: 400px;*/
+
+/*    }*/
+
+/*    .ert {*/
+/*        position: absolute;*/
+/*        margin-left: -20px;*/
+/*        margin-top: 90px;*/
+/*    }*/
+
+/*    .ter {*/
+/*        width: 293px;*/
+/*    }*/
+
+/*    .handle {*/
+/*        margin-left: 20px;*/
+/*        width: 400px;*/
+/*    }*/
+/*.detailBTN{*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr;*/
+
+/*}*/
+
+/*    .detail-img {*/
+/*        width: 200px;*/
+/*        height: 300px;*/
+/*    }*/
+
+/*    .detail-btn {*/
+/*        margin-top: -20px;*/
+/*    }*/
+
+/*    .description {*/
+/*        font-size: 20px;*/
+/*    }*/
+
+/*    .price {*/
+/*        font-size: 20px;*/
+/*        margin-top: -20px;*/
+/*    }*/
+
+/*    .tab {*/
+/*        margin-top: -10px;*/
+/*    }*/
+
+/*    .clothesdetails-div {*/
+/*        margin-left: 20px;*/
+/*    }*/
+
+/*    .btn1 {*/
+/*        width: 165px;*/
+/*    }*/
+
+/*    .detail-p {*/
+/*        width: 380px;*/
+/*    }*/
+
+/*    .schoolH1 {*/
+/*        margin-left: 100px;*/
+/*    }*/
+/*    .basket-card img {*/
+/*        width: 262px;*/
+/*        height: 317px;*/
+/*        margin-left: -5px;*/
+/*    }*/
+/*    .faqCard {*/
+/*        margin-top: 90px;*/
+/*    }*/
+
+/*    .div-about {*/
+/*        margin-left: -20px;*/
+/*    }*/
+
+/*    .basketLog {*/
+/*        margin-top: 60px;*/
+/*    }*/
+
+/*    .header {*/
+/*        width: 200px;*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*        justify-content: space-evenly;*/
+/*        margin-left: 70px;*/
+/*    }*/
+/*    .aformit{*/
+/*        margin-left: -29px;*/
+/*    }*/
+/*.menuUL {*/
+/*    width: 450px;*/
+/*}*/
+/*.aboutUS{*/
+/*    width: 60px;*/
+/*}*/
+/*    .basketLog {*/
+/*        width: 317px;*/
+/*    }*/
+/*    .aformit {*/
+/*        width: 400px;*/
+/*        margin-left: -54px;*/
+/*    }*/
+/*    .p-about {*/
+/*        margin-left: 16px;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 414px) {*/
+/*    .container {*/
+/*        width: 414px;*/
+
+/*    }*/
+/*    .SEARCH{*/
+/*        display: grid;*/
+/*        grid-template-columns:   1fr;*/
+/*        padding: 50px;*/
+/*        margin-left: 20px;*/
+/*    }*/
+/*    .black_caard {*/
+/*        width: 350px;*/
+/*        margin-left: 35px;*/
+/*    }*/
+
+/*    .carding {*/
+/*        width: 350px;*/
+/*        height: 200px;*/
+/*        margin-left: -30px;*/
+/*    }*/
+
+/*    .footer {*/
+
+/*        width: 450px;*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*    }*/
+
+/*    .motion-footer {*/
+/*        margin-left: 390px;*/
+/*    }*/
+
+/*    .h1-footer {*/
+/*        margin-left: 70px;*/
+/*    }*/
+
+/*    .lorem_footer {*/
+/*        width: 90px;*/
+/*        height: 100px;*/
+/*        margin-left: 50px;*/
+/*    }*/
+
+/*    .footerP {*/
+/*        margin-left: 110px;*/
+
+/*    }*/
+
+/*    .sooda {*/
+
+/*        margin-top: -90px;*/
+/*    }*/
+
+/*    .black_card {*/
+/*        width: 300px;*/
+/*        margin-left: -60px;*/
+
+/*    }*/
+
+/*    .recLogo {*/
+/*        margin-left: 20px;*/
+/*    }*/
+
+/*    .recBtn {*/
+/*        width: 250px;*/
+/*        margin-left: 90px;*/
+/*    }*/
+
+/*    .req-card {*/
+/*        width: 300px;*/
+/*        margin-left: 20px;*/
+/*    }*/
+
+/*    .recCard {*/
+/*        display: grid;*/
+/*        grid-template-columns:   1fr;*/
+/*        margin-left: -5px;*/
+/*    }*/
+
+/*    .req {*/
+/*        width: 370px;*/
+/*        margin-left: -18px;*/
+/*    }*/
+
+/*    .school {*/
+/*        width: 250px;*/
+/*        margin-left: 90px;*/
+/*    }*/
+
+/*    .MOBILE-MENU {*/
+/*        display: block;*/
+/*        margin-left: -300px;*/
+/*        margin-top: 90px;*/
+
+/*    }*/
+
+/*    .shotin {*/
+/*        display: block;*/
+/*        color: black;*/
+/*    }*/
+
+
+/*    .search {*/
+/*        display: grid;*/
+/*        grid-template-columns:  1fr;*/
+/*        align-items: center;*/
+/*        width: 300px;*/
+/*        margin-left: 70px;*/
+/*        justify-content: center;*/
+/*    }*/
+
+/*    .searchDiv {*/
+/*        width: 250px;*/
+/*        margin-top: 90px;*/
+/*        margin-left: 40px;*/
+/*    }*/
+
+/*    .searchBtn {*/
+/*        margin-left: 1px;*/
+/*    }*/
+
+/*    .corzino {*/
+/*        width: 386px;*/
+/*    }*/
+
+/*    .basketGarbage {*/
+/*        margin-left: -115px;*/
+/*        width: 414px;*/
+
+/*    }*/
+
+/*    .basketTR {*/
+/*        width: 440px;*/
+/*    }*/
+
+/*    .table {*/
+/*        width: 440px;*/
+/*    }*/
+
+/*    .tableDiv {*/
+/*        width: 440px;*/
+/*    }*/
+
+/*    .tableName {*/
+/*        font-size: 13px;*/
+/*        margin-left: -20px;*/
+/*    }*/
+
+/*    .tableImg {*/
+/*        width: 50px;*/
+/*        margin-left: -40px;*/
+/*    }*/
+
+/*    .basketWERE {*/
+/*        width: 440px;*/
+/*    }*/
+
+/*    .basketLog {*/
+/*        margin-left: 1px;*/
+/*    }*/
+
+/*    .div-basket {*/
+/*        margin-left: -55px;*/
+/*    }*/
+
+/*    .imgWomen {*/
+/*        width: 200px;*/
+/*    }*/
+
+/*    .footerTwo {*/
+/*        display: block;*/
+/*    }*/
+
+/*    .footerOne {*/
+/*        display: none;*/
+/*    }*/
+
+
+/*    .header-log {*/
+/*        display: none;*/
+
+/*    }*/
+
+/*    .Header {*/
+/*        background: white;*/
+/*    }*/
+
+/*    .input {*/
+/*        width: 400px;*/
+/*        margin-left: -70px;*/
+/*        margin-top: 2px;*/
+/*    }*/
+
+/*    .menuBlock {*/
+/*        width: 449px;*/
+/*        margin-left: 1px;*/
+/*    }*/
+
+/*    .birka {*/
+/*        margin-left: 68px;*/
+/*    }*/
+
+/*    .Links {*/
+/*        width: 200px;*/
+/*        display: grid;*/
+/*        grid-template-columns: 1fr 1fr;*/
+/*    }*/
+
+/*    .Link {*/
+/*        margin: 20px;*/
+/*        width: 210px;*/
+/*        height: 400px;*/
+
+/*    }*/
+
+/*    .ert {*/
+/*        position: absolute;*/
+/*        margin-left: -20px;*/
+/*        margin-top: 90px;*/
+/*    }*/
+
+/*    .ter {*/
+/*        width: 286px;*/
+/*    }*/
+
+/*    .handle {*/
+/*        margin-left: 10px;*/
+/*        width: 400px;*/
+/*    }*/
+
+/*    .detail-img {*/
+/*        width: 200px;*/
+/*        height: 300px;*/
+/*    }*/
+
+/*    .detail-btn {*/
+/*        margin-top: -20px;*/
+/*    }*/
+
+/*    .description {*/
+/*        font-size: 20px;*/
+/*    }*/
+
+/*    .price {*/
+/*        font-size: 20px;*/
+/*        margin-top: -20px;*/
+/*    }*/
+
+/*    .tab {*/
+/*        margin-top: -10px;*/
+/*    }*/
+
+/*    .clothesdetails-div {*/
+/*        margin-left: 20px;*/
+/*    }*/
+/*    .detailBTN {*/
+/*        display: grid;*/
+/*        grid-template-columns: 1fr 1fr;*/
+/*        margin-left: -13px;*/
+/*    }*/
+/*    .btn1 {*/
+/*        width: 146px;*/
+/*    }*/
+
+/*    .detail-p {*/
+/*        width: 380px;*/
+/*    }*/
+
+/*    .schoolH1 {*/
+/*        margin-left: 100px;*/
+/*    }*/
+
+/*    .basket-card {*/
+/*        height: 420px;*/
+/*        margin-left: -10px;*/
+/*    }*/
+
+/*    .faqCard {*/
+/*        margin-top: 90px;*/
+/*    }*/
+
+/*    .div-about {*/
+/*        margin-left: -94px;*/
+/*    }*/
+
+/*    .basketLog {*/
+/*        margin-top: 60px;*/
+/*        margin-left: -19px;*/
+/*    }*/
+
+/*    .header {*/
+/*        width: 200px;*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*        justify-content: space-evenly;*/
+/*        margin-left: 70px;*/
+/*    }*/
+/*    .menuBlock{*/
+/*        width: 414px;*/
+/*    }*/
+/*.menuUL{*/
+/*    width: 414px;*/
+/*}*/
+/*.basketLG{*/
+/*    margin-left: -30px;*/
+/*}*/
+/*    .basketLG2{*/
+/*        margin-left: -10px;*/
+/*    }*/
+/*    .circle{*/
+/*        margin-left: 17px;*/
+/*    }*/
+/*    .aformit {*/
+/*        margin-left: -55px;*/
+/*    }*/
+/*    .catalogSET{*/
+/*        width: 20px;*/
+/*    }*/
+/*    .footerTwo {*/
+/*        margin-left: 31px;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 360px) {*/
+/*    .container {*/
+/*        width: 360px;*/
+
+/*    }*/
+/*    .carding {*/
+/*        width: 323px;*/
+/*        margin-left: 8px;*/
+/*    }*/
+/*    .footerTwo {*/
+/*        margin-left: 3px;*/
+/*    }*/
+/*    .SEARCH{*/
+/*        display: grid;*/
+/*        grid-template-columns:   1fr;*/
+/*        padding: 50px;*/
+/*        margin-left: -26px;*/
+/*    }*/
+/*    .inputHed {*/
+/*        margin-left: 56px;*/
+/*    }*/
+
+/*    .black_caard {*/
+/*        width: 340px;*/
+/*        margin-left: 10px;*/
+/*    }*/
+
+/*    .footer {*/
+
+/*        width: 360px;*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*    }*/
+
+/*    .motion-footer {*/
+/*        margin-left: 390px;*/
+/*    }*/
+
+/*    .h1-footer {*/
+/*        margin-left: 70px;*/
+/*    }*/
+
+/*    .lorem_footer {*/
+/*        width: 90px;*/
+/*        height: 100px;*/
+/*        margin-left: 50px;*/
+/*    }*/
+
+/*    .footerP {*/
+/*        margin-left: 110px;*/
+
+/*    }*/
+
+/*    .sooda {*/
+
+/*        margin-top: -90px;*/
+/*    }*/
+
+/*    .black_card {*/
+/*        width: 300px;*/
+/*        margin-left: -60px;*/
+
+/*    }*/
+
+/*    .recLogo {*/
+/*        margin-left: 20px;*/
+/*    }*/
+
+/*    .recBtn {*/
+/*        width: 250px;*/
+/*        margin-left: 81px;*/
+/*    }*/
+
+/*    .req-card {*/
+/*        margin-left: 20px;*/
+/*    }*/
+
+/*    .recCard {*/
+/*        display: grid;*/
+/*        grid-template-columns:   1fr;*/
+
+/*    }*/
+
+/*    .req {*/
+/*        width: 330px;*/
+/*        margin-left: -1px;*/
+/*    }*/
+
+/*    .school {*/
+/*        width: 250px;*/
+/*        margin-left: 90px;*/
+/*    }*/
+
+/*    .MOBILE-MENU {*/
+/*        display: block;*/
+/*        margin-left: -300px;*/
+/*        margin-top: 90px;*/
+
+/*    }*/
+
+/*    .shotin {*/
+/*        display: block;*/
+/*        color: black;*/
+/*    }*/
+
+/*    .Links {*/
+/*        width: 150px;*/
+/*        display: grid;*/
+/*        grid-template-columns: 1fr  ;*/
+/*    }*/
+/*    .Link {*/
+/*        width: 100px;*/
+/*        height: 400px;*/
+
+/*    }*/
+
+/*    .handle {*/
+/*        width: 360px;*/
+/*        margin-left: -20px;*/
+/*    }*/
+
+/*    .ter {*/
+/*        width: 300px;*/
+/*    }*/
+
+/*    .ert {*/
+/*        margin-left: -20px;*/
+/*        margin-top: 55px;*/
+/*    }*/
+/*    .search {*/
+/*        display: grid;*/
+/*        grid-template-columns: 1fr 1fr;*/
+/*    }*/
+
+/*    .searchDiv {*/
+/*        width: 250px;*/
+/*        margin-top: 90px;*/
+/*        margin-left: 40px;*/
+/*    }*/
+
+/*    .searchBtn {*/
+/*        margin-left: 1px;*/
+/*    }*/
+
+/*    .corzino {*/
+/*        width: 327px;*/
+/*    }*/
+/*.korzinos{*/
+/*    width: 340px;*/
+/*}*/
+/*    .basketGarbage {*/
+/*        margin-left: -106px;*/
+/*        width: 360px;*/
+
+/*    }*/
+/*    .feel {*/
+
+/*        margin-left: -20px;*/
+/*        width: 360px;*/
+/*    }*/
+
+/*    .basketTR {*/
+/*        width: 440px;*/
+/*    }*/
+
+/*    .table {*/
+/*        width: 440px;*/
+/*    }*/
+
+/*    .tableDiv {*/
+/*        width: 440px;*/
+/*    }*/
+
+/*    .tableName {*/
+/*        font-size: 13px;*/
+/*        margin-left: -20px;*/
+/*    }*/
+
+/*    .tableImg {*/
+/*        width: 50px;*/
+/*        margin-left: -40px;*/
+/*    }*/
+
+/*    .basketWERE {*/
+/*        width: 440px;*/
+/*    }*/
+
+/*    .basketLog {*/
+/*        margin-left: 1px;*/
+/*    }*/
+
+/*    .div-basket {*/
+/*        width: 350px;*/
+/*        margin-left: -60px;*/
+/*    }*/
+
+/*    .imgWomen {*/
+/*        width: 200px;*/
+/*    }*/
+
+/*    .footerTwo {*/
+/*        display: block;*/
+/*    }*/
+
+/*    .footerOne {*/
+/*        display: none;*/
+/*    }*/
+
+
+/*    .header-log {*/
+/*        display: none;*/
+
+/*    }*/
+
+/*    .Header {*/
+/*        background: white;*/
+/*    }*/
+
+/*    .input {*/
+/*        width: 360px;*/
+/*        margin-left: -134px;*/
+/*        margin-top: 2px;*/
+/*    }*/
+
+/*    .menuBlock {*/
+/*        width: 350px;*/
+/*        margin-left: 5px;*/
+/*    }*/
+
+/*    .menuBlocks {*/
+/*        font-size: 15px;*/
+
+/*    }*/
+
+/*    .books {*/
+/*        width: 70px;*/
+/*    }*/
+
+/*    .birka {*/
+/*        margin-left: 65px;*/
+/*    }*/
+
+/*    .hoot {*/
+/*        margin-left: 20px;*/
+/*    }*/
+
+/*    .inputBasket {*/
+/*        margin-left: 40px;*/
+/*    }*/
+
+/*    .img-div {*/
+/*        width: 280px;*/
+/*    }*/
+
+/*    .detail-img {*/
+/*        width: 150px;*/
+/*        height: 200px;*/
+/*    }*/
+
+/*    .description {*/
+/*        font-size: 20px;*/
+/*        margin-top: -20px;*/
+/*    }*/
+
+/*    .price {*/
+/*        font-size: 15px;*/
+/*        margin-top: -20px;*/
+/*    }*/
+
+/*    .tab {*/
+/*        width: 140px;*/
+/*        margin-top: -10px;*/
+/*    }*/
+
+/*    .clothesdetails-div {*/
+/*        margin-left: 20px;*/
+/*        font-size: 15px;*/
+/*    }*/
+
+/*    .btn1 {*/
+/*        width: 120px;*/
+/*    }*/
+
+/*    .detail-p {*/
+/*        width: 320px;*/
+/*        margin-left: 20px;*/
+/*    }*/
+
+/*    .detail-btn {*/
+/*        font-size: 12px;*/
+/*        width: 130px;*/
+/*        height: 30px;*/
+
+/*    }*/
+
+/*    .btn1 {*/
+/*        font-size: 12px;*/
+/*        width: 130px;*/
+/*        height: 30px;*/
+
+/*    }*/
+
+/*    .plus {*/
+/*        margin-left: -10px;*/
+/*    }*/
+
+/*    .plus1 {*/
+/*        margin-left: -16px;*/
+/*    }*/
+
+
+/*    .gel {*/
+/*        margin-left: -30px;*/
+/*        position: absolute;*/
+/*    }*/
+
+/*    .basket-card img {*/
+/*        width: 242px;*/
+
+/*    }*/
+/*    .div-about {*/
+/*        margin-left: -120px;*/
+/*    }*/
+
+/*    .contactAbout {*/
+/*        margin-left: 20px;*/
+/*    }*/
+/*    .basketLG {*/
+/*        margin-left: -108px;*/
+/*    }*/
+/*    .basketLG2 {*/
+/*        margin-left: -81px;*/
+/*    }*/
+/*    .basketGL{*/
+/*        margin-left: -97px;*/
+/*    }*/
+/*    .basketGL2{*/
+/*        margin-left: -63px;*/
+/*    }*/
+/*    .basketJL{*/
+
+/*        margin-left: -67px;*/
+/*    }*/
+/*    .basketJL2{*/
+/*        margin-left: -30px;*/
+
+/*    }*/
+/*    .circle{*/
+/*        margin-left: -55px;*/
+/*    }*/
+/*    .basketLog {*/
+/*        margin-left: -45px;*/
+/*    }*/
+
+/*    .selectOL{*/
+/*        width: 275px;*/
+/*    }*/
+/*    .aformit {*/
+/*        margin-left: -70px;*/
+/*        width: 360px;*/
+/*    }*/
+/*    .p-about {*/
+/*        width: 320px;*/
+/*    }*/
+/*    .liver {*/
+/*        margin-left: 30px;*/
+/*    }*/
+/*    .menuUL {*/
+
+/*        margin-left: -15px;*/
+/*    }*/
+/*}*/
 
 .hideMenuNav {
     display: none;

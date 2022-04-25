@@ -64,7 +64,7 @@ const Footer = () => {
 
 
 
-                <nav className=" container footer   px-2 sm:px-4 py-2.5 rounded "
+                <nav className="   footer   px-2 sm:px-4 py-2.5 rounded "
                 >
                     <div className="  foter  flex  justify-between items-center  ">
 
@@ -165,7 +165,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div style={{}} className="mb-5 footerMB ml-6">
+                        <div style={{}} className="mb-5 footerMB  ">
                             <h1 style={{
                                 color: 'white',
                                 fontSize: '22px'
