@@ -34,8 +34,6 @@ const Basket = () => {
     };
 
 
-
-
     return (
         <div className="container">
             <ToastContainer/>
