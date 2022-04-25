@@ -382,13 +382,19 @@ margin-left: 330px;
 
 @media(max-width: 1024px){
     .container{
-        width: 1024px;
+        width: 1024%;
+        overflow: hidden;
     }
  .header{
-
-
+     margin-left: 3%;
+     width: 93%;
  }
-
+.catalogSET{
+    margin-left: -4%;
+}
+    .detail-p {
+        width: 110%;
+    }
 
 
 }
