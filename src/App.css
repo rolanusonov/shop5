@@ -367,6 +367,7 @@ margin-left: 85px;
     border-radius: 50%;
     width: 15px;
     height: 15px;
+    margin-top: 1px;
 }
 
 .pLiver {
@@ -568,6 +569,10 @@ margin-left: 330px;
 .birka{
     margin-left: 232px;
 }
+.circle{
+    margin-top: -20px;
+    margin-left: 35px;
+}
 
 }
 @media(max-width:576px){
@@ -663,6 +668,9 @@ margin-left: 330px;
     .btn1{
         width: 99%;
     }
+    .footerMENULOG {
+        margin-left: 69px;
+    }
 
 }
 @media(max-width:425px){
@@ -678,6 +686,9 @@ margin-left: 330px;
     }
     .div-basket {
         margin-left: -3px;
+    }
+    .circle{
+        margin-left: 45px;
     }
 }
 @media(max-width:414px){

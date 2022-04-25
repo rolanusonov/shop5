@@ -39,7 +39,7 @@ const Header = () => {
                        color: "#FFFFFF",
                    }}
 
-                   >MOTION SHOP</Link>
+                   >4 SEASON</Link>
                <Link to="/">
 
 

@@ -14,7 +14,7 @@ const Footer = () => {
 
 
                     }} to="/" >
-                    MOTION SHOP
+                    4 SEASON
                 </Link>
                 <Link to="/"  className="flex items-center justify-center"
                     style={{fontSize: "14px", fontWeight: "700px", lineHeight: "17px", color: "#FF00C7"}}>
@@ -76,7 +76,7 @@ const Footer = () => {
                                 fontSize: "20px",
                                 lineHeight: " 24px",
                                 color: "#FFFFFF",
-                            }}>MOTION SHOP</h1>
+                            }}>4 SEASON</h1>
 
 
                         <div className="" style={{
