@@ -10,8 +10,14 @@ const TableRow = ({el, idx}) => {
 
 
         <td className="   py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">
-            <img src={el.name} alt="" width="3v 0"/>
-            {el.name}
+            <h1 className=" " style={{
+                width:"70px",
+                overflow:"hidden",
+                position:"absolute"
+            }}>
+                {el.name}
+            </h1>
+
 
         </td>
         <td className=" imgBasket  py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">

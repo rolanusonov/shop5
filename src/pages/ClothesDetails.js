@@ -14,6 +14,7 @@ const ClothesDetails = ({el}) => {
     const {
         img,
         description,
+        name,
         price,
     } = details
 
@@ -32,10 +33,11 @@ const ClothesDetails = ({el}) => {
                     <img className="ml-14 detail-img" src={img} alt=""  />
                 </div>
                 <div className="clothesdetails-div">
-                    <h1 className=" description  ">{description}</h1>
-                    <h1   className="text-base   mt-4 price ">{price} ₺</h1>
+
+                    <h1 className=" description  "> {name}</h1>
+                    <h1   className="text-base   priceNIK mt-4 price ">{price} ₺</h1>
                     <p className="tab">Таблица размеров:</p>
-                     <div className="flex items-center my-5 detailBTN ">
+                     <div className="flex items-center  my-2   detailBTNs ">
                         {
                             details?.prod_detail?.map(el => (
                                 <DetailPage el={el}/>
@@ -104,13 +106,7 @@ const ClothesDetails = ({el}) => {
 
             <h1 className=" font-medium text-4xl my-5 ml-6">Описание</h1>
 
-            <p className="ml-14 mb-10 detail-p"  >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dignissimos distinctio eum explicabo in
-                iusto laboriosam libero maiores molestiae nam necessitatibus nulla, perspiciatis praesentium quae qui
-                recusandae similique tempora tempore vero vitae? Architecto atque autem, blanditiis consectetur deleniti
-                ea earum facere, facilis hic iure nobis odit officiis pariatur quas rem, repellendus reprehenderit sint
-                suscipit totam vel. Corporis eveniet iure possimus voluptas voluptate? Accusantium adipisci, aliquid,
-                cumque cupiditate delectus dolorem eaque earum, expedita fugit illo iure maxime mollitia natus nulla
-                officia perspiciatis praesentium sapiente totam unde voluptatem! Aspernatur, dolor hic. Impedit!</p>
+            <p className="ml-14 mb-10 detail-p"  > {description}</p>
         </div>
 
 

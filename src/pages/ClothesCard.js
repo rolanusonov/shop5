@@ -20,9 +20,9 @@ const ClothesCard = ({el}) => {
 
                     <Link class="  " to={`/details/${el.id}`}>
                         <img src={el.img} alt="wer" className="img-div "/>
-                        <h1 className="text-lg text-black">{el.description}</h1>
+                        <h1 className="text-lg text-black">{el.name}</h1>
                         <h1 style={{fontSize: "24px", color: "#FF005C"}}
-                            className="text-base text-blsck mt-4">{el.price} ₺ </h1>
+                            className="text-base   mt-4">{el.price} ₺ </h1>
                         <h1 className="text-lg text-black absolute mx-16 mt-4">{el.discounts} </h1>
 
                     </Link>

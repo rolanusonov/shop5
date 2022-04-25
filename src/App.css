@@ -16,7 +16,13 @@
    justify-content: space-between;
     margin-left: 140px;
 }
+.detailBTNs{
+    width: 20%;
+height: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
+}
 .BTNLG {
     margin-left: -78px;
 }
@@ -219,6 +225,8 @@
     border-radius: 5px;
     transition: 0.5s;
     cursor: pointer;
+width: 75px;
+    height: 40px;
 }
 
 .stule:hover {
@@ -333,7 +341,7 @@
 }
 
 .detail-btn {
-    background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)
+    background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%);
 }
 
 .menuBlock {
@@ -391,7 +399,12 @@ margin-left: 330px;
 .rec-sliders{
     margin: 50px 0;
 }
-
+.btn1{
+    width:210px;
+}
+.BTNLG{
+    margin-left: 20px;
+}
 @media(max-width: 1024px){
     .container{
    width: 90%;
@@ -469,6 +482,9 @@ margin-left: 330px;
     .req{
         width: 124%;
         margin-left: -97px;
+    }
+    .detail-img {
+        margin-left: -20px;
     }
 
 
@@ -595,8 +611,8 @@ margin-left: 330px;
         margin-left: 25px;
     }
     .basketGarbage {
-        margin-left: -128px;
-        width: 148%;
+        margin-left: -149px;
+        width: 173%;
     }
     .handle {
         display: grid;
@@ -629,29 +645,148 @@ margin-left: 330px;
         margin-left: -92px;
         width: 125%;
     }
- .tableImg{
-     width: 10%;
- }
+
+    .detail-img {
+         height: 252px;
+    }
+    .description {
+        font-size: 20px;
+
+    }
+    .stule{
+        width: 40px;
+        height: 30px;
+    }
+    .handle{
+        margin-left: 38px;
+    }
+    .btn1{
+        width: 99%;
+    }
+
 }
 @media(max-width:425px){
-
+    .input {
+        width: 192%;
+        margin-left: 9px;
+    }
+    .priceNIK{
+        font-size: 25px;
+    }
+    .footerMENULOG {
+        margin-left: 68px;
+    }
+    .div-basket {
+        margin-left: -3px;
+    }
 }
 @media(max-width:414px){
-
+    .catalogSET {
+        margin-left: -67px;
+        width: 126%;
+    }
+    .corzino {
+        margin-left: 28px;
+    }
+    .description {
+        font-size: 20px;
+        height: 19%;
+        overflow: hidden;
+    }
+    .handle {
+        margin-left: 20px;
+    }
+    .footerTwo {
+        margin-left: 29px;
+    }
 }
 @media(max-width:400px){
-
+    .input {
+        width: 182%;
+    }.catalogSET {
+         margin-left: -59px;
+         width: 122%;
+     }
+     .btn1{
+         width:99%;
+     }
+    .div-basket {
+        margin-left: -12px;
+    }
+    .corzino {
+        margin-left: 19px;
+    }
 }
 @media(max-width:380px){
-
+    .corzino {
+        margin-left: 58px;
+        width: 80%;
+    }
+    .div-basket {
+        margin-left: -67px;
+    }
+    .handle {
+        margin-left: 6px;
+    }
 }
 @media(max-width:375px){
 
 }
 @media(max-width:360px){
-
+    .input {
+        margin-left: 4px;
+    }
+    .footerTwo {
+        margin-left: 19px;
+    }
+    .birka {
+        margin-left: 49px;
+    }.div-basket {
+         margin-left: -41px;
+     }
+    .corzino {
+        margin-left: 49px;
+    }
+    .description {
+        height: 18%;
+    }
+    .footerMENULOG {
+        margin-left: 57px;
+    }
+    .title {
+        margin-left: 14px;
+    }
+    .path {
+        margin-left: 97px;
+    }
+    .carding {
+        height: 150px;
+    }
 }
 @media(max-width:320px){
+    .carding {
+        height: 150px;
+    }
+    .title {
+        margin-left: 14px;
+    }
+    .path {
+        margin-left: 97px;
+    }
+    .svg {
+        width: 179px;
+    }
+    .birka {
+        margin-left: 30px;
+    }.div-about {
+         margin-left: -144px;
+     }
+     .contactAbout{
+         margin-left: 1%;
+     }
+    .contactAbout {
+        margin-left: 7%;
+    }
 
 }
 .hideMenuNav {
