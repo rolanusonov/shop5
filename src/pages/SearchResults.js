@@ -2,12 +2,15 @@ import React, {useEffect, useState} from 'react';
 import {Link, useParams} from "react-router-dom";
 
 
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import api from "../http/api";
 
 const SearchResults = () => {
     const [result, setResult] = useState([])
     const {search} = useParams()
+    const basket = useSelector(s => s.basket)
+    const basketItems = basket.some( basket => basket.id === result.id)
+    console.log(basketItems , "aaaaaa")
 
     useEffect(() => {
         api(`/prod-list?name=${search}`)
@@ -23,15 +26,15 @@ const SearchResults = () => {
     console.log(result, "res")
     const dispatch = useDispatch()
 
-    const addToBasket = (el) => {
-        dispatch({type: "ADD_TO_BASKET", payload: el})
-    }
+    // const addToBasket = (el) => {
+    //     dispatch({type: "ADD_TO_BASKET", payload: el})
+    // }
 
     return (
         <div className=" ">
 
 
-        <div className="SEARCH  ">
+        <div className=" SEARCH ">
             {
                 result.map(el => (
                     <div className=" searchDiv">
@@ -43,7 +46,11 @@ const SearchResults = () => {
                             <h1>{el.name}</h1>
                             <h1 style={{fontSize: "24px", color: "#FF005C"}}>{el.price} ₺</h1>
                             </Link>
-                            <button onClick={() => addToBasket(el)} className="develop searchBtn">В корзину</button>
+                            <button onClick={() => dispatch({type: "ADD_TO_BASKET", payload:el.id})}
+                                    style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)"}}
+                                    className="develop searchBtn">{
+                                basketItems ? "Добавлено" : "В карзину"
+                            }</button>
                         </div>
                     </div>
                 ))

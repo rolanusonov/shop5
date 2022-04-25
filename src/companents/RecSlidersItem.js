@@ -1,7 +1,9 @@
-import {useEffect, useState} from "react";
-import {useDispatch} from "react-redux";
+import React, {useEffect, useState} from "react";
+import {useDispatch, useSelector} from "react-redux";
 import {Link} from "react-router-dom";
 import api from "../http/api";
+import {data} from "autoprefixer";
+import basket from "../pages/Basket";
 
 
 const RecSlidersItem = ({id}) => {
@@ -9,31 +11,32 @@ const RecSlidersItem = ({id}) => {
 
     const [details, setDetails] = useState([])
     const [loading, setLoading] = useState(false)
-    const [flag, setFlag] = useState(false)
     const dispatch = useDispatch()
-    const click = () => {
-        // develop = document.querySelector(".develop")
-    }
+
+    const basket = useSelector(s => s.basket)
+    const basketItems = basket.some( basket => basket.id === details.id)
+    console.log(basketItems , "basketItems")
 
     useEffect(() => {
         api(`/prod-detail/${id}/`)
             .then(({data}) => {
                 setDetails(data)
             })
+
     }, [])
     console.log(details, "details")
 
-    const addToBasket = (el) => {
-        setLoading(false)
-        setTimeout(() => {
-            setLoading(true)
-            setTimeout(() => {
-                setLoading(false)
-            }, 2000)
-        }, 1000)
-
-        dispatch({type: "ADD_TO_BASKET", payload: el})
-    }
+    // const addToBasket = (el) => {
+    //     setLoading(false)
+    //     setTimeout(() => {
+    //         setLoading(true)
+    //         setTimeout(() => {
+    //             setLoading(false)
+    //         }, 2000)
+    //     }, 1000)
+    //
+    //     dispatch({type: "ADD_TO_BASKET", payload: el})
+    // }
 
 
     return (
@@ -54,12 +57,20 @@ const RecSlidersItem = ({id}) => {
                 </div>
             </Link>
 
-            <button onClick={() => addToBasket(details)} className="develop recBtn ">
+            {/*<button onClick={() => addToBasket(details.id)} className="develop recBtn ">*/}
+            {/*    {*/}
+            {/*        basketItems ? "no" : "Yes"*/}
+            {/*    }*/}
+            {/*</button>*/}
+            <button
+                onClick={() => dispatch({type: "ADD_TO_BASKET", payload: details})}
+                style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)"}}
+                className="w-36 ert h-9 rounded-md text-white text-lg mt-5">
                 {
-                    loading ? <div className="loader ">
-                    </div> : "корзину"
+                    basketItems ? "Добавлено" : "В карзину"
                 }
             </button>
+
 
         </div>
         </div>

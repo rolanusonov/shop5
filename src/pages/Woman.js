@@ -1,10 +1,9 @@
 import React, {useEffect, useState} from 'react';
 
-import {NavLink, useParams} from "react-router-dom";
+import { useParams} from "react-router-dom";
 import ClothesCard from "./ClothesCard";
 import api from "../http/api";
-import BurgerMenu from "../burger-menu/BurgerMenu";
-import {useSelector} from "react-redux";
+
 
 const Woman = () => {
     const [women, setWomen] = useState([])
@@ -23,8 +22,6 @@ const Woman = () => {
                <ClothesCard   el={el} key={el.id}/>
                 ))
             }
-
-
 
         </div>
     );
