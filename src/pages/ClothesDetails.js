@@ -113,28 +113,7 @@ const ClothesDetails = ({el}) => {
                 officia perspiciatis praesentium sapiente totam unde voluptatem! Aspernatur, dolor hic. Impedit!</p>
         </div>
 
-        // <div className="details-page p-5">
-        //     <div className="container ">
-        //         <div className="row">
-        //             <div className="d-flex">
-        //                 {
-        //                     details?.prod?.map(el => (
-        //
-        //                         <div className=" w-72 Link  ">
-        //
-        //
-        //
-        //
-        //                             </div>
-        //                         </div>
-        //
-        //                     ))
-        //                 }
-        //
-        //             </div>
-        //         </div>
-        //     </div>
-        // </div>
+
     );
 };
 

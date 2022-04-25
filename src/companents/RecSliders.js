@@ -99,7 +99,7 @@ const RecSliders = () => {
             {
                 item.map(el => (
 
-                    <div className="rec-sliders" style={{margin: "50px 0"}}>
+                    <div className="rec-sliders"  >
 
                         <h1 className="req-card">{el.name}:</h1>
                         {
