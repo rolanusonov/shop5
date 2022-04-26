@@ -31,7 +31,11 @@ const RecSlidersItem = ({id}) => {
                     <img className="imgSlider" src={details.img} alt=""/>
                 </div>
                 <div className="schoolH1">
-                    <h1 >{details.name}</h1>
+                    <h1 style={{
+                        height:"90px",
+                        overflow:"hidden"
+
+                    }}>{details.name}</h1>
 
                     <h1 className="schoolPrice" style={{fontSize: "24px", color: "#FF005C"}}>{details.price} ₺</h1>
 

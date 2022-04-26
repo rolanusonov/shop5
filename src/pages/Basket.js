@@ -36,12 +36,12 @@ const Basket = () => {
 
 
     return (
-        <>
+        <div className="container">
             <ToastContainer/>
-            <div className="container md:container corzino py-5 px-10 div-favorite">
+            <div className=" my-10  corzino    ">
 
                 {basket.length === 0 ?
-                        <div className="flex p-4 basketLog  " id="alertId" role="alert" style={{
+                        <div className="flex p-4      " id="alertId" role="alert" style={{
                             background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)",
                             borderRadius: "5px"
                         }}>
@@ -51,7 +51,7 @@ const Basket = () => {
                                       d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
                                       clipRule="evenodd"/>
                             </svg>
-                            <div className="ml-3      text-2xl font-medium text-white dark:text-white">
+                            <div className="ml-3       text-2xl font-medium text-white dark:text-white">
                                 Корзина пусто!
                             </div>
                         </div> :
@@ -139,12 +139,12 @@ const Basket = () => {
                                                                 {errors.price   && <p className="mx-1" style={{color: "#FF005C"}}>* </p>}
 
                                                             </label>
-                                                            <input  style={{fontSize: "24px", color: "#bdc3c7"}}
+                                                            <span  style={{fontSize: "24px", color: "#bdc3c7"}}
                                                                 className=" inputBasket ml-3 text-xl font-medium text-black "
-                                                                type="text"
+
                                                                     onChange={() => {}}
-                                                                value={totalSum}
-                                                         />
+                                                                > {totalSum}&nbsp;₺
+                                                         </span>
                                                         </div>
 
 
@@ -169,8 +169,8 @@ const Basket = () => {
                         fontSize: "24px",
                         lineHeight: "36px",
                         color: "#515151",
-                    }}>Платёжные Реквизиты</h1>
-                    <div className="w-96 ml-96 div-basket  ">
+                    }}>Ваши данные</h1>
+                    <div className="w-96  div-basket gl:w-80  sl:w-72">
 
                         <div className="accent-gray-500 shadow-md korzinos rounded px-8 pt-6 pb-8 mb-4  "
                               onSubmit={handleSubmit(onSubmit)}>
@@ -193,13 +193,13 @@ const Basket = () => {
                                     className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                     id="username" type="tel" placeholder="0502 xxx xxx"/>
                             </div>
-                            <div className="inline-block relative w-80">
-                                <label className="block text-gray-700 text-sm font-bold mb-2 flex " htmlFor="username">
+                            <div className="inline-block relative   sl:w-62 ">
+                                <label className="block text-gray-700 text-sm font-bold mb-2 flex sl:w-62 " htmlFor="username">
                                     Область {errors.region && <p className="mx-1" style={{color: "#FF005C"}}>*</p>}
                                 </label>
                                 <select
                                     {...register("region", {required: true})}
-                                    className="block    appearance-none w-64 bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow
+                                    className="block    appearance-none w-64 sl:w-62 bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow
                                 leading-tight focus:outline-none focus:shadow-outline text-xl" style={{
                                     fontFamily: 'Poppins',
                                     fontWeight: "400",
@@ -225,12 +225,12 @@ const Basket = () => {
                                     </svg>
                                 </div>
                             </div>
-                            <button type="submit" className="w-80 h-12 mt-9 text-white text-xl gl:w-64  flex items-center justify-center"
+                            <button type="submit" className="w-80 sl:w-64 h-12 mt-9 text-white text-xl gl:w-64  flex items-center justify-center"
                                 onClick={onSubmit}
 
                                     style={{
                                         background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)",
-                                        borderRadius: "5px"
+                                            borderRadius: "5px"
                                     }}>
                                 Заказать
                             </button>
@@ -242,7 +242,7 @@ const Basket = () => {
 
 
             </div>
-        </>
+        </div>
 
     );
 };

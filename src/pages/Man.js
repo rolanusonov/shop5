@@ -1,5 +1,10 @@
 import React, {useState} from 'react';
+<<<<<<< HEAD
 
+=======
+import {Link, NavLink} from "react-router-dom";
+import {useDispatch} from "react-redux";
+>>>>>>> fd6cec901cf8b04446953ce4542a5c956fd2b17e
 
 
 const Man = ({el}) => {
@@ -11,14 +16,13 @@ const Man = ({el}) => {
 
             <div className="px-5    pb-5 dark:bg-white-500">
 
-                {/*<div className="flex justify-between items-center">*/}
-                {/*    <button*/}
-                {/*        onClick={() => dispatch({type: "ADD_TO_BASKET", payload: el})}*/}
-                {/*        style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)"}}*/}
-                {/*        className="w-36 h-9 rounded-md text-white text-lg mt-5">*/}
-                {/*        В корзину*/}
-                {/*    </button>*/}
-                {/*</div>*/}
+
+
+
+
+
+
+
 
             </div>
         </div>
