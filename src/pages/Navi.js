@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react';
 // import {useParams} from "react-router-dom";
 // import ClothesCard from "./ClothesCard";
 import Man from "./Man";
-import api from "../http/api";
+import {api} from "../http/api";
 
 const Navi = () => {
 

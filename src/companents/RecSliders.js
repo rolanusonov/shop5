@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import RecSlidersItem from "./RecSlidersItem";
 import Slider from "react-slick";
-import api from "../http/api";
+import {api} from "../http/api";
 import {NavLink} from "react-router-dom";
 import {useSelector} from "react-redux";
 

@@ -3,7 +3,9 @@ import {Link, useParams} from "react-router-dom";
 
 import DetailPage from "./DetailPage";
 import {useDispatch, useSelector} from "react-redux";
-import api from "../http/api";
+import {api} from "../http/api";
+
+
 
 const ClothesDetails = ({el}) => {
 
@@ -46,7 +48,7 @@ const ClothesDetails = ({el}) => {
                     <h1 className=" description  "> {name}</h1>
                     <h1   className="text-base   priceNIK mt-4 price ">{price} ₺</h1>
                     <p className="tab">Таблица размеров:</p>
-<<<<<<< HEAD
+
                      <div className="flex items-center my-5 detailBTN ">
                        <ul className="flex ">
                            {
@@ -55,15 +57,6 @@ const ClothesDetails = ({el}) => {
                                ))
                            }
                        </ul>
-=======
-                     <div className="flex items-center  my-2   detailBTNs ">
-                        {
-                            details?.prod_detail?.map(el => (
-                                <DetailPage el={el}/>
-                            ))
-                        }
->>>>>>> fd6cec901cf8b04446953ce4542a5c956fd2b17e
-                    </div>
                     <p>Цвет:</p>
                     <div className="">
                         <div className="flex items-center my-5">
@@ -131,9 +124,9 @@ const ClothesDetails = ({el}) => {
 
             <h1 className=" font-medium text-4xl my-5 ml-6">Описание</h1>
 
-            <p className="ml-14 mb-10 detail-p"  > {description}</p>
+            <p className="mb-10 detail-p "> {description}</p>
         </div>
-
+        </div>
 
     );
 };

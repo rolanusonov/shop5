@@ -1,14 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 
-<<<<<<< HEAD
-=======
-const DetailPage = ({el}) => {
-    return (
-        <div key={el.id} className="stule mx-3"  >
-            <h1 className="stule_btn  text-base"> {el.title}</h1>
-        </div>
->>>>>>> fd6cec901cf8b04446953ce4542a5c956fd2b17e
+
 
 const DetailPage = ({el, onChangeValue}) => {
     const basket = useSelector(s => s.basket)
