@@ -1,5 +1,10 @@
 import React, {useState} from 'react';
+<<<<<<< HEAD
 
+=======
+import {Link, NavLink} from "react-router-dom";
+import {useDispatch} from "react-redux";
+>>>>>>> fd6cec901cf8b04446953ce4542a5c956fd2b17e
 
 
 const Man = ({el}) => {

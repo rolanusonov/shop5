@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {Link} from "react-router-dom";
-import {api} from "../http/api";
+import api from "../http/api";
 
 
 const RecSlidersItem = ({id}) => {
@@ -50,6 +50,7 @@ const RecSlidersItem = ({id}) => {
                     basketItems ? "Добавлено" : "В карзину"
                 }
             </button>
+
 
         </div>
         </div>

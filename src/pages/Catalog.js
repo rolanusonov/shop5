@@ -3,7 +3,7 @@ import {useSelector} from "react-redux";
 import Card from "./Card";
 import {useDispatch} from "react-redux";
 import RecSliders from "../companents/RecSliders";
-import {api} from "../http/api";
+import api from "../http/api";
 
 const Catalog = () => {
     const dispatch = useDispatch()

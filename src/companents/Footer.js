@@ -11,6 +11,8 @@ const Footer = () => {
                 <Link  className="   flex items-center justify-center footerBig "
                     style={{fontSize: "40px", lineHeight: "48px", fontWeight: "700",
                         color: "white",
+
+
                     }} to="/" >
                     4 SEASON
                 </Link>

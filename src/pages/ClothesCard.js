@@ -16,8 +16,11 @@ const ClothesCard = ({el}) => {
 
                     <Link class="" to={`/details/${el.id}`}>
                         <img src={el.img} alt="wer" className="img-div "/>
+<<<<<<< HEAD
                         {/*<h1 className="text-lg text-black">{el.description}</h1>*/}
+=======
                         <h1 className="text-lg text-black">{el.name}</h1>
+>>>>>>> fd6cec901cf8b04446953ce4542a5c956fd2b17e
                         <h1 style={{fontSize: "24px", color: "#FF005C"}}
                             className="text-base   mt-4">{el.price} ₺ </h1>
                         <h1 className="text-lg text-black absolute mx-16 mt-4">{el.discounts} </h1>

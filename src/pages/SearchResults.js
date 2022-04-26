@@ -1,7 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import {Link, useParams} from "react-router-dom";
+
+
 import {useDispatch, useSelector} from "react-redux";
-import {api} from "../http/api";
+import api from "../http/api";
 
 const SearchResults = () => {
     const [result, setResult] = useState([])
