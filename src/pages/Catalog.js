@@ -8,7 +8,7 @@ import api from "../http/api";
 const Catalog = () => {
     const dispatch = useDispatch()
     const catalog = useSelector((state) => state.catalog)
-    // console.log(catalog)
+    console.log(catalog , "CATALOG")
     useEffect(() => {
         api("/category-list/")
 
@@ -20,7 +20,6 @@ const Catalog = () => {
         <div className="container mx-auto" >
 
             <div className="grid catalogSET sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4   pt-[100px]   "  >
-
                 {
                     catalog.map(el => (
                         <Card el={el} key={el.id}/>

@@ -2,9 +2,11 @@ import {GET_SHOP} from "./type";
 
 export const initialState = {
     catalog: [],
+    size:[],
     basket: [],
     favorite: [],
-    shopList:[]
+    shopList:[],
+
 }
 
 export const reducer = (state = initialState, action) => {
@@ -35,6 +37,7 @@ export const reducer = (state = initialState, action) => {
             }
 
             return {...state, basket: [...state.basket, {...action.payload, quantity: 1}]}
+
         case "REMOVE_REM":
             if (state.basket[action.payload].quantity > 1) {
                 return {
@@ -47,33 +50,21 @@ export const reducer = (state = initialState, action) => {
                 }
             }
 
+///////////////////////////////////////*****DIMENSIONS*****//////////////////////////////////////////////////////////
 
-        case "ADD_TO_DESCRIPTION":
-            const description = state.basket.find(el => el.id === action.payload.id)
+        case "GET_TO_DIMENSIONS":
+            // const favoriteProduct = state.favorite.find(el => el.id === action.payload.id)
+            // if (favoriteProduct) {
+            //
+            //     return {
+            //         ...state, favorite: [...state.favorite]
+            //     }
+            // }
+            // return {...state, favorite: [...state.favorite, action.payload]}
 
-            if (description) {
-                return {
-                    ...state, basket: state.basket.map(el => {
-                        if (el.id === action.payload.id) {
-                            return {...el, quantity: el.quantity + 1}
-                        }
-                        return el
-                    })
-                }
-            }
 
-            return {...state, basket: [...state.basket, {...action.payload, quantity: 1}]}
-        case "REMOVE_DESCRIPTION":
-            if (state.basket[action.payload].quantity > 1) {
-                return {
-                    ...state, basket: state.basket.map((el, idx) => {
-                        if (idx === action.payload) {
-                            return {...el, quantity: el.quantity - 1}
-                        }
-                        return el
-                    })
-                }
-            }
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 
 

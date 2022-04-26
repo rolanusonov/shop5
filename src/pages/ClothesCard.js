@@ -4,23 +4,19 @@ import {useDispatch, useSelector} from "react-redux";
 import Basket from "./Basket";
 
 const ClothesCard = ({el}) => {
-    console.log(el, "el")
     const dispatch = useDispatch()
     const basket = useSelector(s => s.basket)
     const basketItems = basket.some( basket => basket.id === el.id)
-    console.log(basketItems , "aaaaaa")
 
     return (
-
         <div className="Links">
 
-
             <div className=" Link " style={{background: "#ffffff"}}>
-                <div className="ter" to={``}>
+                <div className="ter">
 
-                    <Link class="  " to={`/details/${el.id}`}>
+                    <Link class="" to={`/details/${el.id}`}>
                         <img src={el.img} alt="wer" className="img-div "/>
-                        <h1 className="text-lg text-black">{el.description}</h1>
+                        {/*<h1 className="text-lg text-black">{el.description}</h1>*/}
                         <h1 style={{fontSize: "24px", color: "#FF005C"}}
                             className="text-base text-blsck mt-4">{el.price} ₺ </h1>
                         <h1 className="text-lg text-black absolute mx-16 mt-4">{el.discounts} </h1>
@@ -35,7 +31,7 @@ const ClothesCard = ({el}) => {
                                 style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)"}}
                                 className="w-36 ert h-9 rounded-md text-white text-lg mt-5">
                                 {
-                                    basketItems ? "Добавлено" : "В карзину"
+                                    basketItems ? "Добавлено" : "В корзину"
                                 }
                             </button>
                     </div>

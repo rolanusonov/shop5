@@ -8,8 +8,6 @@ const Card = ({el}) => {
             <Link to={`/categories/${el.id}`}>
                 <img className="p-2 img carding dark:bg-gray-500 z-1 " src={el.img}
                       alt="product image!!!"/>
-
-
             </Link>
             <Link to="/" className="svg">
                 <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white title">{el.title}</h5>

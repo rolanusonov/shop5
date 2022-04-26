@@ -14,6 +14,7 @@ const Basket = () => {
     const {register, handleSubmit, formState: {errors}} = useForm({
         preventDefault: true
     });
+
     const onSubmit = data => {
         console.log(data)
         const dataBasket = {
@@ -83,7 +84,7 @@ const Basket = () => {
                                                         className="min-w-full feel divide-y divide-gray-200 table-fixed dark:divide-gray-700">
                                                         <thead className=" "
                                                                style={{background: "linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%)"}}>
-                                                        <tr className="col   ">
+                                                        <tr className="col">
                                                             <th scope="col"
                                                                 className="py-3 px-6   text-xs font-medium tracking-wider text-left text-white uppercase dark:text-white">
                                                                 Имя
@@ -92,14 +93,16 @@ const Basket = () => {
                                                                 className=" imgBasket py-3 px-6 text-xs font-medium tracking-wider text-left text-white uppercase dark:text-white">
                                                                 Фото
                                                             </th>
+
                                                             <th scope="col"
                                                                 className="py-3 px-6    text-xs font-medium tracking-wider text-left text-left text-white uppercase dark:text-white">
                                                                 цена
                                                             </th>
-                                                            {/*<th scope="col"*/}
-                                                            {/*    className="py-3 px-6 gel   text-xs font-medium tracking-wider text-left text-left text-white uppercase dark:text-white">*/}
-                                                            {/*    Количество*/}
-                                                            {/*</th>*/}
+
+                                                            <th scope="col"
+                                                                className="py-3 px-6 gel   text-xs font-medium tracking-wider text-left text-left text-white uppercase dark:text-white">
+                                                                size
+                                                            </th>
                                                             <th scope="col"
                                                                 className="py-3 px-6 gel   text-xs font-medium tracking-wider text-left text-left text-white uppercase dark:text-white">
                                                                 Количество

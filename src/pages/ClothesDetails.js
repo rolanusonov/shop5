@@ -2,11 +2,10 @@ import React, {useEffect, useState} from 'react';
 import {Link, useParams} from "react-router-dom";
 
 import DetailPage from "./DetailPage";
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import api from "../http/api";
 
 const ClothesDetails = ({el}) => {
-
 
     const dispatch = useDispatch()
     const {clothesId} = useParams()
@@ -21,10 +20,20 @@ const ClothesDetails = ({el}) => {
         api(`/prod-detail/${clothesId}/`)
             .then(({data}) => {
                 setDetails(data)
+                console.log(data ,"fsjdafA")
             })
     }, [])
     console.log(details, "shirin")
 
+    const basket = useSelector(s => s.basket)
+    const basketItems = basket.some( basket => basket.id === details.id)
+    console.log(basketItems , "basketItems")
+    const [size, setSize] = useState("")
+    const onChangeValue = (event) =>{
+        console.log(event.target.value)
+        setSize(event.target.value)
+    }
+    console.log( size, "size")
     return (
         <div style={{marginTop: "100px"}}>
             <div className="m-10 detailCard grid grid-cols-2">
@@ -36,11 +45,13 @@ const ClothesDetails = ({el}) => {
                     <h1   className="text-base   mt-4 price ">{price} ₺</h1>
                     <p className="tab">Таблица размеров:</p>
                      <div className="flex items-center my-5 detailBTN ">
-                        {
-                            details?.prod_detail?.map(el => (
-                                <DetailPage el={el}/>
-                            ))
-                        }
+                       <ul className="flex ">
+                           {
+                               details?.prod_detail?.map(el => (
+                                   <DetailPage onChangeValue={onChangeValue} el={el}/>
+                               ))
+                           }
+                       </ul>
                     </div>
                     <p>Цвет:</p>
                     <div className="">
@@ -77,10 +88,15 @@ const ClothesDetails = ({el}) => {
 
                          <div className="flex justify-between items-center">
                              <button
-                                 onClick={() => dispatch({type: "ADD_TO_BASKET", payload: el})}
+                                 onClick={() => {
+                                     details.clothSize = size
+                                     dispatch({type: "ADD_TO_BASKET", payload: details})
+                                 }}
 
                                  className="w-52 h-9 detail-btn rounded-md text-white text-lg mt-5">
-                                 Добавить в корзину
+                                 {
+                                     basketItems ? "Добавлено" : "Добавить в карзину"
+                                 }
                              </button>
                          </div>
                          <button
@@ -88,7 +104,7 @@ const ClothesDetails = ({el}) => {
                              style={{ border:"solid #72072D\n" , color:"#72072D\n"}}
                              className="w-52 h-9 btn1 rounded-md text-white text-lg mt-5">
                              <Link to="/basket">
-                                 Купить сейчас
+                                 Купит сейчас
                              </Link>
 
                          </button>
